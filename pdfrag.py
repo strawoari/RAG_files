@@ -13,7 +13,7 @@ import json
 import os
 from haystack.components.adapters import OutputAdapter
 from langchain_community.document_loaders.sitemap import SitemapLoader
-
+from dotenv import load_dotenv
 
 load_dotenv()
 
@@ -25,8 +25,14 @@ AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
 AZURE_EMBEDDING_DEPLOYMENT = os.getenv("AZURE_EMBEDDING_DEPLOYMENT")
 AZURE_EMBEDDING_API_VERSION = os.getenv("AZURE_EMBEDDING_API_VERSION")
 
-sitemap_loader = SitemapLoader(web_path="https://www.cem-macau.com/sitemap.xml")
+sitemap_loader = SitemapLoader(
+    web_path="https://www.cem-macau.com/sitemap.xml",
+    filter_urls=["https://www.cem-macau.com/zh(?!/press-release).*"]
+)
+docs = sitemap_loader.load()
 
+
+# docs needs to be transformed into docs = List[Text]
 
 ### Set up index pipeline
 document_store = InMemoryDocumentStore()
@@ -35,7 +41,7 @@ index_pipeline.add_component(instance=DocumentCleaner(), name="cleaner")
 index_pipeline.add_component(instance=DocumentSplitter(split_by="sentence", split_length=1), name="splitter")
 index_pipeline.add_component("embedder", AzureOpenAIDocumentEmbedder(
     azure_endpoint=os.environ["AZURE_OPENAI_ENDPOINT"],
-    azure_deployment=AZURE_DEPLOYMENT_NAME_EMBEDDING,
+    azure_deployment=AZURE_EMBEDDING_DEPLOYMENT,
 ))
 index_pipeline.add_component("writer", DocumentWriter(document_store=document_store))
 index_pipeline.connect("cleaner.documents", "splitter.documents")
@@ -46,9 +52,10 @@ index_pipeline.connect("embedder", "writer")
 pipeline = Pipeline()
 template = """
 你是一位问答助手。
-根据以下背景信息，请列出三个现实合理的客户问题，并给出相应的答案。
+根据以下背景信息与相关知识，请列出三个现实合理的客户问题，并给出相应的答案。
 背景信息: 
 {{ context }}
+相关知识：
 {% for document in documents %}
     {{ document.content }}
 {% endfor %}
@@ -63,8 +70,8 @@ question（问题）和 answer（答案）和reference（出处）
 pipeline.add_component("retriever", InMemoryEmbeddingRetriever(document_store=document_store))
 pipeline.add_component("prompt_builder", PromptBuilder(template=template))
 pipeline.add_component("llm", AzureOpenAIGenerator(
-    azure_endpoint=LLM_ENDPOINT,
-    azure_deployment=LLM_DEPLOYMENT
+    azure_endpoint=AZURE_OPENAI_ENDPOINT,
+    azure_deployment=AZURE_OPENAI_DEPLOYMENT
 ))
 pipeline.add_component("json_parser", OutputAdapter(
     template="{{ llm.responses[0] | tojson | fromjson }}",
@@ -79,15 +86,12 @@ pipeline.connect("llm", "json_parser")
 ### 7. Run Pipelines and Collect QA Pairs
 qa_dataset = []
 
-documents = [Document(content=text) for text in raw_docs]
-for doc in raw_docs:
+for doc in docs:
+    document = Document(content=doc)
     # First run the indexing pipeline to process and store the document
-    index_pipeline.run({"cleaner": {"documents": [doc]}})
-    
+    index_pipeline.run({"cleaner": {"documents": [document]}})
     # Then run the query pipeline to generate QA pairs
-    result = pipeline.run(
-        {"documents": [doc]},
-    )
+    result = pipeline.run({"prompt_builder":{"context": doc}})
     try:
         qa = result["json_parser"]["output"]  # Get the parsed JSON response
         qa_dataset.append(qa)
