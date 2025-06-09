@@ -22,6 +22,7 @@ AZURE_OPENAI_DEPLOYMENT = os.getenv("AZURE_OPENAI_DEPLOYMENT")
 AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY")
 AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
 
+AZURE_EMBEDDING_ENDPOINT = os.getenv("AZURE_EMBEDDING_ENDPOINT")
 AZURE_EMBEDDING_DEPLOYMENT = os.getenv("AZURE_EMBEDDING_DEPLOYMENT")
 AZURE_EMBEDDING_API_VERSION = os.getenv("AZURE_EMBEDDING_API_VERSION")
 
@@ -31,7 +32,6 @@ sitemap_loader = SitemapLoader(
 )
 docs = sitemap_loader.load()
 
-
 # docs needs to be transformed into docs = List[Text]
 
 ### Set up index pipeline
@@ -40,7 +40,7 @@ index_pipeline = Pipeline()
 index_pipeline.add_component(instance=DocumentCleaner(), name="cleaner")
 index_pipeline.add_component(instance=DocumentSplitter(split_by="sentence", split_length=1), name="splitter")
 index_pipeline.add_component("embedder", AzureOpenAIDocumentEmbedder(
-    azure_endpoint=os.environ["AZURE_OPENAI_ENDPOINT"],
+    azure_endpoint= AZURE_EMBEDDING_ENDPOINT,
     azure_deployment=AZURE_EMBEDDING_DEPLOYMENT,
 ))
 index_pipeline.add_component("writer", DocumentWriter(document_store=document_store))
