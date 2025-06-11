@@ -2,9 +2,9 @@ import os
 from openai import AzureOpenAI
 
 client = AzureOpenAI(
-        api_key=llm_api_key,
-        api_version=llm_api_version,
-        azure_endpoint=llm_endpoint,
+        api_key=os.getenv('AZURE_OPENAI_API_KEY'),
+        api_version=os.getenv('AZURE_OPENAI_API_VERSION'),
+        azure_endpoint=os.getenv('AZURE_OPENAI_ENDPOINT'),
     )
 
 response = client.chat.completions.create(
@@ -22,7 +22,7 @@ response = client.chat.completions.create(
     max_tokens=4096,
     temperature=1.0,
     top_p=1.0,
-    model=llm_deployment,
+    model=os.getenv('AZURE_OPENAI_DEPLOYMENT'),
 )
 
 for update in response:

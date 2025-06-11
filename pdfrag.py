@@ -32,7 +32,35 @@ sitemap_loader = SitemapLoader(
 )
 docs = sitemap_loader.load()
 
-# docs needs to be transformed into docs = List[Text]
+# Transform docs into List[Dict] format with reference
+text_docs = []
+for doc in docs:
+    # Try to extract content and reference info
+    if hasattr(doc, 'page_content'):
+        html_content = doc.page_content
+        url = getattr(doc, 'metadata', {}).get('source', None) or getattr(doc, 'metadata', {}).get('loc', None)
+    else:
+        html_content = doc
+        url = None
+    
+    soup = BeautifulSoup(html_content, 'html.parser')
+    # Remove script and style elements
+    for script in soup(["script", "style"]):
+        script.decompose()
+    # Get text and clean it
+    text = soup.get_text(separator=' ', strip=True)
+    text = ' '.join(text.split())
+    
+    
+    
+    if text:  # Only add non-empty texts
+        text_docs.append({
+            'text': text,
+            'url': url,
+            'name': name
+        })
+
+docs = text_docs  # Replace docs with cleaned text dict list
 
 ### Set up index pipeline
 document_store = InMemoryDocumentStore()
