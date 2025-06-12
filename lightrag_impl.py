@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 import logging
 from openai import AzureOpenAI
 from lightrag.kg.shared_storage import initialize_pipeline_status
-
+from load_file import get_docs
 # this file is not for running
 
 logging.basicConfig(level=logging.INFO)
@@ -77,9 +77,9 @@ async def test_funcs():
     print("Dimension of embedding: ", result.shape[1])
 
 
-asyncio.run(test_funcs())
+# asyncio.run(test_funcs())
 
-embedding_dimension = 3072
+# embedding_dimension = 3072
 
 
 async def initialize_rag():
@@ -87,12 +87,11 @@ async def initialize_rag():
         working_dir=WORKING_DIR,
         llm_model_func=llm_model_func,
         embedding_func=EmbeddingFunc(
-            embedding_dim=embedding_dimension,
+            embedding_dim= os.getenv("EMBEDDING_DIM"),
             max_token_size=8192,
             func=embedding_func,
         ),
     )
-
     await rag.initialize_storages()
     await initialize_pipeline_status()
 
@@ -102,15 +101,26 @@ async def initialize_rag():
 def main():
     rag = asyncio.run(initialize_rag())
 
-    text1 = ""
-    text2 = ""
+    docs = get_docs('/Users/amychan/rag_files/data')
+    print('finished loading documents from directory:\n' + str(docs[0]))
+    
+    user_prompt = """
+你是一位电力工程顾问，专注于澳门电力的建设。
+请用简短明了的语言回答以下客户问题：
+背景信息:
+{% for document in documents %}
+    {{ document.content }}
+{% endfor %}
 
-    rag.insert([text1, text2])
+问题：{{ query }}
+"""
+    
+    rag.insert(docs)
 
-    query_text = "What are the main themes?"
+    query_text = "澳门电力公司提供哪些服务？"
 
     print("Result (Naive):")
-    print(rag.query(query_text, param=QueryParam(mode="naive")))
+    print(rag.query(query_text, param=QueryParam(mode="naive", user_prompt=user_prompt)))
 
     print("\nResult (Local):")
     print(rag.query(query_text, param=QueryParam(mode="local")))

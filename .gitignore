@@ -1,3 +1,5 @@
 /.history
 .env
-/venv
+/venv_haystack
+/venv_langchain
+/__pycache__

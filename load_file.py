@@ -1,23 +1,20 @@
-import requests
-from langchain_community.document_loaders import PyPDFLoader, TextLoader
-import tempfile
+from haystack.components.converters import JSONConverter
+from haystack.dataclasses import ByteStream
 
-def load_file_from_url(url):
-    try:
-        response = requests.get(url, timeout=10)
-        response.raise_for_status()
-        suffix = ".pdf" if url.lower().endswith(".pdf") else ".txt"
-        with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as f:
-            f.write(response.content)
-            f.flush()
-            if suffix == ".pdf":
-                loader = PyPDFLoader(f.name)
-            else:
-                loader = TextLoader(f.name, autodetect_encoding=True)
-            docs = loader.load()
-            for doc in docs:
-                doc.metadata["source"] = url
-            return docs
-    except Exception as e:
-        print(f"Failed to load {url}: {e}")
-        return []
+def get_docs(dir1):
+    # docs needs to be list of Document objects
+    json_files = [os.path.join(dir1, f) for f in os.listdir(dir1) if f.endswith('.json')]
+    docs = []
+    for json_file in json_files:
+        # Read the file content
+        with open(json_file, "r", encoding="utf-8") as f:
+            json_str = f.read()
+        # Convert to ByteStream for Haystack
+        source = ByteStream.from_string(json_str)
+        # Set up the converter: adjust content_key and extra_meta_fields as needed
+        converter = JSONConverter(content_key="page_content", extra_meta_fields={"metadata"})
+        # Run the converter
+        results = converter.run(sources=[source])
+        # Collect the Document objects
+        docs.extend(results["documents"])
+    return docs

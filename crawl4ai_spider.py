@@ -27,7 +27,9 @@ async def main():
 
     async with AsyncWebCrawler() as crawler:
         result = await crawler.arun(url="https://www.cem-macau.com/zh/customer-service/downloadarea/application-form-and-declaration", config=config)
-        print(result.markdown)
+        f = open("result.txt", "w", encoding="utf-8")
+        f.write(result.markdown)
+        f.close()
         
     # file_urls = set()
     # for doc in result:

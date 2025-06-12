@@ -1,6 +1,10 @@
 from langchain_community.document_loaders.sitemap import SitemapLoader
 from bs4 import BeautifulSoup
 from openai import AzureOpenAI
+import requests
+from io import BytesIO
+import pdfplumber
+from docx import Document
 
 sitemap_loader = SitemapLoader(
     web_path="https://www.cem-macau.com/sitemap.xml",
@@ -17,12 +21,15 @@ for doc in docs:
     else:
         html_content = doc
         url = None
-
+    print(html_content)
     soup = BeautifulSoup(html_content, 'html.parser')
 
+    urls = []
     # Remove script and style elements
     for script in soup(["script", "style"]):
         script.decompose()
+    print(script[0])
+    
     # Get text and clean it
     text = soup.get_text(separator=' ', strip=True)
     # Remove excessive whitespace
