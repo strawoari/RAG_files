@@ -3,8 +3,10 @@ from langchain_core.documents import Document
 from langchain_openai import AzureChatOpenAI
 from langchain_core.prompts import PromptTemplate
 from langchain_core.runnables import RunnableLambda
-from langchain_community.document_loaders import PyPDFLoader, TextLoader
+from langchain_community.document_loaders import PyPDFLoader
 from langchain_core.documents import Document
+import aiohttp
+import tempfile
 import json
 import asyncio
 import re
@@ -12,28 +14,31 @@ import os
 from dotenv import load_dotenv
 import requests
 import hashlib
-
+import time
 
 load_dotenv()
 
 # Load Documents from the URLs     
-def load_file_from_url(url):
+async def load_file_from_url(session, url):
     try:
-        response = requests.get(url, timeout=10)
-        response.raise_for_status()
-        with open("temp.pdf", "wb") as f:
-            f.write(response.content)
-            f.flush()
-            print(f.name)
-            # print(open(f.name, "r").read())
-            loader = PyPDFLoader("temp.pdf")
-            docs = loader.load()
-            for doc in docs:
-                doc.metadata["source"] = url
-            return docs
+        async with session.get(url, timeout=10) as response:
+            response.raise_for_status()
+            content = await response.read()
+            print(f"Request for {url} printed {response.status}")
+            with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as f:
+                f.write(content)
+                f.flush()
+                print(f"Temporary file created at {f.name} for {url}")
+                loader = PyPDFLoader(f.name)
+                docs = loader.load()
+                print(f"Loaded {len(docs)} documents from {url}")
+                for doc in docs:
+                    doc.metadata["source"] = url
+                return docs
     except Exception as e:
-        print(f"Failed to load {url}: {e}")
-        return []
+        print(f"Error loading {url}: {e}, retrying...")
+        time.sleep(3) # Wait before retrying
+        load_file_from_url(session, url) # Retry the request
 
 def call_spider(given_url, exclude_urls):
     params = {
@@ -52,46 +57,48 @@ def call_spider(given_url, exclude_urls):
     )
     return loader.load()
     
-def get_file_docs(loaded_docs):
+async def get_file_docs(loaded_docs):
     file_urls = set()
     for doc in loaded_docs:
         urls = re.findall(r"https?://[^\s'\")\]]+?\.pdf", doc.page_content) # wrap the reg into a whole group
         file_urls.update(urls)
     
     file_docs = []
-    for url in file_urls:
-        print(f"\nTrying to load URL: {url}")
-        docs = load_file_from_url(url)
+    async with aiohttp.ClientSession() as session:
+        tasks = []
+        tasks = [load_file_from_url(session, url) for url in file_urls]
+        result = await asyncio.gather(*tasks)
+    
+    for docs in result:
         if docs:
-            print(f"Successfully loaded {url}")
             file_docs.extend(docs)
-        else:
-            print(f"Failed to load {url}")
+    return file_docs
     
-    if file_docs:
-        print("\nFirst file doc content:")
-        print(file_docs[0])
-    else:
-        print("\nNo file docs were loaded successfully")
-    
-def load_docs(given_url, exclude_urls):
+def clean_content(text):
+    text = re.sub(r"https?://[^\s'\")\]]+?\.svg", "", text)
+    text = re.sub(r'!\[\]\((?![^)]*\.pdf)[^)]*\)', '', text)# Remove markdown image links that are not PDFs
+    text = re.sub(r'data:image/[^)]*', '', text)# Remove inline base64 images
+    return text
+
+async def load_docs(given_url, exclude_urls):
     loaded_docs = call_spider(given_url, exclude_urls)
-    # print(loaded_docs[0].page_content)
-    file_docs = []
     if loaded_docs is None:
-        print("No docs were loaded successfully")
         loaded_docs = []
-    else:
-        file_docs = get_file_docs(loaded_docs)
+    print("Loaded documents from the spider:" + str(len(loaded_docs)))
+    cleaned_docs = [
+        Document(page_content= clean_content(doc.page_content), metadata=doc.metadata)
+        for doc in loaded_docs
+    ]
+    print("First cleaned document:\n" + str(cleaned_docs[0]))
+    file_docs = await get_file_docs(loaded_docs)
     if file_docs is None or file_docs == []:
         print("No file docs were loaded successfully")
         file_docs = []
-    docs = loaded_docs + file_docs
-    print(docs[0])
+    docs = cleaned_docs + file_docs
     
     llm = AzureChatOpenAI(model= os.getenv("AZURE_OPENAI_DEPLOYMENT"))
     prompt = PromptTemplate.from_template("""
-    请判断以下网页内容是否对用户有实际参考价值（如具体政策、流程、服务、联系方式、常见问题等），如果只是导航、版权、菜单、广告、无关内容，请删除无关内容。
+    请判断以下网页内容是否对用户有实际参考价值（如具体政策、流程、服务、联系方式、常见问题等），如果只是导航、版权、菜单、广告、重复的标点符号，无关内容，请删除无关内容。
     内容：
     {text}
     URL: {url}
@@ -128,7 +135,7 @@ def load_docs(given_url, exclude_urls):
         await asyncio.gather(*(filter_doc(doc) for doc in documents))
         return results
     # 5. Run the filtering
-    filtered_docs = asyncio.run(process_documents(docs))
+    filtered_docs = await process_documents(docs)
 
     save_docs_in_directory(filtered_docs, data_dir="data")
     return None
@@ -147,7 +154,7 @@ def save_docs_in_directory(filtered_docs, data_dir="data"):
             }, f, ensure_ascii=False, indent=4)
 
 if __name__ == "__main__":
-    load_docs(
-        "https://www.cem-macau.com/zh/",
+    asyncio.run(load_docs(
+        "https://www.cem-macau.com/zh/customer-service/downloadarea/application-form-and-declaration",
         ["https://www.cem-macau.com/zh/press-release.*"]
-    )
+    ))

@@ -9,9 +9,12 @@ from haystack.components.embedders import AzureOpenAITextEmbedder, AzureOpenAIDo
 from haystack.components.generators import AzureOpenAIGenerator
 import json
 import os
-from haystack.components.converters import JSONConverter
-from haystack.dataclasses import ByteStream
 from load_file import get_docs
+import concurrent.futures
+from dotenv import load_dotenv
+from functools import partial
+load_dotenv()
+
 
 AZURE_OPENAI_API_VERSION = os.getenv("OPENAI_API_VERSION")
 AZURE_OPENAI_DEPLOYMENT = os.getenv("AZURE_OPENAI_DEPLOYMENT")
@@ -20,26 +23,27 @@ AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
 
 AZURE_EMBEDDING_ENDPOINT = os.getenv("AZURE_EMBEDDING_ENDPOINT")
 AZURE_EMBEDDING_DEPLOYMENT = os.getenv("AZURE_EMBEDDING_DEPLOYMENT")
-AZURE_EMBEDDING_API_VERSION = os.getenv("AZURE_EMBEDDING_API_VERSION")
 
-docs = get_docs('/Users/amychan/rag_files/data')
+
 ### Set up index pipeline
-document_store = InMemoryDocumentStore()
-index_pipeline = Pipeline()
-index_pipeline.add_component(instance=DocumentCleaner(remove_extra_whitespaces = True), name="cleaner")
-index_pipeline.add_component(instance=DocumentSplitter(split_by="sentence", split_length=5, language = "zh"), name="splitter")
-index_pipeline.add_component("embedder", AzureOpenAIDocumentEmbedder(
-    azure_endpoint= AZURE_EMBEDDING_ENDPOINT,
-    azure_deployment=AZURE_EMBEDDING_DEPLOYMENT,
-))
-index_pipeline.add_component("writer", DocumentWriter(document_store=document_store))
-index_pipeline.connect("cleaner.documents", "splitter.documents")
-index_pipeline.connect("splitter.documents", "embedder.documents")
-index_pipeline.connect("embedder", "writer")
+def get_index_pipeline(document_store):
+  index_pipeline = Pipeline()
+  index_pipeline.add_component(instance=DocumentCleaner(remove_extra_whitespaces = True), name="cleaner")
+  index_pipeline.add_component(instance=DocumentSplitter(split_by="sentence", split_length=5, language = "zh"), name="splitter")
+  index_pipeline.add_component("embedder", AzureOpenAIDocumentEmbedder(
+      azure_endpoint= AZURE_EMBEDDING_ENDPOINT,
+      azure_deployment=AZURE_EMBEDDING_DEPLOYMENT,
+  ))
+  index_pipeline.add_component("writer", DocumentWriter(document_store=document_store))
+  index_pipeline.connect("cleaner.documents", "splitter.documents")
+  index_pipeline.connect("splitter.documents", "embedder.documents")
+  index_pipeline.connect("embedder", "writer")
+  return index_pipeline
 
 ### Set up query pipeline
-pipeline = Pipeline()
-template = """
+def get_query_pipeline(document_store):
+  pipeline = Pipeline()
+  template = """
 你是一位问答助手。
 根据以下背景信息与相关知识，请列出{{ item_amount }}个现实合理的客户问题，并给出相应的答案，答案应当简洁明了，不超过4句。
 背景信息: 
@@ -53,47 +57,60 @@ template = """
 2. 生成的问题包含多种类型。
 3. 问题应清晰、简洁、口语化，模仿真实客户的提问方式。
 4. 为每个生成的问题，简要说明它的出处，或关联了文档中的哪个具体知识点或章节。
-5. 答案和出处应当尽量用文档中的用词。
 请按照以下格式返回：
 <问题>...</问题>
 <答案>...</答案>
 <出处>...</出处>
 """
-query_embedder = AzureOpenAITextEmbedder(
-  azure_endpoint=AZURE_EMBEDDING_ENDPOINT,
-  azure_deployment=AZURE_EMBEDDING_DEPLOYMENT,
-)
-pipeline.add_component("query_embedder", query_embedder)
-pipeline.add_component("retriever", InMemoryEmbeddingRetriever(document_store=document_store))
-pipeline.add_component("prompt_builder", PromptBuilder(template=template))
-pipeline.add_component("llm", AzureOpenAIGenerator(
-    azure_endpoint=AZURE_OPENAI_ENDPOINT,
-    azure_deployment=AZURE_OPENAI_DEPLOYMENT
-))
+  query_embedder = AzureOpenAITextEmbedder(
+    azure_endpoint=AZURE_EMBEDDING_ENDPOINT,
+    azure_deployment=AZURE_EMBEDDING_DEPLOYMENT,
+  )
+  pipeline.add_component("query_embedder", query_embedder)
+  pipeline.add_component("retriever", InMemoryEmbeddingRetriever(document_store=document_store))
+  pipeline.add_component("prompt_builder", PromptBuilder(template=template))
+  pipeline.add_component("llm", AzureOpenAIGenerator(
+      azure_endpoint=AZURE_OPENAI_ENDPOINT,
+      azure_deployment=AZURE_OPENAI_DEPLOYMENT
+  ))
+  # Connect components for querying
+  pipeline.connect("query_embedder.embedding", "retriever.query_embedding")
+  pipeline.connect("retriever.documents", "prompt_builder.documents")
+  pipeline.connect("prompt_builder", "llm")
 
-# Connect components for querying
-pipeline.connect("query_embedder.embedding", "retriever.query_embedding")
-pipeline.connect("retriever.documents", "prompt_builder.documents")
-pipeline.connect("prompt_builder", "llm")
+def process_doc(index_pipeline, query_pipeline, doc):
+  # First run the query pipeline to generate QA pairs
+  try:
+    # First run the query pipeline to generate QA pairs
+    result = query_pipeline.run({
+        "query_embedder": {"text": doc.content},
+        "prompt_builder": {"context": doc.content, "item_amount": (len(doc.content) / 100 +1) * 1}
+    })
+    qa = result["llm"]["replies"]  # Get the parsed JSON response
+  except Exception as e:
+    print("Failed to parse QA:", e)
+    qa = ""
+  # Then run the indexing pipeline to process and store the document
+  index_pipeline.run({"cleaner": {"documents": [doc]}})
+  return qa
 
+docs = get_docs('/Users/amychan/rag_files/data')
+
+document_store = InMemoryDocumentStore()
+index_pipeline = get_index_pipeline(document_store)
+query_pipeline = get_query_pipeline(document_store)
 ### 7. Run Pipelines and Collect QA Pairs
 qa_dataset = []
 
-for doc in docs:
-  # First run the query pipeline to generate QA pairs
-  result = pipeline.run({
-      "query_embedder": {"text": doc.content},
-      "prompt_builder": {"context": doc.content, "item_amount": (len(doc.content) / 100 +1) * 1}
-  })
-  # print('output llm result:\n' + str(result))
-  try:
-    qa = result["llm"]["replies"]  # Get the parsed JSON response
-    qa_dataset.append(qa)
-  except Exception as e:
-    print("Failed to parse QA:", e)
-  # Then run the indexing pipeline to process and store the document
-  index_pipeline.run({"cleaner": {"documents": [doc]}})
-print(qa_dataset[0])
+process_fn = partial(process_doc, index_pipeline, query_pipeline)
+max_workers = min(8, os.cpu_count() or 1)
+with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+  results = list(executor.map(process_fn, docs))
+
+# Flatten and save
+for result in results:
+  qa_dataset.extend(result)
+  
 ### 8. Save to File
 with open("qa_dataset.jsonl", "w", encoding="utf-8") as f:
   for qa in qa_dataset:

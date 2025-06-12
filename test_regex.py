@@ -1,18 +1,31 @@
-from haystack.components.converters import JSONConverter
-from haystack.dataclasses import ByteStream
+import os
+from langchain_community.document_loaders import SpiderLoader
+from dotenv import load_dotenv
+load_dotenv()
 
-json_files = [os.path.join("data", f) for f in os.listdir("data") if f.endswith('.json')]
-docs = []
-for json_file in json_files:
-    # Read the file content
-    with open(json_file, "r", encoding="utf-8") as f:
-        json_str = f.read()
-    # Convert to ByteStream for Haystack
-    source = ByteStream.from_string(json_str)
-    # Set up the converter: adjust content_key and extra_meta_fields as needed
-    converter = JSONConverter(content_key="page_content", extra_meta_fields={"metadata"})
-    # Run the converter
-    results = converter.run(sources=[source])
-    # Collect the Document objects
-    docs.extend(results["documents"])
-print('finished loading documents from directory:\n' + str(docs[0]))
+def call_spider(given_url, exclude_urls):
+    params = {
+    "return_format": "markdown",
+    "return_json_data": False,
+    "metadata": True,
+    "exclude_urls": exclude_urls,
+    "depth_limit": 4,
+    "limit": 1
+    }
+    loader = SpiderLoader(
+        api_key= os.getenv("SPIDER_API_KEY"),
+        url=given_url,
+        mode="crawl",
+        params = params
+    )
+    return loader.load()
+
+if __name__ == "__main__":
+    # Example usage
+    given_url = "https://example.com"
+    exclude_urls = ["https://example.com/exclude"]
+    
+    loaded_docs = call_spider(
+        "https://www.cem-macau.com/zh/customer-service/downloadarea/application-form-and-declaration",
+        ["https://www.cem-macau.com/zh/press-release.*"])
+    print(loaded_docs)

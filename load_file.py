@@ -1,5 +1,6 @@
 from haystack.components.converters import JSONConverter
 from haystack.dataclasses import ByteStream
+import os
 
 def get_docs(dir1):
     # docs needs to be list of Document objects
