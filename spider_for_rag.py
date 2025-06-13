@@ -85,12 +85,12 @@ async def load_docs(given_url, exclude_urls):
     if loaded_docs is None:
         loaded_docs = []
     print("Loaded documents from the spider:" + str(len(loaded_docs)))
+    file_docs = await get_file_docs(loaded_docs)
     cleaned_docs = [
         Document(page_content= clean_content(doc.page_content), metadata=doc.metadata)
         for doc in loaded_docs
     ]
     print("First cleaned document:\n" + str(cleaned_docs[0]))
-    file_docs = await get_file_docs(loaded_docs)
     if file_docs is None or file_docs == []:
         print("No file docs were loaded successfully")
         file_docs = []

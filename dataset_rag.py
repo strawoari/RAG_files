@@ -7,12 +7,17 @@ from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack.components.retrievers import InMemoryEmbeddingRetriever
 from haystack.components.embedders import AzureOpenAITextEmbedder, AzureOpenAIDocumentEmbedder
 from haystack.components.generators import AzureOpenAIGenerator
+from haystack.components.converters import JSONConverter
+from haystack.dataclasses import ByteStream
 import json
 import os
 from load_file import get_docs
 import concurrent.futures
 from dotenv import load_dotenv
 from functools import partial
+import nltk
+nltk.data.path.append('/Users/amychan/nltk_data')
+nltk.download('punkt')
 load_dotenv()
 
 
@@ -20,19 +25,16 @@ AZURE_OPENAI_API_VERSION = os.getenv("OPENAI_API_VERSION")
 AZURE_OPENAI_DEPLOYMENT = os.getenv("AZURE_OPENAI_DEPLOYMENT")
 AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY")
 AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
-
-AZURE_EMBEDDING_ENDPOINT = os.getenv("AZURE_EMBEDDING_ENDPOINT")
 AZURE_EMBEDDING_DEPLOYMENT = os.getenv("AZURE_EMBEDDING_DEPLOYMENT")
-
 
 ### Set up index pipeline
 def get_index_pipeline(document_store):
   index_pipeline = Pipeline()
   index_pipeline.add_component(instance=DocumentCleaner(remove_extra_whitespaces = True), name="cleaner")
-  index_pipeline.add_component(instance=DocumentSplitter(split_by="sentence", split_length=5, language = "zh"), name="splitter")
+  index_pipeline.add_component(instance=DocumentSplitter(split_by="page", split_length=5, language = "zh"), name="splitter")
   index_pipeline.add_component("embedder", AzureOpenAIDocumentEmbedder(
-      azure_endpoint= AZURE_EMBEDDING_ENDPOINT,
-      azure_deployment=AZURE_EMBEDDING_DEPLOYMENT,
+      azure_endpoint= AZURE_OPENAI_ENDPOINT,
+      azure_deployment= AZURE_EMBEDDING_DEPLOYMENT,
   ))
   index_pipeline.add_component("writer", DocumentWriter(document_store=document_store))
   index_pipeline.connect("cleaner.documents", "splitter.documents")
@@ -63,7 +65,7 @@ def get_query_pipeline(document_store):
 <出处>...</出处>
 """
   query_embedder = AzureOpenAITextEmbedder(
-    azure_endpoint=AZURE_EMBEDDING_ENDPOINT,
+    azure_endpoint=AZURE_OPENAI_ENDPOINT,
     azure_deployment=AZURE_EMBEDDING_DEPLOYMENT,
   )
   pipeline.add_component("query_embedder", query_embedder)
@@ -77,6 +79,7 @@ def get_query_pipeline(document_store):
   pipeline.connect("query_embedder.embedding", "retriever.query_embedding")
   pipeline.connect("retriever.documents", "prompt_builder.documents")
   pipeline.connect("prompt_builder", "llm")
+  return pipeline
 
 def process_doc(index_pipeline, query_pipeline, doc):
   # First run the query pipeline to generate QA pairs
@@ -92,27 +95,32 @@ def process_doc(index_pipeline, query_pipeline, doc):
     qa = ""
   # Then run the indexing pipeline to process and store the document
   index_pipeline.run({"cleaner": {"documents": [doc]}})
-  return qa
+  return {'list_of_qa': qa, 'doc_content': doc.content, 'doc_meta': doc.meta}
 
-docs = get_docs('/Users/amychan/rag_files/data')
+docs = get_docs('/content/data')
 
 document_store = InMemoryDocumentStore()
 index_pipeline = get_index_pipeline(document_store)
 query_pipeline = get_query_pipeline(document_store)
+
+print("Indexing pipeline and query pipeline are set up.")
 ### 7. Run Pipelines and Collect QA Pairs
 qa_dataset = []
 
 process_fn = partial(process_doc, index_pipeline, query_pipeline)
 max_workers = min(8, os.cpu_count() or 1)
+print(f"Using {max_workers} workers for processing documents.")
 with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
   results = list(executor.map(process_fn, docs))
+if results is None or len(results) == 0:
+  print("No results returned from processing documents.")
+else:
+  print(results[0])
 
-# Flatten and save
-for result in results:
-  qa_dataset.extend(result)
-  
-### 8. Save to File
-with open("qa_dataset.jsonl", "w", encoding="utf-8") as f:
-  for qa in qa_dataset:
-    json.dump(qa, f, ensure_ascii=False, indent = 4)
-    f.write("\n")
+os.makedirs("qa_data", exist_ok=True)
+for i in range(0, len(qa_dataset), 20):
+  with open(f"qa_data/qa_{i}-{i + 20}.json", "w", encoding='utf-8') as f:
+    if i + 20 > len(results):
+      json.dump(results[i:], f, ensure_ascii=False, indent=4)
+    else:
+      json.dump(results[i:i+20], f, ensure_ascii=False, indent=4)

@@ -1,5 +1,7 @@
 import os
 import asyncio
+import shutil
+from pathlib import Path
 from lightrag import LightRAG, QueryParam
 from lightrag.utils import EmbeddingFunc
 import numpy as np
@@ -8,6 +10,7 @@ import logging
 from openai import AzureOpenAI
 from lightrag.kg.shared_storage import initialize_pipeline_status
 from load_file import get_docs
+
 # this file is not for running
 
 logging.basicConfig(level=logging.INFO)
@@ -22,8 +25,13 @@ AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
 AZURE_EMBEDDING_ENDPOINT = os.getenv("AZURE_EMBEDDING_ENDPOINT")
 AZURE_EMBEDDING_DEPLOYMENT = os.getenv("AZURE_EMBEDDING_DEPLOYMENT")
 AZURE_EMBEDDING_API_VERSION = os.getenv("AZURE_EMBEDDING_API_VERSION")
+EMBEDDING_DIM = os.getenv("EMBEDDING_DIM")
 
 WORKING_DIR = ""
+OUTPUT_DIR = ""
+MAX_BYTES = int(os.getenv("MAX_BYTES", str(4 * 1024 * 1024)))
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+OUTPUT_DIR = Path(os.getenv("OUTPUT_DIR", "./outputs")).resolve()
 
 if os.path.exists(WORKING_DIR):
     import shutil
@@ -65,7 +73,7 @@ async def embedding_func(texts: list[str]) -> np.ndarray:
     embedding = client.embeddings.create(model=AZURE_EMBEDDING_DEPLOYMENT, input=texts)
 
     embeddings = [item.embedding for item in embedding.data]
-    return np.array(embeddings)
+    return np.asarray(embeddings)
 
 
 async def test_funcs():
@@ -76,11 +84,7 @@ async def test_funcs():
     print("Response from embedding_func: ", result.shape)
     print("Dimension of embedding: ", result.shape[1])
 
-
 # asyncio.run(test_funcs())
-
-# embedding_dimension = 3072
-
 
 async def initialize_rag():
     rag = LightRAG(
@@ -97,12 +101,36 @@ async def initialize_rag():
 
     return rag
 
+async def write_output(filename_base: str, text: str) -> None:
+    """Append *text* to an output file, rolling over when MAX_BYTES reached."""
+    idx = 0
+    while True:
+        file_path = OUTPUT_DIR / f"{filename_base}_{idx}.txt"
+        # If writing text would exceed size limit, move to next index
+        if file_path.exists() and file_path.stat().st_size + len(text.encode()) > MAX_BYTES:
+            idx += 1
+            continue
+        async with aiofiles.open(file_path, "a", encoding="utf-8") as f:
+            await f.write(text + "\n")
+        return  # done!
 
-def main():
-    rag = asyncio.run(initialize_rag())
+async def run_query(rag: LightRAG, mode: str, query_text: str, user_prompt: str | None = None) -> None:
+    """Executes *rag.query* in a thread and writes the result to file."""
+    param = QueryParam(mode=mode, user_prompt=user_prompt)
+    logging.info("Querying in %s mode...", mode)
+    result: str = await asyncio.to_thread(rag.query, query_text, param=param)
+    # Persist + log
+    await write_output(mode, result)
+    logging.info("%s mode result saved (%d chars)", mode, len(result))
+    
+async def main() -> None:
+    rag = await initialize_rag()
 
-    docs = get_docs('/Users/amychan/rag_files/data')
-    print('finished loading documents from directory:\n' + str(docs[0]))
+    docs = await asyncio.to_thread(get_docs, "/Users/amychan/rag_files/data")
+    logging.info("Loaded %d docs; inserting into index…", len(docs))
+    await asyncio.to_thread(rag.insert, docs)
+
+    query_text = "澳门电力公司提供哪些服务？"
     
     user_prompt = """
 你是一位电力工程顾问，专注于澳门电力的建设。
@@ -114,22 +142,15 @@ def main():
 
 问题：{{ query }}
 """
-    
-    rag.insert(docs)
+    tasks = [
+        run_query(rag, "naive", query_text, user_prompt),
+        run_query(rag, "local", query_text),
+        run_query(rag, "global", query_text),
+        run_query(rag, "hybrid", query_text),
+    ]
+    await asyncio.gather(*tasks)
 
-    query_text = "澳门电力公司提供哪些服务？"
-
-    print("Result (Naive):")
-    print(rag.query(query_text, param=QueryParam(mode="naive", user_prompt=user_prompt)))
-
-    print("\nResult (Local):")
-    print(rag.query(query_text, param=QueryParam(mode="local")))
-
-    print("\nResult (Global):")
-    print(rag.query(query_text, param=QueryParam(mode="global")))
-
-    print("\nResult (Hybrid):")
-    print(rag.query(query_text, param=QueryParam(mode="hybrid")))
+    logging.info("All queries completed. Results are in %s", OUTPUT_DIR)
 
 
 if __name__ == "__main__":
