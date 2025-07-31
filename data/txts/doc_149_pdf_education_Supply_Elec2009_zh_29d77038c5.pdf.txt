@@ -1,0 +1,28 @@
+76
+Electricity Supply
+11. General provisions  (11)
+11.1 The Company hereby undertakes to supply electricity in the form 
+of alternating current, under certain regulations and contractual 
+conditions, to any Customer who may apply for it, namely:
+a) Single-phase or three-phase low-voltage supply according 
+to the characteristics of the Customer’s installation;
+b) Three-phase medium-voltage supply.
+11.2 Standard voltages for distribution are 230/400 V , for Customers 
+connected to the low-voltage network, and 11000 V between phases 
+for Customers directly supplied by the medium-voltage network, 
+with plus 5% and minus 10% voltage tolerance.
+11.3 Current frequency is 50 Hz, with plus or minus 2% tolerance.
+11.4 Electricity shall be supplied to the Customer upon compliance with 
+all regulations in force concerning its installation and operation, 
+specially in what concerns safety of persons and goods, reduction 
+to risk of breakdowns and disruption of the Company’s network or 
+other installations and the pre-assumption of renouncing fraudulent 
+electricity consumption.
+12. Connection charges and work execution  (12)
+12.1 The Customer shall pay to the Company, in one lump sum, when 
+applicable, its shared cost in the connection of electricity to its 
+premises or for increased capacity, in the terms of the legislation in 
+force.
+12.2 The payment of such shared cost is a condition for the efficacy of the 
+Customer’s contract with the Company in supplying electricity up to 
+the maximum capacity wherefore such cost has been shared.

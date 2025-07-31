@@ -1,0 +1,34 @@
+89Standard Conditions of Supply of Electricity Ė
+23.3 When suspicion of fraudulent procedure arises, the Company shall 
+request the presence of two witnesses, duly credentialed by competent 
+authorities, to confirm or deny the existence of fraud.
+23.4 When the existence of fraud is confirmed and imputable to the 
+Customer, the Company reserves the right:
+a) To be reimbursed for the amount corresponding to energy 
+illicitly consumed and of any expenses related to the 
+elimination of the fraud, namely the repair or replacement 
+of damaged equipment;
+b) To withhold supply until full payment is made of the amount 
+due according to the previous subparagraph.
+24. Value of energy illicitly consumed  (24)
+24.1 The value of the energy illicitly consumed is computed by the 
+Company, based on the highest tariff set for the subgroup contracted 
+by the Customer, plus 25%, taking into account all the facts relevant 
+to the computation of real consumption during the period wherein 
+the fraudulent procedure took place, namely the characteristics of the 
+installation, its schedule of operation, previous readings, if any, and 
+posterior readings, if necessary.
+24.2 When there are no elements to allow an objective computation of 
+energy illicitly consumed, the relevant value is computed using the 
+following rules:
+a) Low-voltage Customers
+Pc up to 20.7 kV A ................. 50-hour monthly usage of Pc
+Pc from 34.5kV A to 69 kV ..... 70-hour monthly usage of Pc
+Pc from 100 kV A to 340 kV A .100-hour monthly usage of Pc
+Pc above 340 kV A ........... 200-hour monthly usage of Pc
+b) Medium-voltage Customers .... 300-hour monthly usage of Pc
+Whereof “Pc” is the demand subscribed by the Customer
+24.3 Estimation performed in the terms of the previous paragraph 
+comprises the period in relation thereto proof was presented wherein 
+such irregular consumption was maintained or, if such evidence does 
+not exist, a period of thirty-six months.

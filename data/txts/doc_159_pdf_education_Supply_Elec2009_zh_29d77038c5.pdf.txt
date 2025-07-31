@@ -1,0 +1,28 @@
+86
+20. Metering and billing errors (20)
+20.1 Whenever errors or anomalies are found in energy and demand 
+metering, such must be corrected through available elements.
+20.2 In order to perform such correction, the Company must consider the 
+characteristics of the Customer’s installation, its operational schedule, 
+the latest bills presented before the detection of such error or anomaly, 
+the amounts read after the correction of such error or anomaly and any 
+other elements that may contribute to a more exact computation of the 
+amount in question.
+20.3 The limit of the amount demandable for credits which result from the 
+correction of metering errors or anomalies, shall be determined by 
+the sum of the amounts corresponding to the corrections applicable 
+to a maximum period of twelve months prior to the month wherein 
+any one of the parties expressly noti ﬁed the other of such error or 
+anomaly, added the amount corresponding to the corrections to be 
+made, up to the date wherein such error or anomaly was repaired.
+20.4 The amount due shall not accrue interest and the payment thereof may 
+be performed within a period equal to that wherein the error or anomaly 
+has lasted, provided such period is no longer than six months.
+20.5 Failure to pay any debits due on the part of the Customer from 
+corrections hereinbefore referred to, within the established term, shall 
+set the Customer under the nonpayment provisions of clause 19.
+20.6 The hereinbefore provided shall also apply in case of error in reading 
+and billing energy consumption.
+20.7 In case of error in favor of the Company, the same shall issue a credit 
+note in favor of the Customer, which may be used to pay for subsequent 
+bill or bills or be received in cash at the Company’s cashiers.

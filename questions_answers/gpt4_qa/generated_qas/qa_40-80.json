@@ -1,0 +1,156 @@
+[
+    {
+        "list_of_qa": [
+            "1. \nquestion: 请问我需要多少钱才能把我的非住宅功率从6.9千伏安提升到11.5千伏安？\nanswer: 提升6.9千伏安到11.5千伏安的电缆接驳费为澳币1,215元，另外还应该考虑设备安装、材料费用和电力公司的收费标准。建议您咨询电力公司或专业电业承办商以获取详细的报价和建议。 \nref: 非住宅的电缆接驳费表\n\n2. \nquestion: 申请更改我的电表位置需要什么样的申请？\nanswer: 如需更改电表的位置，必须向澳电提交申请，且需遵循相关的规定，不可自行更改。 \nref: 电表装置的安全与维护手册\n\n3. \nquestion: 申请私人电动汽车供电需要什么步骤？\nanswer: 需先询问供电可行性，取得可行性回复后，聘请注册技术员编制安装充电设施设计方案并提交审批。 \nref: 私人电动车供电申请步骤\n\n4. \nquestion: 如果我在申请后十五天内没有完成相关工程，会有什么后果？\nanswer: 如果未能在十五天内完成工程，申请将被取消，将不再另行通知。 \nref: 电表装置的安全与维护手册\n\n5. \nquestion: 我能否自行选择电线颜色来安装我的电力设施？\nanswer: 电线颜色必须符合规定，具体为啡色、蓝色及黄绿颜色，不可自行选择其他颜色。 \nref: 电线及电表板规格\n\n6. \nquestion: 如何确认需要升高的电力装置高度？\nanswer: 电力装置的高度需要高于防浸高度，即+4.21米以上。 \nref: 如何升高大厦内的电力装置\n\n7.\nquestion: 我能在电表附近放置杂物吗？\nanswer: 不可以，确保电表箱周围环境安全和清洁，以便澳电工作人员可便捷进出。 \nref: 电表装置的安全与维护手册\n\n8.\nquestion: 我如何查询我的电费账单状态？\nanswer: 您可以通过网上服务、聊天机器人或致电2833 9911查询账单状态。 \nref: 客户服务查询方式\n\n9.\nquestion: 什么情况下我需要聘请电业承办商进行公共电力装置升级？\nanswer: 如果申请的订定功率超过原有设计容量上限，则需聘请经验丰富的承办商进行升级。 \nref: 电力工程步骤和要求\n\n10. \nquestion: 申请电力供给都需要多久才能拿到结果？\nanswer: 供电可行性咨询一般在10个工作天内完成。 \nref: 所需时间中的咨询供电可行性部分\n\n这10个问题涵盖了多方面的信息，涉及费用、程序、设备要求和客户责任。"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/technical-information/electrical-installations-and-support/electrical-works-by-customerstepsrequirements/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_74_795c2b04719d594b193c98cc22bffeb8.json"
+    },
+    {
+        "list_of_qa": [
+            "1. question: 作为澳門社會工作局的社會援助計劃的受益人，我如何申请社援收費？  \nanswer: 您需提供由澳門社會工作局發出的有效社會援助卡，并确保订定功率在6.9千伏安以下，最近6个月每月耗电量在120度或以下。  \nref: 申請條件部分。\n\n2. question: 如果我每月耗电量超过120度，是否还能申请社援收費？  \nanswer: 不可以，申请社援收費的客户必须在最近6个月内每月耗电量在120度或以下。  \nref: 申請條件部分。\n\n3. question: 社援收費的電能費用是多少？  \nanswer: 社援收費的电能费用为0.429澳門元/度。  \nref: 價格部分。\n\n question: 申请社援收费除了功率有限度，其他有什么要求吗？\nanswer: 除了功率限制，申请社援收费的客户还需满足以下要求：1. 必须是澳门社会工作局列入社会援助计划的住宅客户。2. 最近6个月内的每月耗电量需在120度或以下。3. 必须提供由澳门社会工作局发出的有效社会援助卡。\nref: 社会援助申请条件\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/billpaymentpromotion/social-tariff/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_82_79b72b8a78cd0086704fdb776c728394.json"
+    },
+    {
+        "list_of_qa": [
+            "1. \nquestion: 我怎么能查看计划性停电的通知呢？  \nanswer: 您可以在网上查询受影响客户名单，或者查看澳电发布的《暂停供电通告》。  \nref: 停电措施  \n\n2. \nquestion: 如果我所在的区域有停电，我该怎么办？  \nanswer: 建议您首先检查室内总开关并关闭主要电器。如果问题依旧，请联系澳电的抢修服务热线2833 9922。  \nref: 供电故障  \n\n3. \nquestion: 停电通知是如何发放的？  \nanswer: 澳电会提前将《暂停供电通告》分发给受影响的商户或物业管理公司，并在大厦出入口张贴通知。  \nref: 停电措施  \n\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/technical-information/power-supply-technical-information/general-information/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_49_3a2a67519c42d7b34fafb80e0b5585c4.json"
+    },
+    {
+        "list_of_qa": [
+            "1. question: 如果我的建筑物需要将变电房安装在特殊位置，如何申请并获得审批？  \nanswer: 客户变电房土建设计需遵循建筑物地面层、一楼、高层及户外的设计准则，特殊位置需独立审批。  \nref: 与背景信息中的设计准则相关。\n\nquestion: 关于建变电房和设计等程序，有什么资料吗？answer：可以从澳门电力公司官网下载【客戶變電房土建設計與施工】\nref:客戶變電房土建設計與施工\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/technical-information/power-supply-technical-information/customer-substation-design/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_62_0add2611688b5263c953006ee60613e8.json"
+    },
+    {
+        "list_of_qa": [
+            "1. question: 我如何申请社福收费的优惠？  \nanswer: 申请社福收费优惠需要提供由权限主管部门发出的相关证明文件，确认从事非牟利及社会活动的性质。  \nref: 社福收费申请条件。\n\n18. question: 社福收费用于哪些机构？  \nanswer: 社福收费适用于开展非营利且公认重要社会活动的公共或私人实体。  \nref: 社福收费的适用范围说明。\n\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/billpaymentpromotion/social-welfare-tariff/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_83_a60d023dbc45d20536391da00d11c9b4.json"
+    },
+    {
+        "list_of_qa": [
+            "4.  \n question: 我可以申请退还按金吗？  \nanswer: 可以，前提是电能供应合约已终止且您没有任何未缴费用。  \nref: 退还按金申请条件  \n\n7.  \nquestion: 如果我有多个电费单，可以申请把按金转至其中一个吗？  \nanswer: 是的，您可以申请将按金转至客户名下的另一电费单。  \nref: 退还按金申请文件  \n\n20. question: 取消合约后，按金何时会退还？\nanswer: 现金可以即使退换，其他退款方式可於三個工作天內完成。\nref: \n\n question: 如果我想申请退还按金，我需要满足哪些条件？  \nanswer: 申请人必须为电能供应合约持有人，且合约已终止，同时单位名下没有未缴付的费用。  \nref: 申请条件部分  \n\nquestion: 如果我的退款金额超过2500澳门元，我可以选择哪种退款方式？  \nanswer: 您可以选择银行户口转账退款，需提交合约持有人证件副本及银行户口的相关文件。  \nref: 所需文件部分  \n\nquestion: 我可以委托别人代我办理退还按金的申请吗？  \nanswer: 可以，您需签署授权书委托他人代办申请。  \nref: 备注部分  \n\nquestion: 退款申请需要多久才能完成？  \nanswer: 除现金退款外，其他退款方式通常需要三个工作天内完成。  \nref: 所需时间部分  "
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/apply/refund-deposit/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_77_922db1abd2aeb88200d1c0c491fc7220.json"
+    },
+    {
+        "list_of_qa": [
+            "1.  \nquestion: 我想更改电表大小，需要哪些文件？  \nanswer: 您需要提供申请人身份证明文件副本和最近三个月发出的查屋纸。如申请单位为非住宅用途，还需提交电力装置位置图和相关声明书。  \nref: 背景信息中关于所需文件的要求。\n\n2.  \nquestion: 申请更改电表的过程需要多长时间？  \nanswer: 申请处理时间为四个工作天内完成。  \nref: 背景信息中关于申请流程的描述。\n\n3.  \nquestion: 如果我无法亲自办理申请，可以委托他人吗？  \nanswer: 可以，您可以签署授权书委托他人代办申请。  \nref: 背景信息中关于委托他人办理的备注。\n\n4.  \nquestion: 申请更改电表大小需要承担哪些费用？  \nanswer: 您需要支付共同分担费用（电缆接驳费）、工程费用（如需）及新旧按金的差额。  \nref: 背景信息中关于应付费用的描述。\n\n6.  \nquestion: 更改电表的申请人需要是合约持有人吗？  \nanswer: 是的，申请人必须为电能供应合约的持有人。  \nref: 背景信息中关于申请人的要求。\n\n8.  \nquestion: 申请更改电表后，完成工程的时限是多久？  \nanswer: 目前没有有关资料，请咨询客服人员或查询官网。 \nref: \n\n9.  \nquestion: 我是公司申请更改电表，需提供哪些额外文件？  \nanswer: 您需提供最近三个月发出的公司商业登记副本及电能供应合约应由法定代表人签署。  \nref: 背景信息中关于公司申请的文件要求。\n\n10.  \nquestion: 我如何确认电力装置的具体位置以申请？  \nanswer: 您需要提供清晰显示客户电力装置及电表的所在位置的电力装置位置图。  \nref: 背景信息中关于位置图的要求。"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/apply/change-my-meter-size/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_68_c5825e4e1950ddf58d53c12927cbe246.json"
+    },
+    {
+        "list_of_qa": [
+            "3. question: 如果安装地点的阳光被遮挡，怎么办？  \nanswer: 安装地点必须确认有充足的太阳能资源，如果被其他建筑物遮挡，则不适合安装光伏系统。  \nref: 申请步骤第一步中提到的条件。\n\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/smart-living/photovoltaic-system-(pv)/pv-introduction/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_41_7f45f3e7ded4e0e93dd94dacc5b6ff0a.json"
+    },
+    {
+        "list_of_qa": [
+            "1. \nquestion: 申请供电需要哪些文件？  \nanswer: 需要提供业权人身份证明副本、最近三个月的查屋纸。如果申请人为租户，还需提供租户身份证明副本和公证租约副本。  \nref: 申请供电所需文件部分。\n\n2. \nquestion: 供电的申请费用大概是多少？  \nanswer: 费用包括电缆接驳费、工程费用（如需要）和按金，按金根据所申请的订定功率收取。不同功率的按金费用也有差异，例如3.4千伏安的按金是65澳币。  \nref: 应付费用和订定功率及按金费标准部分。\n\n3. \nquestion: 如果我是租户，申请供电时还需要额外哪些文件？  \nanswer: 作为租户，您需要提供租户身份证明文件副本和已公证的租约副本。  \nref: 申请供电所需文件部分。\n\n4. \nquestion: 提交供电申请后需要多久才能完成？  \nanswer: 供电申请通常在四个工作天内完成。  \nref: 所需时间部分。\n\n5. \nquestion: 我计划增加订定功率，需要进行哪些步骤？  \nanswer: 首先，需要咨询供电可行性，随后聘请电业工程人员编制电力设计方案并提交审批，最后递交给澳电进行接驳规划。  \nref: 客户的电力工程：步骤和要求部分。\n\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/apply/request-power/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_38_5f46b7fa158b41d527704c97e1ccd681.json"
+    },
+    {
+        "list_of_qa": [
+            "question: 请问如何申请社会服务计划的电力装置维修服务？\nanswer: 您可以通过填写网上申请表格申请，澳电将联系您确认资料；确认后需要提交受助人的所需文件副本，也可以通过電郵communityprogram@cem-macau.com或傳真2871 9687申請。详情请查询电话8393 1206。\nref: 社会服务计划的申请程序。\n\n question: 我如何向您转介需要协助的弱势人士？\nanswer: 请填写申请表格并提供所需资料，然后发送给我们进行审查。您可以致电8393 1206以获取更多信息。\nref: 对于需要协助的个案转介的指南。"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/community-service/3/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_95_ae6f02a4a799b4cff9fa2ffaaa88cf87.json"
+    },
+    {
+        "list_of_qa": [
+            "n18. \nquestion: 申请单位必须为空置是什么意思？\nanswer: 这意味着申请单位不能有其他租户或住户，必须处于无人状态才能申请。 \nref: 终止供电的条件 \n\n1.  \nquestion: 我需要什么文件才能申请终止供电？  \nanswer: 您需提供身份证明文件副本和电费单。如果您是业权人，还需提交最近三个月发出的查屋纸。  \nref: 终止供电申请所需文件  \n\n2.  \nquestion: 申请终止供电需要多长时间？  \nanswer: 申请将在四个工作天内完成处理。  \nref: 终止供电申请所需时间  \n\n3.  \nquestion: 如果我不能亲自提交申请，咋办？  \nanswer: 您可以签署授权书，委托他人代办申请。  \nref: 备注  \n\n8.  \nquestion: 我在终止供电后多久可以获得按金退款？  \nanswer: 现金退款可以即时报账，其它退款方式大约在三个工作天内处理完成。  \nref: 退款所需时间  \n\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/apply/terminate-power/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_80_74fb1ed19cbb7735a52e8f17e70e3bae.json"
+    },
+    {
+        "list_of_qa": [
+            "question: 我是一名持有颐老卡的长者，如何在澳电客户服务中心享受优先缴费服务？  \nanswer: 您可於澳電客戶服務中心優先繳付電費。\nref: 優先繳費及櫃台服務\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/community-service/1/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_96_ee8a52c8d6727b11e76fdddb491d1362.json"
+    },
+    {
+        "list_of_qa": [
+            "1. \nquestion: A组收费的标准是什么？\nanswer: A组收费适用于功率在69千伏安以下的客户，费用包括功率费、电费、收费调整系数和政府税。\nref: A组收费章节。\n\n2. \nquestion: 如果我的用电量在120度以下，适用哪个收费组？\nanswer: 如果你的合约功率在6.9千伏安或以下且用电量在120度以下，你可以申请减低收费（A2）。\nref: A2减低收费章节。\n\n3. \nquestion: 社会工作局的社援收费有何条件？\nanswer: 社援收费适用于被列入社会援助计划的住宅客户，需提供有效的社会援助卡，功率在6.9千伏安以下，且最近6个月的每月耗电量在120度或以下。\nref: A4社援收费章节。\n\n4. \nquestion: 社福收费的申请需要提供什么？\nanswer: 需要提供由主管部门发出的从事非牟利及社会活动性质的证明文件。\nref: A3社福收费章节。\n\n5. \nquestion: A组收费的电能费用是多少？\nanswer: A组收费的电能费用为0.963澳门元每度。\nref: A1一般收费章节。\n\n6. \nquestion: 收费调整系数是什么时候调整的？\nanswer: 收费调整系数按季度调整，以反映电力生产成本的浮动。\nref: 收费调整系数章节。\n\n9. \nquestion: 如何计算我的功率费用？\nanswer: 功率费用按你的订定功率计算，以千伏安为单位，不同的收费组其价格也不同。\nref: A组收费章节。\n\n2956.\nquestion: 社福收费与其他收费有何不同？\nanswer: 社福收费适用于进行非盈利活动的实体，费用相对较低，与其他收费组相比更具优惠。\nref: A3社福收费章节。\n\n2959.\nquestion: A组的电能费用和功率费用是什么？\nanswer: A组的电能费用为0.963澳门元/度，功率费用根据功率而定，至3.4千伏安为8.224澳门元。\nref: A组收费章节。\n\n2960.\nquestion: A组社援收费的电能费用是多少？\nanswer: 社援收费的电能费用为0.429澳门元/度。\nref: A4社援收费章节。 \n\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/billing-service/tariff-group-a/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_58_37536be00d73ea89393e6756f09af634.json"
+    },
+    {
+        "list_of_qa": [
+            "question: 我如何知道我的电费账单是否出错？  \nanswer: 如果您发现电费账单有问题，可以在3个工作日内向我们提出投诉，我们将进行调查。 \nref: 投诉及要求部分  \n\nquestion: 如果我遇到紧急电力故障，什么时候可以得到帮助？ \nanswer: 如果您遇到紧急电力故障，我们将在收到通知后的60分钟内到达您的私人电力设施现场进行处理。 \nref: 紧急服务章节。  \n\nquestion: 如果电力供应中断，我该怎么知道恢复时间？  \nanswer: 我们将在收到您的停电通知后，通常在6个小时内恢复电力供应。 \nref: 恢复电力供应章节。  \n\nquestion: 什么时候可以预约到客服来检查我的电力设施？  \nanswer:  我们将根据与您约定的时间，在2小时内到府为您检查电力设施或执行工作。 \nref: 预约服务章节。  \n\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/service-charter/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_105_4204e40cb92a5b47174ff5ae25cda10d.json"
+    },
+    {
+        "list_of_qa": [
+            "1. \nquestion: 智慧街灯如何帮助提升城市安全性？\nanswer: 智慧街灯配备摄像头和人流统计传感器，可以实时监控城市公共区域，及时发现异常情况，增强公共安全。它们还能够发布即时信息，提高社会的警觉性和应对能力。\nref: 背景信息关于智慧街灯的功能描述。\n\n2. \nquestion: 我可以在哪里看到智慧街灯的实际应用？\nanswer: 目前，智慧街灯已在高园街、澳大横琴校区强身大马路及友谊大马路进行测试和应用。 \nref: 背景信息关于智慧街灯的安装地点。\n\n3. \nquestion: 是什么保证了智慧街灯的数据隐私安全？\nanswer: 在安装和测试过程中，智慧街灯的敏感设备安装和测试均遵循澳門个人资料保护法，确保用户的隐私得到保护。 \nref: 背景信息提到的监控和法律遵循。\n\n6. \nquestion: 如何确保智慧街灯的设备符合监管规定？\nanswer: 所有智慧街灯的设备安装和测试都需获得相关权威机构的批准，以符合当地的监管条例和法律要求。 \nref: 背景信息提到的监管条款与批准过程。 \n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/smart-living/smart-streetlight/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_14_59539a17efa6e519d0a1aeaf005b6293.json"
+    },
+    {
+        "list_of_qa": [
+            "1. \nquestion: 什么是一般充电收费？  \nanswer: 一般充电收费适用于私人充电设施，按照每月总充电量及功率费、充电量和电能费用计算。  \nref: 背景信息第一部分  \n\n2. \n question: 我是一般充电收费类别的，该如何计算我的充电费用？  \nanswer: 充电费用=功率费+（充电量×（电能费用+收费用调整系数））+政府税。  \nref: 背景信息计算方法  \n\n3. \n question: 一般充电收费怎样判断我的功率费属于哪一类？  \nanswer: 功率费分类依据订定功率大小，至3.4千伏安为8.224澳门元，高于3.4千伏安但不超过6.9千伏安为18.796澳门元。  \nref: 背景信息价格部分  \n\n4. \nquestion: 为什么我的电费会有季度调整？  \nanswer: 收费调整系数按季度调整，以反映电力生产成本浮动，确保收费与市场情况相符。  \nref: 背景信息收费调整系数部分  \n\n5. \nquestion: 繁忙时间的电能费用是多少？  \nanswer: 在繁忙时间（09:00 - 20:00），电能费用为1.552澳门元/千瓦时。  \nref: 背景信息电能费用部分  \n\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/billing-service/transportation-charging---general-/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_79_cb209854e6436004d61bb6e2734fc409.json"
+    },
+    {
+        "list_of_qa": [
+            "1. \nquestion: 申请转名需要哪些文件？\nanswer: 需要业权人身份证明文件副本、最近三个月发出的查屋纸和电费单。如果申请人为租户，还需提供租户的身份证明文件副本和已公证的租约副本。 \nref: 转名所需文件\n\n2. \nquestion: 如果申请人没有亲身办理，怎么做？\nanswer: 申请人可以签署授权书，委托他人代办。授权书需由申请人或公司代表签署。 \nref: 备注部分 \n\n9. \nquestion: 申请时需要注意哪些事项？\nanswer: 务必确认所提交的文件符合资格。 \nref: 备注部分 \n\n question: 如果公司申请转名，应提供哪些额外文件？\nanswer: 公司申请需要提供最近三个月的公司商业登记副本及由法定代表人签署的电能供应合约。 \nref: 公司申请的特别要求\n\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/apply/changename/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_51_6171cdc886609ff692d1d65aecef1917.json"
+    },
+    {
+        "list_of_qa": [
+            "1. \nquestion: 我怎样可以更新我的个人资料？\nanswer: 您需要拨打2833 9911与澳电客服中心的服务主任联系来更新个人资料。\nref: 客户服务及联系方式部分。\n\n2. \nquestion: 电动汽车充电站的使用有什么注意事项？\nanswer: 用户需按照《如何充电》的指引使用充电站，并在充电期间不要直接拔除连接器。如发现充电站损坏，请立即停止使用。\nref: 电动汽车充电站的使用条款说明。\n\n3. \nquestion: 如何支付电动汽车充电费用？\nanswer: 用户可通过电子钱包余额或使用信用卡或银联进行一次性支付。\nref: 电动汽车充电费用支付服务部分。\n\n4. \nquestion: 电动汽车慢速充电收费是怎么计算的？\nanswer: 慢速充电的收费按时段计算，分繁忙时间和非繁忙时间，每度电的价格不同。\nref: 电动汽车充电收费的具体规定。\n\n8. \nquestion: 如果电动汽车充电站出现故障该怎么办？\nanswer: 请立即停止使用该设施，并与澳电客服联系报告故障。\nref: 电动汽车充电站的使用条款说明。\n\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/terms-of-service/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_132_6888dcacb4d1ff7af87342f24ccc9600.json"
+    },
+    {
+        "list_of_qa": [
+            "question: 我该怎么节省用电？answer: 节省用电的一些有效方法包括：用节能电器和照明设备，比如LED灯泡，合理使用空调和冷气设备，及时关闭电器，等等措施。\nref: 用電貼士 \n\n question: 使用LED灯泡能节省多少电力？  \nanswer: 改用LED灯泡的耗电量是鎢絲燈泡的1/10，且耐用程度是其40倍。  \nref: 第一部分关于LED灯泡的信息。\n\nquestion: 如何降低冷气的电费？  \nanswer: 将冷气机的恆温器调校至24－25度，每调高1度可节省3%的电力。  \nref: 第一部分关于冷气使用和节电的建议。\n\nquestion: 该如何清洁空调的过滤网？  \nanswer: 每两星期清洗过滤网或隔尘网，以避免积聚灰尘，从而降低电量使用5－15%。  \nref: 第一部分关于清洗过滤网的建议。\n\nquestion: 我如何安装光暗调校器以节省电力？  \nanswer: 安装适当的光暗调校器，根据需要调校光度，能有效节省电力。  \nref: 第一部分关于光暗调校器的信息。"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/smart-living/energy-saving-and-safety/tips/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_15_b8a90c9c7b2c547e7c78042293b8685e.json"
+    },
+    {
+        "list_of_qa": [
+            "2. question: 如果我接到可疑的电话，该怎么办？  \nanswer: 请保持冷静并立即挂断电话，切勿提供个人信息或点击任何链接。如有需进一步确认，请拨打2833 9911。  \nref: 可疑电话应对措施。\n\n4. question: 如果我怀疑自己被诈骗了，该如何处理？  \nanswer: 请尽快向警方寻求协助，并拨打司法警察局的防诈骗咨询热线8800 7777报告情况。  \nref: 若怀疑被骗，应采取的措施。\n\n6. question: 我可以通过哪些方式联络澳电？  \nanswer: 您可以通过电邮、短讯、在线服务或拨打客服热线进行联系，具体信息可访问澳电官方网站。  \nref: 提供的联系方式和客户服务信息。\n\n7. question: 我如何确认收到的电子账单确实是来自澳电？  \nanswer:确认电子账单的发件人邮箱地址是否为官方的邮箱地址@cem-macau.com。\nref: 确认电子账单的有效性。 \n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/stayalertforphishing/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_26_4ce4100b0e8d04098825c84971a6b9a9.json"
+    },
+    {
+        "list_of_qa": [
+            "1.  \nquestion: D组收费是基于什么样的功率计算的？  \nanswer: D组收费根据0.2Pc + 0.8Pu计算，其中Pu是所指发单月份内的最大功率，Pc是订定功率，单位均为千瓦。  \nref: D组收费计算方式  \n\n2.  \nquestion: 我的订定功率如果低于变压器总安装容量的50%会怎样？  \nanswer: 按规定，Pc的订定功率不能低于由用户提供的变压器总安装容量的50%。如果低于此标准，需调整订定功率。  \nref: D组收费计算方式  \n\n3.  \nquestion: D组的功率费是多少？  \nanswer: D组的功率费为21.980澳门元/千瓦。  \nref: D组收费价格  \n\n4.  \nquestion: 非繁忙时间的有功电能费用是多少？  \nanswer: 非繁忙时间的有功电能费用为0.530澳门元/千瓦时。  \nref: D组收费价格  \n\n5.  \nquestion: 如何查询我的最大功率 Pu？  \nanswer: 最大功率 Pu 是指您在发单月份内记录的最大功率数值，可以通过电费账单或在线账户查看。  \nref: D组收费计算方式   \n\n6.  \nquestion: D组收费的调整系数是如何计算的？  \nanswer: 收费调整系数按季度调整，以反映电力生产和购买成本的变化。  \nref: 收费调整系数   \n\n7.  \nquestion: 什么是D组收费的繁忙时间？  \nanswer: D组收费的繁忙时间是从08:00到23:00。  \nref: 收费时段  \n\n8.  \nquestion: D组无功电能的非繁忙时间费用是多少？  \nanswer: D组的无功电能非繁忙时间费用为0.120澳门元/千乏时。  \nref: D组收费价格  \n\n9.  \nquestion: D组的电能收费会按季度调整吗？  \nanswer: 是的，D组的电能收费会按季度调整，反映电力生产成本的变化。  \nref: 收费调整系数   \n\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/billing-service/tariff-group-d/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_73_6c198ea14ec591a46db884fa3d60263b.json"
+    },
+    {
+        "list_of_qa": [
+            "2. question: 新楼宇供电的接驳时间通常需要多久？  \nanswer: 一旦相关的政府部门批出准照，低压供电通常可以在10个工作天内完成，中压供电则需30天。  \nref: 新楼宇供电时间要求部分。\n\n3. question: 申请临时供电需要缴纳什么费用？  \nanswer: 费用将根据临时装置工程的类型及订定功率按金进行计算。  \nref: 费用部分。\n\n4. question: 如果我需要拆除电力基建设备，应该怎么做？  \nanswer: 您需提前联系我们并提交身份证明、商业登记副本、地籍图以及相关拆卸工程准照的文件。  \nref: 拆除电力基建设备部分。\n\n10. question: 新建筑物接入电网的流程是什么？  \n    answer: 需要提交一系列文件，包括身份证明文件、地籍图、因电力计划的批准文件和承办商声明书等进行申请。  \nref: 新楼宇供电申请部分。\n\n3. question: 临时供电的接驳需要多长时间？  \nanswer: 临时供电的接驳时间取决于电力装置的实际安装批核、费用缴付情况及相关工程的性质，低压供电可在10个工作天内完成，而中压供电则需30天。 \nref:  新建楼宇供电的接驳时间要求部分。\n\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/business/supply-connection-for-new-building/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_97_6ec83cd9007c0f2f0fc2c4e061d96139.json"
+    }
+]

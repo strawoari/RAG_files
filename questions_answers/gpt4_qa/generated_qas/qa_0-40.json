@@ -1,0 +1,198 @@
+[
+    {
+        "list_of_qa": [
+            "question: 我符合2022年的电费补贴吗？  \nanswer: 符合2022年电费补贴条件的用户主要包括以下两类：当前已享有每月200澳门元「政府电费补贴」的住宅用户現時享有每月200澳門元「政府電費補貼」的住宅用户；企业用户中，不包括娱乐场、三星或以上酒店场所以及政府部门的电力合约用户。请查阅相关的补贴政策文件了解更详细的说明。  \nref: 背景信息中的“受惠的住宅客戶”与“企業商號”部分。\n\nquestion: 2022年电费补贴的发放时间是什么时候？  \nanswer: 电费补贴的发放时间为2022年6月至11月的发单月份，共六个月。  \nref: 背景信息中的“补贴发放时期”部分。\n\nquestion: 我收到估算帐单后该怎么做？  \nanswer: 您可以联系澳电自报读数或预约抄表，以调整电费补贴基于实际用电量来计算。  \nref: 背景信息中的“避免估算賬單”部分。\n\nquestion: 电费账单上，家居补贴和政府补贴是按什么顺序扣的？\nanswer: 扣减次序为首先扣减200澳元的政府电费补贴，其次扣减300澳元的2022家居电费补贴。  \nref: 背景信息中的“补贴扣减次序”部分。"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/subsidy/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_23_6249a1ac755e81fda8ce63a06a8426a8.json"
+    },
+    {
+        "list_of_qa": [
+            "question: 我需要申请私人电动车充电供电，首先应该做什么？  \nanswer: 您应首先向电力公司咨询供电可行性。提交可行性申请时，需提供以下资料：申请的订定功率；最近三个月内的停车位物件登记报告；能清晰顯示車位地點的資料。获取可行性回复后，聘请注册技术员及电业工程人员制定安装设计方案。  \nref: 申请步骤部分，咨询供电可行性和所需文件。  \n\nquestion: 如果我的停车位是独立业权的，申请供电需要哪些手续？  \nanswer: 您需要在楼宇入口大堂显眼处张贴工程通知15天，并如有管委会，需以书面形式通知。同时需取得停车场业权人二分之一的同意。  \nref: 申请前须知部分，独立业权停车位的相关规定。  \n\nquestion: 申请供电后，我一般需要多长时间才能完成电表安装？  \nanswer: 在客户与澳电工程完成及验收后，电表安装通常在4个工作天内完成。  \nref: 所需时间部分，电表安装的时间规定。  \n\nquestion: 我是租户，申请供电需要提供什么额外文件？  \nanswer: 作为租户，您需要提交租户身份证明文件副本以及已经公证的租约副本。  \nref: 所需文件部分，针对租户的要求。  \n\nquestion: 您是否接受授权他人代办供电申请？ \nanswer: 是的，申请人可以签署授权书委托他人代办申请。  \nref: 备注部分，关于代办的说明。"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/applyev/request-power-for-private-ev-charging/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_71_68f648f249fdc61a20c72fcd48b99922.json"
+    },
+    {
+        "list_of_qa": [
+            "question: 为什么 2024 年第三季度的电费比上一个季度的电费贵？  \nanswer: 因为季度收费是根据电力生产成本的浮动来调整的，这可能导致费用增加。  \nref: 收费调整系数反映电力生产成本浮动的说明。\n\nquestion: 电力价格在 2024 年第二季度会有什么变化吗？  \nanswer: 2024 年第二季度的电费将调整为 0.40 澳门元/千瓦时。  \nref: 未来的收费调整日期与标准。"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/billing-service/tariff-clause-adjustment/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_84_53d71285d4d64651b5487ea08eaff4bb.json"
+    },
+    {
+        "list_of_qa": [
+            "question: 我可以通过哪些方式缴纳电费？  \nanswer: 您可以通过电子支付、自动转账、网上银行、自动柜员机、电话理财、支票以及柜台缴费等方式缴纳电费。  \nref: 描述了电费缴交的多种付款方式。\n\nquestion: 如果我使用电子支付，是否需要支付手续费？  \nanswer: 大多数电子支付方式免费，包括澳门电力网上服务和几家银行的自助服务。  \nref: 提到电子支付的手续费政策。\n\nquestion: 如何申请自动转账？  \nanswer: 您需要携带电费单、身份证明文件副本以及相关银行的存折或银行卡，亲自前往澳电客户联系中心办理。  \nref: 描述自动转账申请的要求和流程。\n\nquestion: 我可以在哪些地点柜台缴费？  \nanswer: 您可以在澳门马交石炮台马路的电力公司大楼柜台缴费，服务时间为周一至周五上午九时至下午五时四十五分。  \nref: 具体说明柜台缴费的地址和营业时间。\n\nquestion: 支票缴费的具体要求是什么？  \nanswer: 需在支票上方写“澳门电力股份有限公司”，并在背面写上合同号码和联系电话，寄送或放入支票箱。  \nref: 描述支票缴费的格式和投递要求。\n\nquestion: 我需要多久才能通过电子支付恢复电力？  \nanswer: 如果电力已被截断，缴费后会自动安排电力重接，通常在缴费后不久即可恢复。  \nref: 说明电子支付后电力重接的流程。\n\nquestion: 电子支付是否支持过期账单？  \nanswer: 是的，电子支付除了可以缴纳一般账单外，还支持缴纳过期账单。  \nref: 提到电子支付的功能包括过期账单的缴纳。\n\nquestion: 自助服务机是否有收费？  \nanswer: 现金支付的自助服务机免费，但电子支付方式会收取1.00澳门元的手续费。  \nref: 展示自助服务机使用的收费情况。\n\nquestion: 邮局也可以缴电费吗？  \nanswer: 可以，您可以在邮政总局缴纳电费，周一至周五的服务时间是09:00-18:00，周六为09:00-12:00。  \nref: 解释了邮局缴纳电费的地点和时间。\n\nquestion: 如果我想使用微信缴费用，是否需要支付手续费？  \nanswer: 使用微信公众号缴纳电费是不需要支付手续费的。  \nref: 提到使用微信公众号缴费的费用政策。"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/bill/how-to-pay/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_42_00bb4575e3916672c40079c443ab8f69.json"
+    },
+    {
+        "list_of_qa": [
+            "question: 合约的有效期是多久？  \nanswer: 供电合约的有效期为一个月，并会自动续期。  \nref: 2.1  \n\nquestion: 如果我没有按时支付电费，会发生什么？  \nanswer: 如果未在账单上指定的缴费日期前付清电费，会有附加费，且供电可在五个工作日后被暂停。  \nref: 8.2  \n\nquestion: 澳电是如何通知我计划停电的？  \nanswer: 澳电会提前36小时逐一通知客户，若无法逐一通知，将通过媒体发布通知。  \nref: 3.5  \n\nquestion: 合同期满后我的按金如何处理？  \nanswer: 合约期满时，按金将根据您欠缴费用的情况扣除后退还。  \nref: 9.3  \n\nquestion: 如果我的电力供给中断，应该怎么办？  \nanswer: 如果电力中断是由于故障或不可抗力，请耐心等待，澳电会尽快恢复供电。  \nref: 3.1  \n\nquestion: 我可以通过什么渠道进行投诉？  \nanswer: 您可以通过咨询热线或其他渠道向澳电提出服务投诉。  \nref: 10.1  \n\nquestion: 我能否在投诉过程中暂时不支付欠款？  \nanswer: 是的，您可以在账单投诉期间暂时免于缴付所有调整中的欠款，直到调查结果出来。  \nref: 10.2  \n\nquestion: 可不可以提前终止我的合约，而不罚款？  \nanswer: 不可以，您必须至少提前五个工作日通知，并结清所有欠款。  \nref: 2.2"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/about-cem/power-supply-technical-information/standard-condition-of-supply/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_11_515caa723fd3e9e50fd9c8b6836dc571.json"
+    },
+    {
+        "list_of_qa": [
+            "question: 在台风期间，我该如何了解供电状况？  \nanswer: 澳电会通过其官网、微信及 Facebook 专页及时发布供电情况、停电范围及复电进度。  \nref: 颱風期間，澳電將透過微信、Facebook專頁及網站向公眾發佈供電情況訊息    \n\nquestion: 有关防洪措施的最新信息在哪里获取？  \nanswer: 澳电在官网专页中说明了在低洼区域的供电设备优化，包括设备抬升、防水设施、洪水警报系统等，客户可在线获取详细资讯。  \nref: 客戶的防洪措施     \n\nquestion: 台风来临时，有什么特别的供电咨询站吗？ \nanswer: 是的，澳电设立了“颱風供電情報諮詢站”，向市民提供停电、复电、补贴等方面的信息支持与解答。  \nref: 颱風供電情報諮詢站 \n\nquestion: 颱風特輯有哪些内容？  \nanswer: “颱風特輯”包括停电处理流程、防灾准备建议、供电恢复进度和客户服务方式等四大部分内容，帮助市民在台风期间做好用电准备。  \nref: 颱風特輯    \n\nquestion: 在台风期间，有关供电措施的权威信息来源是？  \nanswer: 澳电官网与官方社交媒体是获取停电、复电和防灾建议的主要渠道，信息来源权威可靠。  \nref: 颱風供電情報諮詢站"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/our-community/optimizing-power-facilities-in-low-lying-areas/improvement-works-of-cem/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_8_8e167cd12928ce4cf6773ac958d884e6.json"
+    },
+    {
+        "list_of_qa": [
+            "question: 我搬进新物业但没有电，怎么办？  \nanswer: 如果物业内未有供电合约，即使电表已安装，也需申请电力供应。申请完成后，澳电会遥距开通供电。  \nref: 未有供電合約的電錶   \n\nquestion: 智能电表的黄灯亮为什么会亮？\nanswer: 智能电表黄灯亮起表示供电因欠费被暂停，需付清相关费用才能恢复供应。 \nref: 重要通知中的“欠费停电”。\n\n   question: 欠费后多久能恢复供电？  \nanswer: 欠费付款完成后，澳电将尽快安排遥距恢复供电，但操作断路器可能会导致延迟。  \nref: 欠費停電  \n\nquestion: 为什么不能自己打开断路器？  \nanswer: 因为断路器关闭后可能会中断智能电表通讯，导致澳电无法遥距恢复供电。  \nref: 保持斷路器合上"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/smart-living/smartcity/smartmeters/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_24_820ba34667614c792220484ab415469b.json"
+    },
+    {
+        "list_of_qa": [
+            "question: 我可以在哪里找到《澳電技術規範》的详细内容？\nanswer: 您可以点击澳电官方网站查阅《澳電技術規範》的完整文本及各项技术规范。\nref: 背景信息中提到“点击查阅各技術規範”。\n\nquestion:这些技术规范适用于哪些建筑和设施？\nanswer: 规范适用于新建或更新的建筑物电气装置，包括由澳电配电网或客户变电房供电的公共电力装置、计量装置等。\nref:适用范围说明   \n\nquestion:规范中有没有针对低洼区建筑的特别要求？\nanswer:有，规范针对低洼区域的新建楼宇设计了加强客户设施抗灾能力的特别要求。\nref:低洼区抗灾能力相关内容    \n\nquestion:规范中是否包含电动车充电设施的设计要求？\nanswer:是的，2022年新增了电动车充电车位的使用系数和智能电表安装标准。\nref:2022年修订内容"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/about-cem/power-supply-technical-information/cem-norm/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_22_f2da8a53aebf57780deef8bf83831c69.json"
+    },
+    {
+        "list_of_qa": [
+            "question:我在哪里可以找到公共充电设施？\nanswer: 公共充电设施通常设在公共停车场、公共泊车处或非公共道路的泊车处，由澳电统一配置和管理。\nref: 公共充电适用场所的描述。   \n\nquestion: 公共充电的费用是如何计算的？\nanswer: 充电费用由功率费和充电量费用（电能费用加收费调整系数）组成，具体收费标准按充电速度和时段不同而异\nref: 充电费用的计算公式及收费示例。    \n\nquestion: 繁忙时段充电的费用是多少？\nanswer: 以48度电为例，慢速充电在繁忙时段费用约为122.40澳门元。\nref: 繁忙时间的充电费用示例。 \n\nquestion: 如何申请私人电动车的供电？\nanswer: 需先咨询供电可行性，提交相关电力设计方案，并经过审批后安排供电。\nref: 私人电动车供电申请的步骤与要求。    \n\nquestion: 电价调整系数会随时变动吗？\nanswer: 收费调整系数按季度调整，以反映电力生产成本的变化。\nref: 收费调整系数的机制说明。   \n\nquestion: 如果我没能按时缴电费会怎样？\nanswer: 逾期未缴电费可能产生附加费，并在五个工作日后被暂时停电。\nref: 电费未缴的后果和条款。    \n\nquestion: 有哪些电费补贴？\nanswer: 2022年电费补贴为家庭客户每月300澳门元，企业客户每月3000澳门元。\nref: 2022年电费补贴措施。    \n\nquestion: 我可以通过哪些方式缴纳电费？\nanswer: 可以通过电子支付、自动转账、网上银行或柜台等多种渠道缴纳。\nref: 电费缴交方式说明。 \n\nquestion: 若我对账单有争议，应该如何处理？\nanswer: 您可通过澳电客服或投诉渠道提出疑问，相关欠款在调查期间通常暂缓缴付。\nref: 投诉及账单纠纷处理政策。   \n\nquestion: 我可以选择不同充电速率吗？\nanswer: 可以，用户可根据充电设施支持选择慢速、中速或快速充电。\nref: 充电速度选项说明。    \n\nquestion: 电力合同如何续签或取消？\nanswer: 合同一般自动续期，若需取消应提前五个工作日书面通知澳电。\nref: 合同续签与取消条款。   \n\nquestion: 电费补贴可以用来支付逾期费用吗？\nanswer: 不能，电费补贴只适用于当月电费，不涵盖逾期附加费。\nref: 补贴使用限制说明。   \n\nquestion: 供电申请的咨询一般需要多长时间？\nanswer: 供电可行性咨询的回复时间通常为10个工作天内。\nref: 供电申请时间要求。 \n\nquestion: 如何获得充电政策的最新信息？\nanswer: 可通过澳电官方网站或官方社交媒体渠道获取最新通知和政策。\nref: 信息查询渠道。"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/billing-service/transportation-charging---public/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_76_09921a0942feeaac5aacb67c488849fe.json"
+    },
+    {
+        "list_of_qa": [
+            "question: 我是一名持有頤老咭的長者，如何申請電費援助？\nanswer: 您需要提供澳門永久居民身份證、頤老咭、住址證明或聲明書及最新一期電費單。然後提交上述文件給澳電，便可申請每月的折扣優惠。\nref: 条件和文件要求\n\nquestion: 長者的電費折扣優惠有什麼條件？\nanswer: 必須持有頤老咭，安裝地址為住宅用途，並且收費類別為A1或A2。\nref: 長者電費援助條件"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/billpaymentpromotion/senior-citizen/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_78_2be85c7f523a63fe24fdf501c16eea98.json"
+    },
+    {
+        "list_of_qa": [
+            " 3. question: 电表的标准高度是什么？  \nanswer: 目前没有有关资料，请咨询客服人员或查询官网。 \nref: \n\n question: 我发现电表盖被打开了，应该怎么办？\nanswer: 请立即致电2833 9911与我们联系，报告该情况以确保您的电表安全。 \nref: 电表装置的安全与维护手册\n\nquestion: 如果我想更改电表的位置，应该怎么做？\nanswer: 必须向澳电申请更改位置，切勿自行更改电表的配置或位置。 \nref: 电表装置的安全与维护手册\n\nquestion: 如何维护电表周围的环境？\nanswer: 请保持电表箱/房周围环境清洁，并确保电表箱/板完整无损，避免用作其他用途。 \nref: 电表装置的安全与维护手册\n\nquestion: 我可以选择擅自关闭断路器吗？\nanswer: 不可以，在电表正常运作下，切勿随意关上澳电断路器或干扰电表和供电装置。 \nref: 电表装置的安全与维护手册\n\n5. \nquestion: 何时需要对电力装置进行定期检查？\nanswer: 业主应定期对室内及公用电力装置进行检查，以确保安全与正常运作。 \nref: 电表装置的安全与维护手册\n\nquestion: 电表损坏后，责任归谁？\nanswer: 澳电负责安装、检查和上锁电表，而客户需负责维护电表周围的环境。 \nref: 电表装置的安全与维护手册\n\nquestion: 能否在电表箱内存放杂物？\nanswer: 不可以，请确保电表箱或电表房的空间保持清洁与畅通，避免阻碍工作人员的进出。 \nref: 电表装置的安全与维护手册\n\nquestion: 我怎样才能确保电力设备的安全运行？\nanswer: 避免以下情况：電錶房內佈滿雜物，電線及電錶板/箱被白蟻侵蝕，電錶蓋被損毀，電錶板霉爛，電錶因斷路器關掉而未能顯示讀數，電錶板損壞掉落。"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/technical-information/electrical-installations-and-support/metering-installation-safety-and-protection-guide/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_64_60a4243a65b425369e72ce1bbfc8df17.json"
+    },
+    {
+        "list_of_qa": [
+            "question: 什么是能源效益标签？ \nanswer: 能源效益标签是电器或其包装上的资料标签，显示该电器的用电量和能源效益等级。  \nref: 能源效益标签定义及作用。  \n\nquestion: 在澳门，能源效益标签由谁认证？ answer: 目前澳门并未设立能源效益标签认证，市民可参考进口产品上的标签。  \nref: 澳门未设认证制度的说明 question: 能源效益标签上的级别是如何划分的？  \nanswer: 级别从A到G，A级表示效益最高，G级表示效益最低。  \nref: 标签等级划分信息。  question: 我该如何选择节能电器？  \nanswer: 可参考电器上的能源效益标签，优先选择A级或A+++的产品，以确保节能。  \nref: 节能电器选择建议。  question: 能源效益标签在中国内地有哪些强制性要求？  \nanswer: 中国内地对15类产品实施强制性能源标签制度。  \nref: 中国内地政策说明。  question: 能源效益标签对于电器使用的好处是什么？  \nanswer: 使用高效能标签电器可节省电费，减少能源浪费。  \nref: 标签的节能益处。\nquestion: 使用节能电器真的能节省电费吗？  \nanswer: 是的，使用节能电器可节省约三分之一的电费。  \nref: 节能效果估算。    question: 欧盟的能源标签如何分类？  \nanswer: 欧盟的能源标签按A至G分级，A或A+++最节能，G最不节能。  \nref: 欧盟标签系统。"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/smart-living/energy-saving-and-safety/energy-efficiency-label/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_17_8bce7e3e026a349caa63617fc2d9063c.json"
+    },
+    {
+        "list_of_qa": [
+            "question: 我想咨询如何申请电力技术支持，应该联系谁？\nanswer: 您可以通过拨打2833 9930或发送电子邮件至sme.supports@cem-macau.com联系我们的专人，他们将会帮助您跟进申请。 \nref: 技术支持联系方式。\n\n2. \nquestion: 我怎么能知道我店铺的电力需求评估结果？\nanswer: 我们将根据您的商铺大小、业务性质和智能电表的数据进行分析，并提供精确的用电需求评估。 \nref: 电力技术咨询服务。\n\n3. \nquestion: 我可以如何找到合适的电业承包商来进行电力工程？\nanswer: 澳电提供一个注册电业承包商的完善名录，您可以根据需要选择专业人员进行施工。 \nref: 电业承包商相关信息。"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/business/one-stop-electrical-support-service-for-smes/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_27_e73168824541e99e4ce5d77550a736a4.json"
+    },
+    {
+        "list_of_qa": [
+            "1. \nquestion: 怎么申请电力合约转名？  \nanswer: 如果新单位已有电力供应，请填写申请表进行合约转名申请。  \nref: 相关信息提到的合约转名申请。\n\n3. \nquestion: 我可以在哪些地方查我的电费账单？  \nanswer: 您可以通过网上服务、聊天机械人法仔、澳电微信、客户服务中心，或拨打客户服务热线 28339911 查询账单。  \nref: 查阅账单的相关信息。\n\n5. \nquestion: 我搬走的电表怎么处理？  \nanswer: 需要申请取消电表并终止供电合约，同时退回按金。  \nref: 搬出旧单位的相关手续。\n\n7. \nquestion: 如何设置我的账单语言和电子账单？  \nanswer: 登录至网上服务，在“管理合约”中进行更改设置。  \nref: 设置账单的相关流程信息。10. \nquestion: 如何查询我申请的供电方案进度？\nanswer: 您可以通过澳电的【网上服务】或者致电2833 9911来追踪申请的最新进度。\nref: 追踪申请进度"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/online-services/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json"
+    },
+    {
+        "list_of_qa": [
+            "1. \nquestion: 可以把我的電力收費組別更改為C組嗎？\nanswer: 是的，您可以更改電力收費組別，但需要至少在所定高用電季節月內以新組別繳納一個月的電費。 \nref: 收費類別和條件部分\n\n2. \nquestion: C2客戶的無功電能計費是怎麼樣的？\nanswer: C2客戶在高用電季節滿負荷及繁忙時段無功電能收費為每千乏0.348澳門元，非繁忙時段為0.116元。若無功電能超過同時段有功電能的60%，超出部分需繳費。此外，C2客戶還需繳付額外的無功補償費（約為有功電能的10%）。\nref: 收費C組收費計算部分\n\n19. question: C组收费充电时段分为哪些类型？  \nanswer: 充电时段分为满负荷、繁忙和非繁忙时间，以影响充电费用。  \nref: 充电时段分类说明。 \n\nquestion: 我是C组用户，我想知道高用電季節的服務時間是什麼。\nanswer: 满负荷时段是10:30–13:00和14:30–16:00，除此之外还有繁忙时间（09:30–10:30、13:00–14:30、16:00–20:30）和非繁忙时间（00:00–09:30、20:30–24:00）。不同时间段收费不同。 \nref: 收費時段部分"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/billing-service/tariff-group-c/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_72_f5f86ca700d8cb6f595ed6f3591703dc.json"
+    },
+    {
+        "list_of_qa": [
+            "1. question:我如何查阅我在澳电的个人资料？  \nanswer: 您可以通过发送电子邮件至customer.centre@cem-macau.com申请查阅您的个人资料。我们会在核实您的身份后提供相关信息。  \nref: 6. 查阅、更正和删除个人资料。\n\n2. question: 我可以要求更正我的个人信息吗？  \nanswer: 是的，您可以联系customer.centre@cem-macau.com来要求更正您的个人信息，我们会在确认您的身份后进行处理。  \nref: 6. 查阅、更正和删除个人资料。\n\n3. question: 如何退出接收直销推广资料？  \nanswer: 您可以书面通知澳电，地址是“澳门马交石炮台马路澳电大楼”或发邮件至customer.centre@cem-macau.com。  \nref: 4. 退出直销推广的权利。\n\n5. question: 如果我不想收到宣传资料，我该怎么办？  \nanswer: 您可以通过书面方式通知我们，或者发送电子邮件至customer.centre@cem-macau.com，表示您不希望接收宣传资料。  \nref: 4. 退出直销推广的权利。\n\n6. question: 我如何确认我的身份以修改个人资料？  \nanswer: 在请求修改个人资料时，澳电会要求您提供身份证明文件来验证您的身份。  \nref: 6. 身份验证。\n\n7. question: 澳电如何使用我的个人资料？  \nanswer: 您的个人资料将用于发送账单、支付、与您保持联系及寄发服务信息等相关目的。  \nref: 3. 个人资料的使用目的。"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/privacy-statement/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_130_95d0f73fbfab4daff4c7797493cf34b8.json"
+    },
+    {
+        "list_of_qa": [
+            "10. \nquestion: 水浸导致的停电，恢复电力的时间一般是多久？  \nanswer: 恢复电力时间依水浸情况而定，修理费用及时间由您聘请的电业承办商决定。  \nref: 停电措施  \n\n11. \nquestion: 我如何才能提高防洪的能力？  \nanswer: 可聘请有经验的电业承办商，按照《低窪地區新建築物電力裝置的技術規範》提升电力设施的高度。  \nref: 客户的防洪措施  \n\n2. \nquestion: 如果我的大楼已经受到洪水影响，应该如何处理？\nanswer: 您可以在水退后自聘电业承办商进行检查和维修，确保电力供应的安全恢复。及时处理将有助于防止进一步损坏。 \nref: 背景信息中的“客户负责的范围”。\n\n3. \nquestion: 如何申请提升我大楼内的电力装置？\nanswer: 您应聘用具经验的电业承办商并向澳电提出相关工程申请，可以通过电邮申请。 \nref: 背景信息中的“如何升高大厦内的电力装置？”。\n\n4. \nquestion: 我的大楼共享电力设施遭受水浸了，责任在谁？\nanswer: 这些共用电力设施属于业主共同拥有，若未按照防浸高度规定提升，责任将由业主共同承担。 \nref: 背景信息中的“客户负责的范围”。\n\n5. \nquestion: 升高电力装置需要的具体流程是怎样的？\nanswer: 需确认防浸高度、检查现场、提供设计审核，同时可要求澳电提供临时供电。 \nref: 背景信息中的“如何升高大厦内的电力装置？”。\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/our-community/optimizing-power-facilities-in-low-lying-areas/customers-flood-control-measures/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_13_b25b70249510ba16a2d9adcad3c13490.json"
+    },
+    {
+        "list_of_qa": [
+            "1. \nquestion: 为什么我的建筑没有水浸还会停电？\nanswer: 目前没有有关资料，请咨询客服人员或查询官网。\nref: 暂停供电措施\n\n2. \nquestion: 我周围的建筑已经有电，但我这里为什么还没有复电？\nanswer: 可能是您的供电点与附近建筑不同，该供电点尚未符合复电条件，或者内部电力设施受损，需要专业电工维修。\nref: 常见问题及查询\n\n   question: 如何申请将我大厦内的电力装置升高？\nanswer: 您应聘请有经验的电业承办商，评估现场并提交工程申请。您可电邮至 customer.centre@cem-macau.com 或致电 2833 9911 查询详情。\nref: 如何升高大廈內的電力裝置？\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/our-community/optimizing-power-facilities-in-low-lying-areas/power-suspension-measures/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_9_205860fece7bcce0560f973bffa1c637.json"
+    },
+    {
+        "list_of_qa": [
+            "question: 如何申请电力供应或增加订定功率？  \nanswer: 您应首先向澳电提出申请电力供应或功率增加。如需更改电力装置，可联系《电业承办商名单》内的电业工程人员，咨询他们的服务内容与施工安排。  \nref: 背景信息第1点  \n\nquestion: 承辦商是澳電的員工或代表嗎？\nanswer: 不是。名單中的電業承辦商並非澳電的代理、代表或員工，澳電亦不對其服務質素作出保證。 \nref: 背景內容第3點\n\n   question: 我可以要求澳電推薦哪位承辦商比較好嗎？\nanswer: 不可以。澳電不參與對個別承辦商的評價或推薦，客戶需自行聯絡並了解其服務條款。  \nref: 背景內容第4點\n\n   question: 承辦商的語言能力有限，我可以要求澳電提供翻譯嗎？  \nanswer: 客戶需自行確認承辦商的語言能力，澳電不提供翻譯服務。\nref: 背景內容第4點"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/electrical-installations-and-support/find-an-electrical-technician/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_36_886fe1591c853e1eb48e946037fc6b2d.json"
+    },
+    {
+        "list_of_qa": [
+            "1. question: 如何申请电子账单服务？  \nanswer: 请准备好您的电费单（含合同号码）及个人资料，点击“立即申请”填写表格即可。  \nref: 文档中“如何申请”部分。\n\n2. question: 我可以同时收取电子账单和纸质账单吗？  \nanswer: 不能，您只能选择电子账单或纸质账单，申请电子账单后将不再邮寄纸质账单。  \nref: 文档中关于电子账单的选择部分。\n\n3. question: 电子账单收到后如何确认是澳电发出的？  \nanswer: 您会收到来自cem_bill@cem-macau.com的电邮或其它指定方式的通知，以确认发件方。  \nref: 文档中“如何确认电子账单为澳电所发出”部分。\n\n4. question: 申请后如何启用电子账单服务？  \nanswer: 如果选择电邮方式收取，需登录邮箱点击启用链接；短信收取则立即生效。  \nref: 文档中“如何启用电子账单服务”部分。\n\n5. question: 我可以查阅历史电子账单吗？  \nanswer: 可以，通过网上服务、澳电APP或使用澳电微信服务查阅当月账单，升级后可查过去12个月的账单。  \nref: 文档中“我可以查阅过往的电子账单吗”部分。\n\n6. question: 如果我收不到电子账单，该怎么办？  \nanswer: 请确认您的申请是否成功，确保您指定的接收方式（如电邮）正常工作，必要时可联系客服查询。  \nref: 文档中“如何启用电子账单服务”与客户服务部分。\n\n7. question: 如何打印纸质账单？  \nanswer: 除澳电与澳门自来水的客户服务中心外，您可到工银澳门的特定分行打印账单。  \nref: 文档中“使用电子账单后，我可以在哪儿打印纸质账单”部分。\n\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/billing-service/e-bill/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_56_86cded731b7da7461003632d045ea47c.json"
+    },
+    {
+        "list_of_qa": [
+            "13. question: 需要多少时间来完成光伏系统的并网申请？  \nanswer: 一旦工程完成并通过验收，通常在与澳电签署合约后，可以快速完成并网。  \nref: 申请步骤第六步至第七步。\n\nquestion: 我想安装太阳能光伏系统，第一步该怎么做？\nanswer: 首先应确认安装位置的使用权、可用空间及日照情况，若建筑物具文化遗产价值，还需留意相关法例。\nref: 《文化遗产保护法》的相关规定\n\n question: 谁可以帮我设计光伏安装方案？\nanswer: 您需聘请在土地工务局注册的技术人员，如土木或电力工程师，按规定编制工程计划。\nref: 申请工程许可证\n question: 光伏系统安装后就可以用了吗？\nanswer: 安装完成后必须通过测试、验收及工务局核准，若需并网，还须向澳电申请连接及签订并网合约。\nref:工程完成后的验收和核准\n\n question: 光伏系统并网要准备哪些资料？\nanswer: 您需提交技术说明文件、责任声明书、测试记录等资料，澳电将负责电表安装并完成并网。\nref: 并网申请\n\n question: 安装光伏系统有噪音规定吗？\nanswer: 是的，工程期间须符合噪音管制法及相关施工安全规定。\nref: 进行安装工程\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/smart-living/photovoltaic-system-(pv)/application-procedure/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_65_11ae8fd9992a7f92cceb45c837df8383.json"
+    },
+    {
+        "list_of_qa": [
+            "14. \nquestion: 临时供电期间发生意外，我应该联系谁？ \nanswer: 目前没有有关资料，请咨询客服人员或查询官网。 \nref: 背景信息中提及的客户服务部分。\n\n15. \nquestion: 申请临时供电的过程复杂吗？ \nanswer: 过程包括准备文件和申请，但如果按步骤进行是比较清晰的。 \nref: 背景信息中关于申请程序的概述。 \n\n14. \nquestion: 临时供电期间发生意外，我应该联系谁？ \nanswer: 目前没有有关资料，请咨询客服人员或查询官网。 \nref: 背景信息中提及的客户服务部分。\n\n17. \nquestion: 我在活动现场能否临时使用电动车充电？ \nanswer: 目前没有有关资料，请咨询客服人员或查询官网。\nref: 相关知识中关于电动车供电申请的说明。\n\n1. \nquestion: 我可以申请临时电力供供应以支持我的活动吗？  \nanswer: 是的，如果您的活动现场没有供电或设备为临时用途，可以申请临时电力供给。  \nref: 背景信息中的“临时电力供供应”部分。\n\n2. \nquestion: 申请临时供电需要哪些文件？  \nanswer: 需要身份证明文件、公司商业登记副本、地籍图、说明书、供电掣箱安装图等多个文件。  \nref: 背景信息中列出的申请所需文件。\n\n3. \nquestion: 如果在申请临时供电时缺少某些文件怎么办？  \nanswer: 目前没有有关资料，请咨询客服人员或查询官网。 \nref: 背景信息中的相关文件要求部分。\n\n4. \nquestion: 申请临时电力供给的处理时间大概是多久？  \nanswer: 低压供电在批出准照后通常可在10个工作天内完成。  \nref: 背景信息中说明的所需时间。\n\n5. \nquestion: 临时供电的费用是如何计算的？  \nanswer: 费用根据临时装置工程的类型和订定功率计算，包括相应的按金。  \nref: 背景信息中的应付费用部分。\n\n6. \nquestion: 在申请临时供电时，是否需要政府部门的许可？  \nanswer: 是的，您需要提供相关政府部门批出的活动准照副本。  \nref: 背景信息中关于准照的要求。\n\n7. \nquestion: 申请人身份证明文件必须是哪些类型的？  \nanswer: 您可以使用澳门居民身份证、香港居民身份证、中国居民身份证或各国护照。  \nref: 背景信息中关于身份证明的说明。\n\n8. \nquestion: 如果临时供电申请被拒绝，我该怎么办？  \nanswer: 目前没有有关资料，请咨询客服人员或查询官网。 \nref: 背景信息中对咨询的提及。\n\n9. \nquestion: 如果我的活动时间延长，临时供电可以延续吗？  \nanswer: 目前没有有关资料，请咨询客服人员或查询官网。  \nref: 背景信息中的临时供电期限说明。\n\n11. \nquestion: 如果临时供电不够用，我该怎么办？  \nanswer: 目前没有有关资料，请咨询客服人员或查询官网。  \nref: 相关知识中关于更改订定功率的说明。 \n\n12. \nquestion: 需要多久前申请临时供电为我的活动？  \nanswer: 建议至少提前10个工作天申请，以确保有充足的处理时间。  \nref: 背景信息中所需时间的说明。\n\n16. \nquestion: 临时供电能支持多大的功率？  \nanswer: 具体订定功率需在申请时注明，通常依活动的用电需求而定。  \nref: 背景信息中关于所需功率的说明。\n\n21. \nquestion: 申请临时供电的设备需要满足哪些技术标准？  \nanswer: 所有设备需符合行业安全规范并由具资格的工程人员安装。  \nref: 相关知识中关于电力装置的技术规范。 \n\n26. \nquestion: 在香港的公司能否在澳门申请临时供电？  \nanswer: 可以，但需要提供公司商业登记的副本和相关身份认证文件。  \nref: 背景信息中关于公司申请的特定要求。 \n\n30. \nquestion: 临时供电的使用期限是固定的吗？  \nanswer: 期限通常在申请时规定，可根据需要申请延续。  \nref: 背景信息中关于临时供电期限的说明。 \n\n32. \nquestion: 我需要在活动现场设置多少插座？  \nanswer: 根据设备需求设置足够数量的插座，并留有安全余量。  \nref: 背景信息中提到的供电用途规划部分。 \n\n35. \nquestion: 确保临时供电质量有什么建议？  \nanswer: 确保由合格的电业工程人员安装，并定期检查设备。  \nref: 相关知识中关于设备安装与使用安全的描述。 \n\n47. \nquestion: 临时供电的使用是否有最大功量设置？  \nanswer: 是的，申请时需明确所需功率，以方便供电安排。  \nref: 背景信息中关于申请功率定义的部分。 \n. \nquestion: 临时供电能支持我举办的户外活动吗？  \nanswer: 可以，但需特别注明用于户外的设备和规格要求。  \nref: 背景信息中说明临时供电用途的灵活性。\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/business/temporary-supply-for-other-events/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_86_2390da116b69a0c11ec4743cf8cdc687.json"
+    },
+    {
+        "list_of_qa": [
+            "5. question: 上网电价适用于哪些容量的光伏系统？  \nanswer: 上网电价适用于10千瓦以下、10千瓦至100千瓦、100千瓦以上至500千瓦和500千瓦以上的光伏系统，不同容量对应不同的电价。  \nref: 上网电价的详细内容。\n\nquestion: 我想安装太阳能光伏系统，什么样的容量可以申请不同的上网电价？  \nanswer: 上网电价取决于安装容量：10千瓦以下为3.7澳门元/千瓦时，10千瓦至100千瓦为3.4澳门元/千瓦时，100千瓦以上至500千瓦为3澳门元/千瓦时，500千瓦以上为2.8澳门元/千瓦时。  \nref: 上网电价制度部分。\nquestion: 如果我的太阳能系统是独立使用，不接入电网，还能申请上网电价吗？\nanswer: 不可以。只有并网发电的光伏系统才适用于上网电价制度；独立光伏系统不属于该制度范围。\nref: 背景信息中指出“若安裝的是非並網系統（即獨立光伏系統）”，建议考虑增设储电池，说明其不属于上网电价范围。"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/smart-living/photovoltaic-system-(pv)/feed-in-tariff/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_63_0577638fb75ae6b5f79b7caa6ac3995f.json"
+    },
+    {
+        "list_of_qa": [
+            "1. question: 作为B组用户，我想更改我的收费类别该怎么做？\nanswer: 目前没有有关资料，请咨询客服人员或查询官网。\nref: B组收費類別\n\n2.  \nquestion: 如果我超过了无功电能的60%，会有什么后果？  \nanswer: 您需要缴交超出部分的无功电能费用。  \nref: B組收費  \n\n3.  \nquestion: B组客户的附加费是什么？  \nanswer: B2客户需支付最大功率值的1%附加费，B3客户则需支付2%。  \nref: B2和B3收費的客戶  \n\n6.  \nquestion: 动态电价是如何调整的？  \nanswer: 收费调整系数按季度调整，以反映电力生产成本的浮动。  \nref: 收費調整系數  \n\n11.  \nquestion: 我是B组用户。如果我在高峰时段用电，费用会怎样计算？  \nanswer: 高峰时段的有功电能的费用为0.874澳门元/千瓦时，高峰时段的無功电能的费用为0.348澳门元/千瓦时。  \nref: 收費價格  \n\n13.  \nquestion: 为什么无功电能收费会有所不同？  \nanswer: 无功电能的收费分为繁忙和非繁忙时间，费用相应不同。  \nref: 收費價格  \n\n18.  \nquestion: 低压和中压客户的收费有什么不同？  \nanswer: 低压客户的收费方式与中压客户略有不同，具体包括适用的功率和电能费用。  \nref: B組和C組收費  \n\n21.  \nquestion: 我能否在非繁忙时间减少电能费用？  \nanswer: 是的，非繁忙时间的电能费用通常较低，例如非繁忙时间的费用为0.767澳门元/千瓦时。  \nref: 收費價格  \n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/billing-service/tariff-group-b/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_69_2b054a7e196a1785b31661dc7c576995.json"
+    },
+    {
+        "list_of_qa": [
+            "\nquestion: 我需要更改电力装置，该如何申请？\nanswer: 您需要联系注册电业承办商，获取相关服务细节，并向澳电提出申请。\nref: 信息来源于供电条件与电业承办商指南。\n\n2. \nquestion: 如何确认我家电表的高度是否符合规范？\nanswer: 电表应安装在离地面1.0至1.7米的高度，并确保其位置便于抄读。\nref: 参考内容关于电表高度的说明。\n\n3. \nquestion: 如果我在公共范围内进行电力设施安装，有什么注意事项？\nanswer: 您需要在显眼处张贴工程通告，至少提前15天后才能进行升级工程。\nref: 适用于更改电力设施的公共工程要求。\n\n4. \nquestion: 如果我想增加电表的功率，费用大概是多少？\nanswer: 根据新订定功率的不同，费用从澳门币520至4680不等，具体取决于功率级别。\nref: 电缆接驳费用表。\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/electrical-installations-and-support/electrical-works-by-customerstepsrequirements/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_66_aab328d27f893ff1d5287bf9ac6fbb41.json"
+    },
+    {
+        "list_of_qa": [
+            "14. \nquestion: 在颱風期间停电后，我应该联系谁？  \nanswer: 请联系澳电的抢修服务热线2833 9922报告停电情况，我们会尽快派人进行处理。  \nref: 停电措施  \n\n1. \nquestion: 颱風期間，我如何獲得停電訊息提示服務？\nanswer: 您可以通過微信掃描二維碼進入頁面，輸入手機號碼和驗證碼，然後填寫合約號碼或大廈地址以新增服務。成功後，您會收到相關的停電推送訊息。 \nref: 停電訊息提示服務申請流程。\n\n2. \nquestion: 颱風來臨前，我應該做哪些準備？\nanswer: 建議不將車輛停在低窪地區，提高電器位置，封閉窗戶以防雨水浸入，並儘量不外出，以確保個人安全。 \nref: 颱風來臨前的準備部分。\n\n3. \nquestion: 我的大廈沒有水浸，為什麼仍然會停電？\nanswer: 停電是為了保障安全，澳電會根據水浸情況主動暫停供電，即使您所在的大廈沒有水浸影響。 \nref: 暫停供電措施相關解釋。\n\n4. \nquestion: 如果颱風期間電力設備受水浸影響，我該怎麼辦？\nanswer: 應聘請專業人士檢查設備是否能正常運作，避免自行使用受損電力設備。 \nref: 電力安全及家居防護。\n\n5. \nquestion: 如何查詢停電狀態？\nanswer: 您可以通過澳電的Facebook、微信或官網查看最新的停電狀態和通知。 \nref: 颱風期間的停電狀態查詢方法。\n\n7. \nquestion: 颱風期間電器應該如何擺放？\nanswer: 不應將電器放在窗邊，以免被風雨沾濕受損，建議將電器升高存放，以防止水浸影響。 \nref: 電力安全及家居防護%。 \n\n8. \nquestion: 颱風過後，我的電力供應需要檢查嗎？\nanswer: 是的，若您懷疑電力設備受水浸影響，應在水退後聘請專業人士進行檢查，以確保安全使用。 \nref: 客戶的防洪措施及注意事項。\n\n9. \nquestion: 如果我已登記停電訊息提示，怎樣管理我的大廈地址？\nanswer: 登錄後，您可以通過手機短訊驗證進入管理大廈地址的頁面，進行相關管理操作。 \nref: 停電訊息提示服務的管理功能。 \n\n10. \nquestion: 什麼時候會進行停電復電？\nanswer: 復電會根據澳電檢查的合格條件和周邊供電點的安全狀況，經常請留意官方消息。 \nref: 恢復供電的相關程序及條件。例如，是否受水浸影響。\n\n10. question: 如果我已登記停電訊息提示，怎樣管理我的大廈地址？\nanswer: 登錄後，您可以通過手機短訊驗證進入管理大廈地址的頁面，進行相關管理操作。 \nref: 停電訊息提示服務的管理功能。 \n\n10. \nquestion: 颱風期間的电梯安全吗？\nanswer: 颱風期間，由于大廈供電系統可能受到水浸影響，供電中斷可能會導致電梯無法正常。\nref: 人身安全"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/our-community/optimizing-power-facilities-in-low-lying-areas/supporting-services-during-typhoon/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_10_aaf5be79013f6b1b87cfd432023215c9.json"
+    },
+    {
+        "list_of_qa": [
+            "question: 不同电费收费用怎样计算？  \nanswer: A组、B组和C组的电费收费用依据功率、用电量和时段不同而异，具体可参考相关规定。  \nref: 相关知识收费用种类部分\n\n9.  \nquestion: 如何查询电费的到期付款日期？  \nanswer: 您可以在电费单上找到到期付款日期，以确保及时缴费。  \nref: 电费相关信息  \n\n1. \nquestion: 我的合约号在哪里可以找到？\nanswer: 您的合约号通常在电费账单的顶部找到，或者可以在网上服务中查询。\nref: 合约号相关信息\n\n5. \nquestion: 电费的收费调整系数是如何计算的？\nanswer: 收费调整系数按季度调整，以反映电力生产和购买成本上的浮动。\nref: 收费调整系数相关信息\n\n6. \nquestion: 如我要取消电力合约，需要做什么？\nanswer: 您需提前五个工作日以书面形式通知澳电，并结清所有用电量及功率的欠款。\nref: 合约取消流程相关信息\n\n7. \nquestion: 下个月的抄表日期是什么时候？\nanswer: 您可以在电费账单上找到下个月的抄表日期，标明在“下月抄表日期”这一栏。\nref: 下月抄表日期相关信息\n\n10. \nquestion: 电费是如何计算的？\nanswer: 电费根据您在用电时期内的用电量、收费标准和相关税项计算，具体请参见【了解我的账单】。\nref: 用电量及电费计算信息\n\n15.\nquestion: 如何计算我需要缴交的按金？\nanswer: 按金计算依据您的订定功率值（电表大小）。\nref: 按金相关信息 \n\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/billing-service/understand-my-bill/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_29_1655149a3d623c1673f1356d85a71722.json"
+    },
+    {
+        "list_of_qa": [
+            "\nquestion: 如果申请人无法亲自办理电力申请，我应该怎么做？\nanswer: 目前没有有关资料，请咨询客服人员或查询官网。\nref: 背景信息中的相关内容。\n\n1.  \nquestion: 如何选择合适的订定功率？  \nanswer: 您可以通过计算单位内需同时使用的电器总功率来选择合适的订定功率。可以使用“功率计算器”来协助计算。  \nref: 电力加大评估部分  \n\n2.  \nquestion: 提交电力加大评估需要哪些文件？  \nanswer: 需要提供查屋纸以及可能需要的其他详细资料，以便我们进行准确的评估。   \nref: 电力加大评估部分  \n\n3.  \nquestion: 如果更改订定功率，是否需要通知澳电？  \nanswer: 是的，您需要提前向澳电查询单位的电力供应状况及相关技术要求。  \nref: 电力加大评估部分  \n\n \n\n10.  \nquestion: 为什么需要提前规划电力需求？  \nanswer: 提前规划可以确保您的电力需求得到满足，避免因电力负荷过重引起的停电问题。  \nref: 电力加大评估部分  \n\n"
+        ],
+        "doc_url": "https://www.cem-macau.com/zh/customer-service/apply/power-increase-evaluation/",
+        "doc_name": "/Users/amychan/rag_files/data/web_data/doc_70_c7fc8d7bea3de69d02e33b1eef491d04.json"
+    }
+]

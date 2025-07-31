@@ -1,0 +1,27 @@
+91Standard Conditions of Supply of Electricity Ė
+Schedule 1 - Guarantee to be given by 
+Customers
+Guarantee to be given by Customers for electricity 
+supply contracts
+1. Type of guarantee
+ (27)
+1.1 The guarantee is given by the Customer in cash or any other means of 
+payment on demand.
+1.2 When the electricity supply contracts involve subscribed demand 
+higher than 340 kV A, the Customer may grant suretyship by means 
+of a bank guarantee or insurance-guarantee, compliant with sample 
+included under Schedule 2 hereof, wherefore charges in result thereof 
+shall also run on the account of the Customer.
+2. Calculation of the amount of the guarantee (28)
+2.1 The amount of the guarantee corresponds to the cost of the energy 
+consumed within a certain amount of hours of subscribed demand 
+(Pc) usage, as follows:
+a) Pc up to 100 kV A .... 60 hours
+b) Pc from 100 kV A to 1600 kV A .... 120 hours
+c) Pc above 1600 kV A .... 160 hours
+2.2 When computing the amount of the guarantee, the general tariff class 
+A1 in force on the date of the guarantee shall be taken into account.
+2.3 In case of short-term temporary contracts, the guarantee shall be 
+double that computed in the terms of the previous paragraphs.
+2.4 To the effect of the previous paragraph, any contract signed for or less 
+than a 45-day term is considered a short-term temporary contract.

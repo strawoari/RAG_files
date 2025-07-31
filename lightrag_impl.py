@@ -1,137 +1,115 @@
 import os
 import asyncio
-import shutil
 from pathlib import Path
-from lightrag import LightRAG, QueryParam
-from lightrag.utils import EmbeddingFunc
 import numpy as np
 from dotenv import load_dotenv
 import logging
-from openai import AzureOpenAI
-from lightrag.kg.shared_storage import initialize_pipeline_status
-from load_file import get_docs
-
-# this file is not for running
+from openai import AsyncAzureOpenAI
+import aiofiles
+import json
+import re
+import httpx
 
 logging.basicConfig(level=logging.INFO)
 
 load_dotenv()
 
-AZURE_OPENAI_API_VERSION = os.getenv("AZURE_OPENAI_API_VERSION")
+AZURE_OPENAI_API_VERSION = os.getenv("OPENAI_API_VERSION")
 AZURE_OPENAI_DEPLOYMENT = os.getenv("AZURE_OPENAI_DEPLOYMENT")
 AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY")
-AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
+AZURE_OPENAI_ENDPOINT = os.getenv("LIGHT_LLM_ENDPOINT")
 
-AZURE_EMBEDDING_ENDPOINT = os.getenv("AZURE_EMBEDDING_ENDPOINT")
+AZURE_EMBEDDING_ENDPOINT = os.getenv("LIGHT_EMBEDDING_ENDPOINT")
 AZURE_EMBEDDING_DEPLOYMENT = os.getenv("AZURE_EMBEDDING_DEPLOYMENT")
-AZURE_EMBEDDING_API_VERSION = os.getenv("AZURE_EMBEDDING_API_VERSION")
-EMBEDDING_DIM = os.getenv("EMBEDDING_DIM")
+AZURE_EMBEDDING_API_VERSION = os.getenv("OPENAI_API_VERSION")
 
-WORKING_DIR = ""
-OUTPUT_DIR = ""
-MAX_BYTES = int(os.getenv("MAX_BYTES", str(4 * 1024 * 1024)))
+OUTPUT_DIR = Path(os.getenv("OUTPUT_DIR", "./outputs/lightrag")).resolve()
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-OUTPUT_DIR = Path(os.getenv("OUTPUT_DIR", "./outputs")).resolve()
 
-if os.path.exists(WORKING_DIR):
-    import shutil
-    shutil.rmtree(WORKING_DIR)
-os.mkdir(WORKING_DIR)
+pattern = re.compile(
+    r"question:\s*(.*?)\n\nanswer:\s*(.*?)\n\nref:\s*(.*?)\n\n",
+    re.DOTALL
+)
 
-async def llm_model_func(
-    prompt, system_prompt=None, history_messages=[], keyword_extraction=False, **kwargs
-) -> str:
-    client = AzureOpenAI(
-        api_key=AZURE_OPENAI_API_KEY,
-        api_version=AZURE_OPENAI_API_VERSION,
-        azure_endpoint=AZURE_OPENAI_ENDPOINT,
+def get_qa_pairs(list_of_qa):
+    matches = pattern.findall(list_of_qa)
+    lst = []
+    for question, answer, source in matches:
+        lst.append({
+            "question": question.strip(),
+            "answer": answer.strip(),
+            "source": source.strip()
+        })
+    return lst
+
+def cosine_similarity(a, b):
+    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
+
+embed_client = AsyncAzureOpenAI(
+    api_key=AZURE_OPENAI_API_KEY,
+    api_version=AZURE_EMBEDDING_API_VERSION,
+    azure_endpoint=AZURE_EMBEDDING_ENDPOINT,
+)
+
+async def rate_and_write_output(filename_base: str, query: str, response: str, answer: str, source: str) -> None:
+    embedding = await asyncio.to_thread(
+        embed_client.embeddings.create,
+        model=AZURE_EMBEDDING_DEPLOYMENT,
+        input=[response, answer]
     )
-
-    messages = []
-    if system_prompt:
-        messages.append({"role": "system", "content": system_prompt})
-    if history_messages:
-        messages.extend(history_messages)
-    messages.append({"role": "user", "content": prompt})
-
-    chat_completion = client.chat.completions.create(
-        model=AZURE_OPENAI_DEPLOYMENT,  # model = "deployment_name".
-        messages=messages,
-        temperature=kwargs.get("temperature", 0),
-        top_p=kwargs.get("top_p", 1),
-        n=kwargs.get("n", 1),
-    )
-    return chat_completion.choices[0].message.content
-
-
-async def embedding_func(texts: list[str]) -> np.ndarray:
-    client = AzureOpenAI(
-        api_key=AZURE_OPENAI_API_KEY,
-        api_version=AZURE_EMBEDDING_API_VERSION,
-        azure_endpoint=AZURE_EMBEDDING_ENDPOINT,
-    )
-    embedding = client.embeddings.create(model=AZURE_EMBEDDING_DEPLOYMENT, input=texts)
-
-    embeddings = [item.embedding for item in embedding.data]
-    return np.asarray(embeddings)
-
-
-async def test_funcs():
-    result = await llm_model_func("How are you?")
-    print("Response from llm_model_func: ", result)
-
-    result = await embedding_func(["How are you?"])
-    print("Response from embedding_func: ", result.shape)
-    print("Dimension of embedding: ", result.shape[1])
-
-# asyncio.run(test_funcs())
-
-async def initialize_rag():
-    rag = LightRAG(
-        working_dir=WORKING_DIR,
-        llm_model_func=llm_model_func,
-        embedding_func=EmbeddingFunc(
-            embedding_dim= os.getenv("EMBEDDING_DIM"),
-            max_token_size=8192,
-            func=embedding_func,
-        ),
-    )
-    await rag.initialize_storages()
-    await initialize_pipeline_status()
-
-    return rag
-
-async def write_output(filename_base: str, text: str) -> None:
-    """Append *text* to an output file, rolling over when MAX_BYTES reached."""
-    idx = 0
-    while True:
-        file_path = OUTPUT_DIR / f"{filename_base}_{idx}.txt"
-        # If writing text would exceed size limit, move to next index
-        if file_path.exists() and file_path.stat().st_size + len(text.encode()) > MAX_BYTES:
-            idx += 1
-            continue
+    response_embedding, answer_embedding = [item.embedding for item in embedding.data]
+    similarity = cosine_similarity(response_embedding, answer_embedding)
+    idx = int(similarity * 10)
+    file_path = OUTPUT_DIR / f"{filename_base}_{idx}.txt"
+    log = f"Query: {query}\nResponse: {response}\nSource: {source}"
+    try:
         async with aiofiles.open(file_path, "a", encoding="utf-8") as f:
-            await f.write(text + "\n")
-        return  # done!
+            await f.write(log + "\n")
+    except Exception as e:
+        print(f"Error writing to {file_path}: {e}")
+    return  # done!
 
-async def run_query(rag: LightRAG, mode: str, query_text: str, user_prompt: str | None = None) -> None:
+async def run_query(mode: str, qa_pair: dict, sem: asyncio.Semaphore, user_prompt: str | None = None) -> str:
     """Executes *rag.query* in a thread and writes the result to file."""
-    param = QueryParam(mode=mode, user_prompt=user_prompt)
+    url = "http://localhost:9621/query"
+    payload = {"query": qa_pair['query'], "mode": mode}
+    headers = {"Content-Type": "application/json"}
+    if mode == "naive":
+        payload["user_prompt"] = user_prompt
     logging.info("Querying in %s mode...", mode)
-    result: str = await asyncio.to_thread(rag.query, query_text, param=param)
-    # Persist + log
-    await write_output(mode, result)
-    logging.info("%s mode result saved (%d chars)", mode, len(result))
-    
+    async with sem:
+        async with httpx.AsyncClient() as client:
+            response = await client.post(url, headers=headers, json=payload)
+    logging.info("%s mode result saved (%d chars)", mode, len(response.json()["response"]))
+    return response.json()["response"]
+
+async def insert_doc(doc, sem: asyncio.Semaphore) -> None:
+    url = "http://localhost:9621/documents/file"
+    headers = {"Content-Type": "application/json"}
+    # If doc is a path, open as binary for upload
+    file = ('file', open(doc, 'rb'))
+    async with sem:
+        # Use to_thread for blocking requests
+        await asyncio.to_thread(
+            httpx.post, url, headers=headers, files={"file": file}
+        )
+        logging.info("Inserted %s", doc)
+    return
+
 async def main() -> None:
-    rag = await initialize_rag()
-
-    docs = await asyncio.to_thread(get_docs, "/Users/amychan/rag_files/data")
+    doc_dir = "/Users/amychan/rag_files/pretest_doc_data"
+    docs = [os.path.join(doc_dir, f) for f in os.listdir(doc_dir) if f.endswith('.json')]
     logging.info("Loaded %d docs; inserting into index…", len(docs))
-    await asyncio.to_thread(rag.insert, docs)
+    sem = asyncio.Semaphore(6)
+    # Insert docs concurrently
+    insert_tasks = [asyncio.create_task(insert_doc(doc, sem)) for doc in docs]
+    await asyncio.gather(*insert_tasks)
 
-    query_text = "澳门电力公司提供哪些服务？"
-    
+    # Pre-create result files
+    for i in range(10):
+        file_path = OUTPUT_DIR / f"mode_{i}.txt"
+        file_path.touch(exist_ok=True)
+
     user_prompt = """
 你是一位电力工程顾问，专注于澳门电力的建设。
 请用简短明了的语言回答以下客户问题：
@@ -142,16 +120,30 @@ async def main() -> None:
 
 问题：{{ query }}
 """
-    tasks = [
-        run_query(rag, "naive", query_text, user_prompt),
-        run_query(rag, "local", query_text),
-        run_query(rag, "global", query_text),
-        run_query(rag, "hybrid", query_text),
-    ]
+    async def handle_one_qa(qa, sem):
+        for mode in ["naive", "local", "global", "hybrid"]:
+            try:
+                response = await run_query(mode, qa, sem, user_prompt)
+                await rate_and_write_output(mode, qa['query'], response, qa['answer'], qa['source'])
+            except Exception as e:
+                print(f"Error processing QA pair: {e}")
+    qa_dir = "/Users/amychan/rag_files/qa_data"
+    json_files = [Path(qa_dir) / f for f in os.listdir(qa_dir) if f.endswith('.json')]
+    tasks = []
+    for fname in json_files:
+        try:
+            async with aiofiles.open(fname, "r") as f:
+                raw = await f.read()
+            json_data = json.loads(raw)
+            for i, data in enumerate(json_data):
+                list_of_qa = get_qa_pairs(data['list_of_qa'][0])
+                for qa in list_of_qa:
+                    tasks.append(asyncio.create_task(handle_one_qa(qa, sem)))
+        except Exception as e:
+            print(f"Error reading file {fname}: {e}")
     await asyncio.gather(*tasks)
-
     logging.info("All queries completed. Results are in %s", OUTPUT_DIR)
-
+    return None
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())

@@ -1,0 +1,282 @@
+[
+   {
+       "list_of_qa": [
+           "question: 台风来临前我需要准备些什么？\nanswer: 建议准备环保充电式或手摇式电筒，确保有后备电源供应给维持生命的电动仪器，远离窗边放置电器，以免受损。\nref: 背景信息“颱風來臨前作好準備”\n\nquestion: 我在哪些渠道可以获取澳电的供电信息？\nanswer: 您可以通过澳电官网、Facebook专页及微信关注相关信息，信息会分5个阶段发布。\nref: 背景信息“接收/查詢供電訊息渠道”\n\nquestion: 如果我的大厦停电了，怎么查询具体情况？\nanswer: 您可以在澳电网站输入大厦名称来查询供电情况。\nref: 背景信息“颱風期間，於澳電網站輸入大廈名稱查詢大廈的供電情況”\n\nquestion: 事故发生时我该如何报告？\nanswer: 您可以扫描二維碼向我们报告电力事故。\nref: 背景信息“如遇電力事故，可掃瞇二維碼向我們報告”\n\nquestion: 台风季节前有什么提醒需要注意的？\nanswer: 在台风季节前要关注澳电网站和社交媒体的信息更新，以做好准备。\nref: 背景信息“為颱風季節作好準備”\n\nquestion: 停电时我能做些什么？\nanswer: 不要触碰浸湿的电力设施，确保安全，并等待澳电的恢复通知。\nref: 背景信息“不要觸碰浸濕的電力設施”\n\nquestion: 我应该如何关注澳电的最新动态？\nanswer: 可以关注澳电的官方微信并绑定电费单或网帐，接收供电推送消息。\nref: 背景信息“關注澳電微信並綁定電費單/網上服務帳戶”\n\nquestion: 水浸后该怎么处理电力问题？\nanswer: 如果室内出现水浸情况，应立即关闭配电箱总掣，确保安全。\nref: 背景信息“如室內出現水浸情況，應立即關上配電箱總掣”\n\nquestion: 台风来袭时可以用电梯吗？\nanswer: 切勿乘坐电梯，因为大厦供电系统可能会受到水浸影响而断电。\nref: 背景信息“切勿乘坐升降機” \n\nquestion: 澳电通常以什么方式发布停电通知？\nanswer: 澳电会通过网站、Facebook及微信分阶段发布停电通知，包括预警、实施停电及恢复供电的每一个阶段。\nref: 背景信息“分5个阶段發布的訊息”"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_typhoon_C_zh_3c3a9d5ee4.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_65_pdf_education_typhoon_C_zh_3c3a9d5ee4.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "question: 如果我疑似电力盗用，接下来会发生什么？  \nanswer: 公司将要求两名证人确认是否存在盗用，确认后您需要偿还非法消费的电费及相关费用。  \nref: 23.3-23.4\n\n question: 我需要提供什么类型的担保才能签订电力供应合同？\nanswer: 您可以选择现金担保或其他付款方式。如果订阅需求超过340 kVA，可以通过银行担保或保险担保提供担保。  \nref: 背景信息第1.1条和第1.2条。\n\nquestion: 如果我选择短期合同，担保金额会如何计算？\nanswer: 短期合同的担保金额会是正常计算的两倍，任何为期45天或更短的合同都被视为短期合同。  \nref: 背景信息第2.3条和第2.4条。\n\nquestion: 不同的订阅需求究竟会影响担保金额吗？\nanswer: 是的，担保金额取决于您的订阅需求，需求在100 kVA及以下对应60小时，100 kVA到1600 kVA为120小时，超过1600 kVA为160小时。  \nref: 背景信息第2.1条。\n\nquestion: 如果我选择银行担保，相关费用由谁承担？\nanswer: 所有与银行担保相关的费用将由客户自行承担。  \nref: 背景信息第1.2条。\n\nquestion: 如何确定担保金额的计算基础？\nanswer: 担保金额的计算是基于签订担保时生效的一般电价类别A1。  \nref: 背景信息第2.2条。"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_164_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. \nquestion: 我能否在周末安排对我家电力设施的检查？\nanswer: 检查仅限于工作日的09:00至18:00，或者与公司事先约定的时间。 \nref: 14.1\n\n2. \nquestion: 如果我拒绝让公司检查我的设备，会有什么后果？\nanswer: 如果拒绝检查，可能会导致公司暂停电力供应，并不会给予赔偿。 \nref: 14.3\n\n3. \nquestion: 在检查后，我需要多久来修理公司指出的问题？\nanswer: 您必须在规定时间内完成修理，否则公司有权暂停电力供应。 \nref: 14.4\n\n4. \nquestion: 为什么电力供应会中断，这是否与我无关？\nanswer: 电力中断可能由多种原因引起，包括消费限制和不可抗力，可能与您无关。 \nref: 15.1\n\n5.\nquestion: 公司检查设备会否对我负责？  \nanswer: 公司的检查不意味着对设备状态的责任，您仍需负责设施的维护和操作。  \nref: 14.2"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_153_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1.  \nquestion: 我如何知道我是否符合長者電費援助計劃的申請條件？  \nanswer: 您需要是澳門永久居民，持有頤老咭，且安裝地址必須用於住宅，並且收費類別為A1或A2。  \nref: 申请条件，背景信息第2段。\n\n2.  \nquestion: 我需要提供哪些文件來申請這項電費優惠？  \nanswer: 您需要提供澳門永久居民身份證、頤老咭、住址證明或聲明書及最新一期電費單。  \nref: 所需文件，背景信息第3段。\n\n3.  \nquestion: 我可以將多個住所登記在同一張頤老咭下嗎？  \nanswer: 不可以，每張頤老咭只能登記一個安裝地址。  \nref: 申请条件，背景信息第2段。\n\n4.  \nquestion: 如果我移居到其他地址，我該怎麼辦？  \nanswer: 您需要重新申請並提供該新住址的相關文件。  \nref: 申请条件，背景信息第2段。\n\n5.  \nquestion: 這個11%的電費折扣是針對所有電量的嗎？  \nanswer: 不，它僅適用於每月首88度電的消耗量。  \nref: 优惠政策，背景信息第1段。\n\n6.  \nquestion: 我能否通過電話申請這個優惠？  \nanswer: 需要亲自提交所需的文件，以便申请此项优惠。  \nref: 申请条款，背景信息第3段。\n\n7.  \nquestion: 假如我丢失了頤老咭，我該怎麼辦？  \nanswer: 您需要联系相关机构重新申请一张颐老咭。  \nref: 未明确提及，但与申请条件相关，背景信息暗示。\n\n8.  \nquestion: 申請需多長時間才能完成？  \nanswer: 目前没有有关资料，请咨询客服人员或查询官网。  \nref: 僅暗示於申请流程相关，背景信息未具体说明。\n\n10.  \nquestion: 這個計劃是否有年限限制？  \nanswer: 目前没有有关资料，请咨询客服人员或查询官网。\\nref: 优惠政策，背景信息。"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_2022_01_Senior_Citizen_zh_3ff3f287a7.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_49_pdf_education_2022_01_Senior_Citizen_zh_3ff3f287a7.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "question: 我在高用电季节使用电力，能否告诉我有哪些时段的收费是最低的？  \nanswer: 在高用电季节，非繁忙时间（00:00 - 09:30 和 20:30 - 24:00）电能收费是最低的。  \nref: 相关内容出自收费时段及高用电季节的定价策略。  \n\nquestion: 关于政府税，每月使用电力需要支付多少？  \nanswer: 政府税是根据每月使用电力设备的情况而定，具体金额需根据您的用电量核算。  \nref: 涉及政府税的说明部分。  \n\nquestion: 如果我想减少电费，您有什么建议吗？  \nanswer: 你可以选择在非繁忙时间用电，安装效率更高的设备如电容器，或减少设备同时使用以降低功率费。  \nref: 建议善用电力的部分。  \n\nquestion: 请问什么是“功率费”？  \nanswer: 功率费是根据您使用的电力设备的功率来收取的费用，按每千瓦计算。  \nref: 定义功率费的信息在价格部分。  \n\nquestion: 低用电季节的收费标准是怎样的？  \nanswer: 在低用电季节，無功電能满负荷时间收费为0.348澳门币/千瓦时，非繁忙时间最低为0.116澳门币/千瓦时，有功电能满负荷时间收费为0.776澳门币/千瓦时，非繁忙时间最低为0.724澳门币/千瓦时。  \nref: 涉及低用电季节的定价结构信息。"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Tariff_C_zh_0da3b45407.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_56_pdf_education_Tariff_C_zh_0da3b45407.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "以下是根据您提供的背景信息生成的客户问题及其答案。\n\n1.  \nquestion: 我可以在不同地址使用供应的电力吗？  \nanswer: 不可以，您必须在供应合同中指定的地址使用电力。  \nref: 1.4 (a)\n\n2.  \nquestion: 如果我想更改电力安装，应该怎么做？  \nanswer: 您需要事先获得相关部门的批准和公司的同意才能进行更改。  \nref: 1.4 (c)\n\n3.  \nquestion: 我可以将电力转售给我的邻居吗？  \nanswer: 不可以，您不得将供应的电力转售给任何第三方。  \nref: 1.4 (b)\n\n4.  \nquestion: 如果我需要用电来做其他用途，这样可以吗？  \nanswer: 不可以，您必须仅按照供应合同中规定的用途使用电力。  \nref: 1.4 (d)\n\n5.  \nquestion: 供应电力的相关条款资料在哪里可以找到？  \nanswer: 您可以在澳门特别行政区的特许合同中找到相关的条款与条件。  \nref: 1.3\n\n5.2325.  \nquestion: 我要如何确保我遵守合同中的所有条款？  \nanswer: 您可以仔细阅读供应合同和相关条款，必要时咨询公司了解更多信息。  \nref: 1.3, 1.4"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_142_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "question: 你们是否负责安装变电站设备？  \nanswer: 是的，公司的职责包括供电设备的供应和安装，以及它与中压网络的连接。  \nref: 背景信息第12.9段  \n\nquestion: 如果我想自己安装低压连接，是否可以？  \nanswer: 可以，但需要公司授权，并遵循相关法规。  \nref: 背景信息第12.10段  \n\n   question: 如果我想改变连接点，会有额外费用吗？  \nanswer: 对于不涉及新电线路的请求，不需要支付新的共享费用，但相关费用需由客户承担。  \nref: 背景信息第12.13段  \n\nquestion: 你们负责电力低压和中压网络的维护吗？  \nanswer: 是的，公司负责低压和中压网络以及变电站和电线路的维护、修理和恢复工作。  \nref: 背景信息第13.1段  \n\nquestion: 我可以在不通知贵公司的情况下修改我的电气安装吗？  \nanswer: 不可以，任何修改都需要事先获得公司的同意。  \nref: 知识第1.4段(c)  \n\nquestion: 如果我需要安装临时支线，必须遵守什么规定？  \nanswer: 所使用的设备必须符合公司的规格，并需接受公司的检查。  \nref: 背景信息第12.12段  \n\nquestion: 能否在我提供的地址以外使用你们的电力？  \nanswer: 不可以，您只能在供电合同中指定的地址使用电力。  \nref: 知识第1.4段(a)  \n\nquestion: 关于电力服务的合同中有什么特定条款吗？  \nanswer: 合同中包括了普通和特别条款，任何修改需经澳门特别行政区的批准。  \nref: 知识第1.3段  \n\nquestion: 你们安装的电气设备多久需要维护一次？  \nanswer: 维护频率会根据具体设备及其使用情况而有所不同，通常由公司进行定期检查。  \nref: 背景信息第13.1段  "
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_151_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. question: 我签的电力合同是1999年12月1日后的，保障金应如何计算？\nanswer: 根据合同，第一个条件是如果负荷(Pc)低于11.5 kV A，保障金为原保障金的0.33倍；如果高于11.5 kV A，则为0.50倍。\nref: 源自93Standard Conditions of Supply of Electricity第5条。\n\n2. question: 如果我之前的合同保障金大于现在的，能退还差额吗？\nanswer: 是的，如果新计算的保障金低于旧合同的并且差额超过MOP200，您可以申请退款。\nref: 源自93Standard Conditions of Supply of Electricity第5.2条。\n\n3. question: 我能在什么情况下使用电力合同中的电力？\nanswer: 您必须在合同中指定的地址使用电力，且不能将电力出售给第三方或改变安装设备。\nref: 源自69Standard Conditions of Supply of Electricity第1.4条。\n\n4. question: 如果我需要短期电力供应合同，保障金会有什么特别计算方法吗？\nanswer: 是的，短期合同的保障金是根据一般计算方法的两倍进行计算的。\nref: 源自91Standard Conditions of Supply of Electricity第2.3条。\n\n5. question: CEM是否有权随时检查我的电力设施？\nanswer: 是的，CEM有权在任何时间检查连接到其网络的设施，但住宅检查通常限制在工作日的09:00到18:00。\nref: 源自80Standard Conditions of Supply of Electricity第14.1条。\n\n6. question: 如果我的电力设施不符合规定，会有什么后果？\nanswer: 如果您的设施被认为存在安全隐患，CEM可以暂停电力供应，并且不承担任何赔偿责任。\nref: 源自80Standard Conditions of Supply of Electricity第14.3条。\n\n7. question: 我可以要求电力供应中断吗？\nanswer: 供电是持续的，只有在澳门特区的消费限制、服务中断、不可抗力或顾客自身原因时才会有暂停。\nref: 源自80Standard Conditions of Supply of Electricity第15.1条。\n\n8. question: 合同中提到的“保障金”是什么？\nanswer: 保障金是客户为电力供应合同提供的金额，通常是基于预计消耗电力的计算。\nref: 源自91Standard Conditions of Supply of Electricity第1条。\n\n9. question: 提供的保障金有多久的计算时间？\nanswer: 保障金的计算涉及特定的消费小时数，比如低于100 kV A的需要60小时的电量计算。\nref: 源自91Standard Conditions of Supply of Electricity第2.1条。\n\n10. question: 如果我需要临时电力供应，如何处理付款保障？\nanswer: 对于短期合同，您需要支付双倍计算的保障金。这适用于合同期限少于45天的情况。\nref: 源自91Standard Conditions of Supply of Electricity第2.4条。"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_166_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1.  \nquestion: 我可以要求公司对我的电表进行测试吗？  \nanswer: 是的，您可以要求公司或检验机构对电表进行测试，但如果电表符合澳门特别行政区的规定，测试费用将由您承担。  \nref: 21.2  \n\n2.  \nquestion: 公司的电力检查会在什么时候进行？  \nanswer: 检查通常安排在工作日的09:00到18:00之间，除非您与公司另行约定时间。  \nref: 14.1  \n\n3.  \nquestion: 如果电表测试发现超出法定标准，我该怎么办？  \nanswer: 如果超出法定标准，您和公司都有权要求赔偿，具体情况请参照合同的相关条款。  \nref: 21.4  \n\n4.  \nquestion: 我可以在没有通知的情况下对电力设施进行修改吗？  \nanswer: 不可以，任何对电力设施的修改都需要事先获得相关当局的同意。  \nref: 1.4.c  \n\n5.  \nquestion: 如果我拒绝让检查人员进入我的物业，会发生什么？  \nanswer: 如果您拒绝入内，公司的电力供应可能会被暂停，且不会有任何补偿。  \nref: 14.3  \n\n6.  \nquestion: 在什么情况下我会被要求支付电表测试的费用？  \nanswer: 当您主动要求测试并且测试结果显示电表符合澳门特别行政区的规范时，费用将由您承担。  \nref: 21.2  \n\n7.  \nquestion: 我该如何了解我大厦的供电情况？  \nanswer: 您可以在澳电网站输入大厦名称查询供电情况，或关注澳电的微信以接收推送信息。  \nref: 为台风季节作好准备  \n\n8.  \nquestion: 供电期间我的电器能否被用作另类用途？  \nanswer: 不可以，您只能在合同中规定的用途下使用公司提供的电力。  \nref: 1.4.d  \n\n9.  \nquestion: 如果我的电表损坏，谁会负责修理？  \nanswer: 如果是低压和中压网络的维护、修理或恢复问题，责任由公司承担。  \nref: 13.1  \n\n10.  \nquestion: 如何确定我应该缴纳的保证金金额？  \nanswer: 保证金金额根据您所订阅的用电需求计算，具体小时数会因需求量不同而异。  \nref: 2.1  \n\n11.  \nquestion: 在什么情况下，我的电力供应会被暂停？  \nanswer: 若您未按照公司检测后要求的期限内进行必要的修理或改动，电力供应可能会被暂停。  \nref: 14.4  \n\n12.  \nquestion: 如果我怀疑电表不准确，我该如何处理？  \nanswer: 您可以随时请求公司对电表进行测试，但相关费用需由您承担。  \nref: 21.2  "
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_160_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "question: 我们的电表为什么没有按月读数？  \nanswer: 如果电表阅读由于您的缺席或其他原因未能按月进行，账单将会依据相关规定发布。长期缺乏读数可能导致供电被暂停。  \nref: 17.4\n\nquestion: 我可以在电表上进行任何修改吗？  \nanswer: 您不得在安装的电气设备上进行任何未获得公司批准的改动，包括电表。任何更改必须事先获得公司的同意。  \nref: 1.4(c)\n\nquestion: 如果我拒绝让贵公司的工作人员检查我的安装，会发生什么？  \nanswer: 如果您拒绝提供进入权，贵公司有权暂停电力供应，并不承担任何赔偿责任。  \nref: 14.3\n\nquestion: 电力供应中断通常是因为什么原因？  \nanswer: 电力供应的中断主要可能由于澳门特区的消费限制、服务问题、不可抗力事件或因客户或第三方的行为造成。  \nref: 15.1\n\nquestion: 关于电费的保障金是如何计算的？  \nanswer: 保障金的金额基于您选择的订阅需求和相应的小时数计算，具体金额可根据不同的电流需求进行调整。  \nref: 1.2, 2.1"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_157_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. \nquestion: 我可以用谁的名字签署电力供应合同吗？\nanswer: 您必须能够证明自己拥有该物业的合法权利，无论是以个人名义还是其他人的名义。 \nref: 3.1\n\n2. \nquestion: 如果我只拥有物业的租赁权，我能签署合同吗？\nanswer: 是的，您可以签署合同，但需要提供合法的租赁权证明。 \nref: 3.2\n\n3. \nquestion: 我逾期的电费账单没有结清，能否签署新合同？\nanswer: 不能，您必须先全额结清与公司的任何逾期债务。 \nref: 3.4\n\n4. \nquestion: 签署合同时，是否需要支付保证金？\nanswer: 是的，签署合同时，公司有权要求您支付保证金，以确保债务支付。 \nref: 4.1\n\n5. \nquestion: 如果我在合同终止后未领取保证金，会发生什么？\nanswer: 如果您在合同终止后三年内未索回保证金，它将归公司所有。 \nref: 4.3\n\n6. \nquestion: 我可以在哪里查看关于电力费用的最新数据？\nanswer: 您可以通过访问公司的官方网站、社交媒体页面或电费单获取最新费用信息。 \nref: 69.1\n\n7. \nquestion: 在酷热的夏季，电费会更高吗？\nanswer: 是的，6月至9月为高用电季节，电费会相对较高。 \nref: 收费季节\n\n8. \nquestion: 为什么我家供电时常中断？\nanswer: 供电中断可能由于自然灾害、消费限制或其他不可抗力因素造成。 \nref: 15.1\n\n9. \nquestion: 如果我想修改我的电气设备，应该如何做？\nanswer: 您需要在进行任何修改之前先获得相关机构的同意。 \nref: 1.4c\n\n10. \nquestion: 我可以要求公司检查我的电气设备吗？\nanswer: 可以，公司有权在规定时间内对电气设备进行检查。 \nref: 14.1\n\n11.\nquestion: 合同期间我的保证金会怎样处理？\nanswer: 合同期结束后，保证金将在扣除欠款后退还给您。 \nref: 4.3\n\n12.\nquestion: 如果我未按时支付电费，会有什么后果？\nanswer: 您可能会被要求支付滞纳金或在严重情况下，暂停电力供应。 \nref: 4.2\n\n13.\nquestion: 我该如何支付电费？\nanswer: 您可以通过银行转账、在线支付或到指定地点支付电费。 \nref: 69.1\n\n14.\nquestion: 电力供应中断后，我如何获得更新情况？\nanswer: 您可以在公司官网或社交媒体查找供电状态更新。 \nref: 69.1\n\n15.\nquestion: 我可以要求降低我的保证金金额吗？\nanswer: 是的，如果保证金金额超出规定标准，您可以请求公司进行调整。 \nref: 5.2\n\n16.\nquestion: 我如何确保我的电气设备不会造成安全隐患？\nanswer: 确保您的设备定期维护，并邀请公司进行安装和安全检查。 \nref: 14.2\n\n17.\nquestion: 如果我需要临时电力供应，费用会如何计算？\nanswer: 短期合同的保证金需是计算金额的两倍。 \nref: 2.3\n\n18.\nquestion: 公司可在什么情况下中断我的电力供应？\nanswer: 如果您拒绝维修公司指出的设备问题，电力供应可能会被中断。 \nref: 14.4\n\n19.\nquestion: 官方会提供电力生产成本的最新调整吗？\nanswer: 是的，公司每季度会调整电费，以反映电力生产成本的变化。 \nref: 收费调整系数\n\n20.\nquestion: 如果我担心台风对电力供应的影响，该怎么做？\nanswer: 准备应急灯具，并关注公司的相关通知，查看供电情况。 \nref: 颱風來臨前作好準備"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_144_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "question: 如果我未能及时支付电费，会对我的电力供应造成什么影响？  \nanswer: 如果您未能支付电费，电力公司有权暂停您电力供应，并在所有欠款支付后才能恢复供电。  \nref: 16.1(d)  \n\nquestion: 我可以在哪里查看供电中断的最新信息？  \nanswer: 您可以通过电力公司的官方网站、Facebook页面，以及关注大厦的相关推送，获取供电状态的最新消息。  \nref: 颱風季節作好準備部分  \n\nquestion: 电力公司会在什么时候进行安装检查？  \nanswer: 电力公司会在工作日的9:00至18:00之间进行安装检查，或者与客户事先约定时间。  \nref: 14.1  \n\nquestion: 客户是否可以在没有电力公司的批准下对电力安装进行改动？  \nanswer: 不可以，客户必须在进行任何改动之前获得电力公司的批准。  \nref: 1.4(c)  \n\nquestion: 如果我的电力设备出现故障，电力公司有什么责任吗？  \nanswer: 电力公司不对住宅设备的维修和状态负责，客户需承担设备的保养和维护责任。  \nref: 14.2  "
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_155_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. \nquestion: 我该如何验证用电的合法性？  \nanswer: 如果怀疑存在欺诈行为，公司会要求两名合格证人的见证，以确认或否定该行为的存在。  \nref: 89Standard Conditions of Supply of Electricity Ė, 23.3  \n\n2. \nquestion: 如果确认我存在用电欺诈，后果会是什么？  \nanswer: 公司有权要求您赔偿非法消费的电力费用及相关费用，并可在您未支付的情况下停止供电。  \nref: 89Standard Conditions of Supply of Electricity Ė, 23.4  \n\n3. \nquestion: 如何计算我在欺诈期间的非法用电价值？  \nanswer: 该价值基于您合同中设定的最高电费率加25%，考虑相关的用电情况与历史读数。  \nref: 89Standard Conditions of Supply of Electricity Ė, 24.1  \n\n4. \nquestion: 我需要提供什么类型的担保来签订电力供应合同？  \nanswer: 您可以用现金或其他支付方式提供担保，若订购需求超过340 kV A，可通过银行或保险担保。  \nref: 91Standard Conditions of Supply of Electricity Ė, 1.1-1.2  \n\n5. \nquestion: 如果我拒绝公司检查安装，可能会发生什么？  \nanswer: 公司可暂停供电，并不承担任何赔偿责任。  \nref: 89Standard Conditions of Supply of Electricity Ė, 14.3  \n\n6. \nquestion: 请问什么是短期临时合同？  \nanswer: 短期临时合同是指合同期限少于或等于45天的合同，这类合同的担保需计算为前面所列的两倍。  \nref: 91Standard Conditions of Supply of Electricity Ė, 2.3  \n\n7. \nquestion: 我该如何理解用电高峰时段的定义？  \nanswer: 高峰时段是指夏季高用电季节的满负荷时间、繁忙时间以及非繁忙时间所设定的具体时间段。  \nref: 收費時段内容  "
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_162_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. \nquestion: 我可以签署临时电力供应合同吗？  \nanswer: 是的，临时电力供应合同适用于非永久设施，需满足技术条件。  \nref: 7.1  \n\n2. \nquestion: 一般电力供应合同的初始期限是多久？  \nanswer: 普通电力供应合同的初始期限为一个月，自动续约。  \nref: 8.1  \n\n3. \nquestion: 我想结束合同，需要提前通知多久？  \nanswer: 您需要至少提前五个工作日书面通知公司。  \nref: 8.3  \n\n4. \nquestion: 特殊大型客户合同的期限怎么确定？  \nanswer: 特殊大型客户合同的期限由各自的供应合同规定。  \nref: 8.4  \n\n5. \nquestion: 我能否在合同期间修改电力设备？  \nanswer: 不可以，您必须事先获得相关部门的同意。  \nref: 1.4.c  \n\n6. \nquestion: 如果我在四个月内不能读取电表，会发生什么？  \nanswer: 如果电表未读取，可能会暂停电力供应。  \nref: 17.5  \n\n7. \nquestion: 供电中断的原因有哪些？  \nanswer: 供电中断可能因消费限制、服务错误或自然灾害等原因造成。  \nref: 15.1  \n\n8. \nquestion: 如何计算电力合同的保证金？  \nanswer: 保证金基于订阅需求所消耗的能量成本，具体计算依据不同需求水平。  \nref: 91.2  \n\n9. \nquestion: 临时合同的保证金是多少？  \nanswer: 短期临时合同的保证金是正常计算值的两倍。  \nref: 91.3  \n\n10. \nquestion: 供电设备的检查有什么要求？  \nanswer: 公司有权随时检查连接到其网络的设备，需在工作日的09:00至18:00之间进行。  \nref: 14.1  \n\n11. \nquestion: 如果我拒绝安装检查，会怎样？  \nanswer: 如果拒绝检查，电力供应可能会被暂停，且不提供任何赔偿。  \nref: 14.3  \n\n12. \nquestion: 电力费用的收费季节是什么时候？  \nanswer: 高用电季节为6月至9月，低用电季节为10月至5月。  \nref: 收費季節  \n\n13. \nquestion: 能源测量是如何进行的？  \nanswer: 能源消耗和需求通过安装的计量设备直接测量。  \nref: 17.1  \n\n14. \nquestion: 能源收费的时间段是怎样划分的？  \nanswer: 收费时间分为满负荷时间、繁忙时间和非繁忙时间。  \nref: 收費時段  \n\n15. \nquestion: 我可以自己安装变压器设备吗？  \nanswer: 公司可能允许在满足相关法律条件的情况下，客户自行安装变压器设备。  \nref: 12.10  \n\n16. \nquestion: 供电中断期间我应该怎么做？  \nanswer: 应准备好应急设备并遵循供电公司的应急指示。  \nref: 颱風來臨前作好準備  \n\n17. \nquestion: 如果我的电表损坏，应该联系谁？  \nanswer: 您应立即联系电力公司进行修复和更换。  \nref: 17.2  \n\n18. \nquestion: 暂停电力供应期间，我的账户会有影响吗？  \nanswer: 暂停电力供应不免除您在恢复前的任何费用责任。  \nref: 8.3  \n\n19. \nquestion: 如何申请减少合同保证金？  \nanswer: 如果计算的保证金低于先前金额，您可以向公司申请减免。  \nref: 5.3  \n\n20. \nquestion: 特殊电力合同的定价政策是怎样的？  \nanswer: 特殊大型客户合同的定价和条款将依据具体合同内容而定。  \nref: 6.3  \n\n（以下问题未列出）  \n... (根据您的要求，无法生成4.965个问题。上述为20个合理问题与回答。如果需要更多问题，您可以告诉我特定主题，我将帮助您生成。)"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_146_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "question: 社会援助计划的申请条件是什么？  \nanswer: 申请者需是澳门社会工作局列入社会援助计划的住宅客户，订定功率在6.9千伏安以下，并且最近6个月内每月耗电量在120度或以下。  \nref: 申请条件部分\n\n---\n\nquestion: 我的电费为何会有收费用调整系数？  \nanswer: 收费用调整系数是按季度调整的，用于反映电力生产成本的浮动。  \nref: 收费调整系数部分\n\n---\n\nquestion: 高用电季节的时间段是如何划分的？  \nanswer: 高用电季节是从6月至9月，满负荷时间为10:30 - 13:00及14:30 - 16:00，繁忙时间为09:30 - 10:30、13:00 - 14:30及16:00 - 20:30。  \nref: 收费季节与时段部分\n\n---\n\nquestion: 如何能减少我的功率费？  \nanswer: 你可以尽量避免同时使用多个电力设备，并在非繁忙时间用电，以降低功率费。  \nref: 善用电力的建议部分\n\n---\n\nquestion: 我在哪儿可以查询目前的供电情况？  \nanswer: 你可以在澳门电力公司的官网或关注其微信进行供电状态查询。  \nref: 接收/查詢供電訊息渠道部分\n\n---\n\nquestion: 为什么我收到的账单上会有政府税？  \nanswer: 政府税是根据每月使用电力的需要而缴纳的税项，具体金额依据电能费用计算。  \nref: 政府税部分\n\n---\n\nquestion: 如果我未能按时支付电费，会发生什么？  \nanswer: 如果未按时支付，电力公司有权暂停供电，且需在清偿所有欠款后才能重新连接电源。  \nref: 停止供电部分\n\n---\n\nquestion: 如何申请社会援助电价优惠？  \nanswer: 需要提交流由澳门社会工作局发出的有效社会援助卡，并符合电量使用要求后，电力公司会自动计算相应费用。  \nref: A组收费及申请条件部分\n\n---\n\nquestion: 如果我的电表无法被读取，会怎样处理？  \nanswer: 若因客户原因未能读取电表，账单将按预设的估算计算，可能影响电费的准确性。  \nref: 计量与电表读取部分\n\n---\n\nquestion: 电力公司何时有权进行设施检查？  \nanswer: 电力公司可在工作日的09:00至18:00进行设施检查，或与客户约定的时间。  \nref: 设施检查部分"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Tariff_A_zh_881af653dd.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_23_pdf_education_Tariff_A_zh_881af653dd.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "当然可以，以下是基于提供的背景信息和相关知识生成的5个客户问题及其答案：\n\n1.  \nquestion: 我发现我的电费账单比平常高，如何能确认是否有计量错误？  \nanswer: 您可以联系公司请求对计量设备进行检查，确认是否存在错误。若发现错误，公司会依据最新账单进行调整。  \nref: 20.1, 21.2\n\n2.  \nquestion: 如果我的电表出现故障，我需要承担维修费用吗？  \nanswer: 如果公司检测确认是电表故障，维修费用由公司承担；但如果是您请求的检测，费用需由您承担。  \nref: 21.2, 21.3\n\n3.  \nquestion: 计量错误调整后的金额需要支付利息吗？  \nanswer: 不需要，调整后的金额不会产生利息，您可以在故障持续的期间内付款，最长不超过六个月。  \nref: 20.4\n\n4.  \nquestion: 如果我未能按时支付电费，会有怎样的后果？  \nanswer: 逾期未付款将导致您受到不支付条款的限制，公司也可暂停供电直到所有欠款支付完毕。  \nref: 16.1, 16.3\n\n5.  \nquestion: 公司如何确定我的供电中断是由于哪个原因？  \nanswer: 公司会根据安装的检查结果及您的供电记录来判断供电中断的原因，包括客户的责任事项。  \nref: 15.1, 16.1"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_159_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "2. question: 如果我被判断有欺诈行为，我该怎样计算我在这期间消耗的电量？  \nanswer: 公司的计算基于客户所签订的最高电价，加25%。如果没有客观数据，可能会根据预计的月用电小时数进行计算，比如中压电力客户每月用电大概为300小时，有关信息请查看官网。 \nref: 24.1, 24.2\n\n1. \nquestion: 如果我未能按时支付两个月的电费，会发生什么？  \nanswer: 如果您连续两个月未支付电费，公司将在提前通知后暂停您的电力供应。  \nref: Section 10.2 a)\n\n2. \nquestion: 能否拒绝让公司检查我的电表和电气安装？  \nanswer: 您需要允许公司的代表检查电表和相关安装，否则可能导致电力供应被中止。  \nref: Section 14.3\n\n3. \nquestion: 如果我的电表需要测试，我该如何申请？  \nanswer: 您可以向公司或检查机构申请电表测试，但若电表符合标准，测试费用需由您承担。  \nref: Section 21.2\n\n4. \nquestion: 我可以享受什么样的优惠，如果我是澳门的老人？  \nanswer: 如果您是持有颐老卡的澳门永久居民，您可以享受每月前88度电11%的折扣优惠。  \nref: Senior Citizen Support Program\n\n5. \nquestion: 如果我没有更新保证金，电力供应会受到影响吗？  \nanswer: 是的，如果您未在规定的期限内更新保证金，公司有权暂停电力供应。  \nref: Section 16.1 f)"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_148_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. \nquestion: 我如何申请长者电费援助计划？\nanswer: 您需要持有澳门永久居民身份，以及具有颐老咭和符合条件的住宅地址。请准备相关文件并联系2833 9911以获得更多信息。 \nref: 长者电费援助计划申请条件和文件需求\n\n2. \nquestion: 我可以用我的颐老咭申请多处地址的电费援助吗？\nanswer: 不可以，每张颐老咭只能登记一个住宅地址。 \nref: 长者电费援助计划申请条件\n\n3. \nquestion: 申请长者电费援助计划需要哪些文件？\nanswer: 需要提供澳门永久居民身份证、颐老咭、住址证明和最新电费单。 \nref: 长者电费援助计划所需文件\n\n4. \nquestion: 如果我的电表读数错误，我该怎么办？\nanswer: 您可以要求公司审核电表，若发现错误，相关费用将由您承担。 \nref: 电表和账单错误处理\n\n5. \nquestion: 什么时间段电价是最低的？\nanswer: 非繁忙时间（00:00-09:30和20:30-24:00）电价较低。 \nref: 收费时段和价格\n\n6. \nquestion: 我家电器用电量大，享受长者电费援助后还有什么省电建议？\nanswer: 尽量在非繁忙时间使用电器，并减少同时使用多个电器以降低功率费。 \nref: 善用电力的建议\n\n7. \nquestion: 如何确认我家电费的最新账单？\nanswer: 您可以查看最近寄送至您登记地址的电费账单，或者通过CEM的在线服务查询。 \nref: 关于账单查询的信息\n\n8. \nquestion: 电费援助计划的折扣是多少？\nanswer: 合资格的长者客户可以享受每月首88度电的11%折扣。 \nref: 长者电费援助计划优惠信息\n\n9. \nquestion: 如果电力设备浸水我该怎么办？\nanswer: 您应立即关闭配电箱总掣，并避免接触电力设备，以免发生事故。 \nref: 颱風期間安全指南\n\n10. \nquestion: 申请援助计划后多久可以知道结果？\nanswer: 通常在提交申请后，CEM会尽快处理并通知您结果。具体时间可以致电询问2833 9911。 \nref: 长者电费援助计划申请处理与反馈\n\n11. \nquestion: 我能否在电费上享有额外的折扣吗？\nanswer: 除了长者电费援助计划提供的折扣外，CEM目前并没有额外的折扣政策。 \nref: 长者电费援助计划优惠信息\n\n12. \nquestion: 什么情况下电力供应可能会被暂停？\nanswer: 如果您的电表在四个月内未能读取或出现其他系统问题，电力供应可能会被暂停。 \nref: 电力供应中断和限制条款\n\n13. \nquestion: 长者电费援助计划的申请有什么特别要求？\nanswer: 您必须是持有颐老咭的澳门永久居民，并登记一个专用住宅地址。 \nref: 长者电费援助计划申请条件\n\n14. \nquestion: 高用电季节是指哪些月份？\nanswer: 高用电季节为6月至9月。 \nref: 收费季节信息\n\n15. \nquestion: 如果我在抄表时不在家，会怎样？\nanswer: 如果未能抄表，公司的账单将根据之前的抄表数据进行估算。 \nref: 抄表和计费的相关条款\n\n16. \nquestion: 颱風来临时，如何获取供电信息？\nanswer: 请注意CEM的网站、Facebook和微信上的消息发布，了解供电状态。 \nref: 颱風期間電力訊息接收及查詢渠道\n\n17. \nquestion: 电表检测是否会收费？\nanswer: 公司会免费进行电表检测，但客户请求的检测如符合规范，相关费用需由客户承担。 \nref: 电表检测相关政策\n\n18. \nquestion: 我可以把电供应卖给他人吗？\nanswer: 不可以，您必须在注册合同中所列的地址使用电力且不得转售给他人。 \nref: 用电合同相关规定\n\n19. \nquestion: 如何确保电力设施的安全？\nanswer: 定期检查设施，如有必要，请联系公司进行检查与维修。 \nref: 电力设施检查和维护规定\n\n20. \nquestion: 如果电器的功率超过了我的合同，我会有什么后果？\nanswer: 如果您未获得批准，可能会导致电力供应被暂停。 \nref: 用电合同关于超范围使用的条款\n\n（以上问题与答案基于您提供的背景信息，同时参考文档中的信息生成，符合您的要求。）"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_2022_01_Senior_Citizen_zh_3ff3f287a7.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_48_pdf_education_2022_01_Senior_Citizen_zh_3ff3f287a7.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. \nquestion: 我如何申请电力供应？\nanswer: 您可以通过澳电的网上服务申请电力供应，或拨打专线2833 9930与我们联系。\nref: 一站式中小企电力支援服务\n\n2. \nquestion: 如何查看我的电力申请进度？\nanswer: 您可以随时通过澳电APP查看您的申请进度。\nref: 专人跟进服务\n\n3. \nquestion: 长者电费援助计划的申请条件是什么？\nanswer: 申请者需持有颐老卡，且注册安装地址必须为住宅用途，收费类别为A1或A2。\nref: 长者电费援助计划\n\n4. \nquestion: 我需要提交哪些文件才能申请长者电费援助？\nanswer: 您需要提供澳门永久居民身份证、颐老卡、住址证明或声明书，以及最新一期的电费单。\nref: 长者电费援助计划所需文件\n\n5. \nquestion: 如何选择适合的电业承办商？\nanswer: 您可以访问信息列表并于澳电网站选择合适的注册电业承办商进行施工。\nref: 完善的电业承办商名单\n\n6. \nquestion: 颱风期间我该如何保持电力供应？\nanswer: 留意澳电网站和社交媒体发布的供电信息，做好应急准备，如备好充电式电筒。\nref: 为颱风季节作好准备\n\n7.\nquestion: 低用电和高用电季节有什么区别？\nanswer: 高用电季节为6月至9月，低用电季节为10月至5月，这会影响电费的计算。\nref: 收费季节\n\n8.\nquestion: 我的电表如何读取？\nanswer: 澳电会定期在预设的日期读取您的电表，并在最新电费单上注明日期。\nref: 计量电能和需求\n\n9. \nquestion: 我可以怎么降低电费支出？\nanswer: 尽量利用非繁忙时间用电，并减少同一时间内使用多个电力设备。\nref: 善用电力的建议\n\n10. \nquestion: 我如何追踪电力事故的状态？\nanswer: 您可以在澳电网站输入大楼名称查询供电状况，或关注我们的微信获取推送信息。\nref: 接收/查询供电讯息渠道\n\n11. \nquestion: 客户如何申请合同转名？\nanswer: 您可通过澳电网在线服务办理合同转名，或拨打专业热线联系。\nref: 合约转名服务\n\n12.\nquestion: 如何执行电力安装的检查？\nanswer: 澳电有权随时检查与其网络连接的电力安装，确保符合安全标准。\nref: 电力安装的检查\n\n13.\nquestion: 如果我不支付电费会发生什么？\nanswer: 若不支付电费，澳电有权暂停电力供应，并可能会要求您支付逾期债务。\nref: 合同条款与责任\n\n14.\nquestion: 如何使用澳电APP？\nanswer: 您只需下载APP并注册账号，即可查看申请进度和电力消费情况。\nref: 专人跟进服务\n\n15.\nquestion: 电力供应合同的初始期限是什么？\nanswer: 电力供应合同初始期限为一个月，自动续约，除非提前通知终止。\nref: 合同期限\n\n16.\nquestion: 长者电费援助的折扣是多少？\nanswer: 合资格的长者每月可以享受首88度电的11%折扣优惠。\nref: 长者电费援助计划\n\n17.\nquestion: 哪里可以找到电业承办商的名单？\nanswer: 您可以在澳电官方网站上找到合适的注册电业承办商名单。\nref: 完善的电业承办商名单\n\n18. \nquestion: 我如何反馈一个电力事故？\nanswer: 您可以扫描二次元代码直接向我们报告电力事故，或通过我们的客服热线联系。\nref: 报告电力事故的指引\n\n19.\nquestion: 什么是功率费？\nanswer: 功率费是根据您所订阅的功率需求收取的费用，按千瓦计算。\nref: 收费与价格说明\n\n20.\nquestion: 我能在同一地址注册多个电表吗？\nanswer: 不可以，每张颐老卡只能注册一个安装地址。\nref: 长者电费援助计划申请条件\n\n（请注意，按照指示物理上显示1.8599999999999999个问题无法完成，因此问题个数为20个。）"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/Revitalization_of_6_areas_edee2cecb0.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_180_Revitalization_of_6_areas_edee2cecb0.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. question: 公共充电的费用是如何计算的？\nanswer: 公共充电的费用根据充电前的准备、电能费用和充电量计算，通常按每次充电收取费用，并受季节性的电力生产成本浮动影响。  \nref: 背景信息 - 公共充电，以及电能费用、收费调整系数。\n\n1. \nquestion: 公共充电和私人充电有什么区别？  \nanswer: 公共充电适用于公共停车场等场所，按每次充电收费；而私人充电则在非公共道使用，按设定的时段收费。  \nref: 背景信息中关于公共充电与私人充电的定义。\n\n2. \nquestion: 如何计算公共充电的费用？  \nanswer: 计算公共充电费用需考虑功率费、充电量和电能费用，并根据季度调整收取费用。  \nref: 文档中提到的计算方法和收費調整系數。\n\n3. \nquestion: 充电前需要准备什么？  \nanswer: 充电前请确认您的账户余额至少有30澳门元，并确保您的充电设备连接正常。  \nref: 背景信息中关于充电前的准备步骤。\n\n4. \nquestion: 充电期间可以使用哪些支付方式？  \nanswer: 支付方式包括电子钱包、信用卡以及无感支付，可通过澳电CEM App进行操作。  \nref: 文档中提到的支付选项。\n\n5. \nquestion: 我如何申请长者电费援助计划？  \nanswer: 需要提供澳门永久居民身份证、长者卡、住址证明及最新电费单，满足申请条件后可致电资询通进行查询。  \nref: 长者电费援助计划的申请条件和所需文件。\n\n6. \nquestion: 如果电量表发生故障，我该怎么办？  \nanswer: 可以向公司申请对电量表进行检测，若表合格，费用由客户承担；若不合格，由公司负责。  \nref: Meter testing部分关于电表检测的处理流程。\n\n7. \nquestion: 什么是电能费用的收取调整系数？  \nanswer: 收费调整系数是每季度调整，以反映电力生产成本的浮动，从而影响电能费用的计费。  \nref: 相关知识中提到的收费调整系数。\n\n8. \nquestion: 充电机械设备可以免费使用吗？  \nanswer: 目前，客户选择使用的充电设备不收取相关费用，但可能受特定条件限制。  \nref: 背景信息中关于充电设备使用的说明。\n\n9. \nquestion: 电力供应中断时，我该如何获取信息？  \nanswer: 可以关注澳电网站、Facebook或微信，了解供电信息及相关恢复情况。  \nref: 颱風季節作好準備部分中关于信息获取的建议。\n\n10. \nquestion: 充电的高峰期是怎样划分的？  \nanswer: 高峰期定义为上午9:30至10:30、下午1:00至2:30和4:00至8:30，与非高峰期相比，费用会有所不同。  \nref: 文档中有关收費時段的说明。"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/EMT_leaflet_C_8035564979.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_190_EMT_leaflet_C_8035564979.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. \nquestion: 作为C组客户，我如何改变我的电力收费组别？\nanswer: 您可以改变电力收费组别，但需至少在一个高用电季节的月份内以新收费组别缴纳电费。确保满足此条件后，您可以正式申请更改。 \nref: C组客户可改动收费组别的相关政策。\n\n2. \nquestion: C2收费的客户需要支付什么额外费用？\nanswer: C2收费的客户需要支付最大功率值和有功电能各1%的附加费，用于补偿变压器的铜损和无功电能的耗用。 \nref: C组收费章程中的费用说明。\n\n3. \nquestion: 如何申请长者电费援助计划的折扣？\nanswer: 申请需要提供澳门永久居民身份证、颐老咭、住址证明以及该住址的最新电费单。确保您符合资格后，提交这些文件即可。 \nref: 长者电费援助计划的申请条件。\n\n4. \nquestion: 什么时间段算是电力的满负荷时间？\nanswer: 满负荷时间为每天的10:30 - 13:00以及14:30 - 16:00。建议在此时间段内减少用电。 \nref: 收费时段的具体定义。\n\n5. \nquestion: 如果发现电表计量错误，我该如何处理？\nanswer: 您应及时通知公司，他们会根据相关准则进行处理，并可能进行费用差异的调整。 \nref: 计量和计费错误的处理流程说明。 \n\n6. \nquestion: C组收费的功率如何计算？\nanswer: C组的功率通过公式0.2Pc + 0.8Pu进行计算，Pu为最大功率记录值，Pc为订定的功率。 \nref: C组收费的功率计算方法。 \n\n7. \nquestion: 如果我在用电高峰时段使用电量很高，会有什么额外费用？\nanswer: 超过无功电能的60%时，会收取相应的超额费用，确保合理控制用电量以避免这个附加费。 \nref: 无功电能收费的相关条款。\n\n8. \nquestion: 我能否自己安装变压器及低压连接设备？\nanswer: 可以，需符合相关法律规定并获得公司的授权。安装后，公司将负责最终的连接和计量系统。 \nref: 关于客户安装变压器的政策与规定。 \n\n9. \nquestion: 如何减少电费支出，您有什么建议？\nanswer: 尽量利用非繁忙时间用电，安装如电容器的设备以减少无功电能的消耗，也是控制成本的有效方法。 \nref: 善用电力的建议部分。\n\n10. \nquestion: 报装的新电力线路费用由谁承担？\nanswer: 相关费用由客户承担，且需要确认是否符合法规要求。 \nref: 新电力线路安装的费用承担政策说明。 \n\n11. \nquestion: 在非繁忙时间用电会有什么优势？\nanswer: 在非繁忙时间用电的费用相对较低，可以减少整体电费支出，因此建议在这些时段使用电力。 \nref: 收费时段价格比较。 \n\n12. \nquestion: 怎样才能确认我的电表是否正确运行？\nanswer: 您可以请求公司或检验单位对电表进行测试，若测试符合标准，费用将由您承担。 \nref: 电表测试及客户权利的相关条款。\n\n13. \nquestion: 如果我未能每月支付电费会发生什么？\nanswer: 如果连续两个月未支付，可能会影响电力供应，公司的权利未受到限制。 \nref: 关于客户未支付电费的相关规定。 \n\n14. \nquestion: 如果电表损坏，应该联系谁进行修理？\nanswer: 您应联系电力公司，由他们负责电表的维修及相关事宜。 \nref: 关于电表维护和修理的政策说明。 \n\n15. \nquestion: 如何得知我的电费账单读取时间是什么时候？\nanswer: 账单上会列明最新的电表读取日期，关注账单信息即可。 \nref: 关于电表读取和账单的相关信息。 \n\n16. \nquestion: 变压器安装后，我需要进行哪些维护？\nanswer: 维护工作由公司承担，客户需确保使用的电气设备符合安全标准。 \nref: 维护和修理的责任说明。 \n\n17. \nquestion: 南亚电力的收费调整系数是如何工作？\nanswer: 收费按季度调整，以反映电力生产成本的浮动，具体调整信息可在账单中找到。 \nref: 收费调整系数相关政策。 \n\n18. \nquestion: 如何处理因公司出现的计费错误？\nanswer: 公司将发布信用凭证，余额可用于支付后续账单或换取现金。 \nref: 计费错误的处理办法。 \n"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Tariff_C_zh_0da3b45407.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_55_pdf_education_Tariff_C_zh_0da3b45407.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1.  \nquestion: 为什么我的电表装置必须上锁？  \nanswer: 电表装置必须上锁以确保安全，防止他人干扰或改动电表，并避免露出带电部分。  \nref: 背景信息部分关于电表上锁的重要性。  \n\n2.  \nquestion: 我能否自行更改电表的位置？  \nanswer: 不可以，任何关于电表位置的更改都需要向澳电申请，切勿自行更改。  \nref: 背景信息部分提到的电表位置更改须申请的规定。  \n\n3.  \nquestion: 如果我发现电表周围有物件干扰，应该怎么办？  \nanswer: 请立即联系澳电询问，切勿擅自处理电表，避免安全隐患。  \nref: 背景信息中关于电表干扰的处理建议。  \n\n4.  \nquestion: 如何查找颱風期間我大廈的供電情況？  \nanswer: 您可以在澳电网站上输入大厦名称查询供电情况，亦可关注其微信获取相关信息。  \nref: 颱風季節作好準備部分中提到的供电查询方法。  \n\n5.  \nquestion: 长者电费援助计划的申请条件是什么？  \nanswer: 必须是澳门永久居民且持有颐老卡，注册地址需为住宅用途。  \nref: 长者电费援助计划部分有关申请条件的内容。  \n\n6.  \nquestion: 我可以选择哪种支付方式为电动汽车充电？  \nanswer: 您可以通过澳电CEM App设置电子钱包，信用卡支付，或无感支付为电动汽车充电。  \nref: 电动汽车充电部分关于支付方式的说明。  \n\n7.  \nquestion: 电表测试的费用由谁承担？  \nanswer: 如果您要求测试电表并且测试结果符合规定，相关费用需由客户承担。  \nref: Meter testing部分关于电表测试费用的规定。  \n\n8.  \nquestion: 如果我想查询电费费用的变化，在哪里可以找到相关信息？  \nanswer: 您可以在澳电的网站查看电价调整和收费标准的信息。  \nref: 收费调整部分关于电价变化的信息来源。  \n\n9.  \nquestion: 为什么电表必须定期检查？  \nanswer: 定期检查电表可以确保电表正常运作，避免出现故障或安全隐患。  \nref: 美国电力公司的相关检查条款。  \n\n10.  \nquestion: 如果电表的保护锁被损坏，我该怎么办？  \nanswer: 必须立即致电2833 9911与澳电联系，请求专业人员处理。  \nref: 背景信息中提到的保护锁损坏的应对措施。"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Metering_equipment_zh_69c3ba52e5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_43_pdf_education_Metering_equipment_zh_69c3ba52e5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. \nquestion: 我需要连接电力，应该选择单相还是三相电源？\nanswer: 您应该选择单相或三相低压电源，具体取决于您设备的需求和安装特点。\nref: 11.1(a)\n\n2. \nquestion: 低压电网的标准电压是多少？\nanswer: 低压电网的标准电压为230/400V，允许有±5%的电压容差。\nref: 11.2\n\n3. \nquestion: 如果我想终止电力合同，应该提前多久通知公司？\nanswer: 您需要提前至少五个工作日以书面形式通知公司。\nref: 8.3\n\n4. \nquestion: 我可以在没有公司同意的情况下修改电气设备吗？\nanswer: 不可以，任何修改电气设备的行为都需要事先获得相关当局的同意。\nref: 1.4(c)\n\n4.87\nquestion: 公司会定期检查电力安装吗？\nanswer: 是的，公司有权随时检查与其网络连接的电力安装，但在住宅物业的检查时间为工作日09:00到18:00。\nref: 14.1"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_149_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1.  \nquestion: 大厦的电力装置需要多频繁检查？  \nanswer: 各业主应定期对大厦的公共电力装置进行检查和维护，以确保正常运作并避免事故。每年一次的定期检查是合理的选择。   \nref: 背景信息部分提到定期检查电力装置的重要性。\n\n2.  \nquestion: 如果检查过程中发现电力装置损坏，应该怎么办？  \nanswer: 如发现损坏，业主应立即联系有经验的电力承办商进行修理，并要求承办商提交维修报告。  \nref: 背景信息部分提到的检查和维修流程。\n\n3.  \nquestion: 我该如何知道大厦的供电状态，特别是在台风期间？  \nanswer: 您可以访问澳电网站，输入大厦名称以查询供电状态，并关注澳电的微信和社交媒体获取更新信息。  \nref: 相关知识中提到的颱風期間的供電狀況查詢方式。\n\n4.  \nquestion: 如果大厦总掣需要维修改造，会影响到我吗？  \nanswer: 是的，维修改造可能需要停电。您可以致电\"资询通\" 2833 9911来安排协助与信息咨询。  \nref: 背景信息中提到的关于总掣维修改造的说明。"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Building_zh_41150ff0d2.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_172_pdf_education_Building_zh_41150ff0d2.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. question: 我住的楼盘在低洼地区，有没有必要申请升高电力设备？  \nanswer: 是的，建议位于低洼地区的业主申请升高电力设备，以提升防灾抗灾能力。您可以通过电邮申请给澳电。  \nref: 背景信息中的“客户负责的范围”部分。\n\n2. question: 暴雨来临时，我该如何准备才能确保供电安全？  \nanswer: 建议准备环保充电式电筒，确保家中关键电器有后备电源，同时避免电器靠近窗边，以免受损。  \nref: 相关知识中关于“颱風來臨前作好準備”的建议。\n\n3. question: 如果我的电表出现问题，怎样申请检测？  \nanswer: 您可以联系澳电请求检测您的电表，若检测结果符合要求，您需承担相关费用。  \nref: 第21条关于电表测试的规定。\n\n4. question: 澳电的降雨或风暴潮预警是通过哪些渠道进行的？  \nanswer: 您可以通过澳电网站、Facebook专页和微信获取相关信息，这些平台会按照预警级别发布信息。  \nref: 相关知识中关于“接收/查詢供電訊息渠道”的描述。\n\n5. question: 我对电力供应中断的情况感到担忧，具体是如何通知客户的？  \nanswer: 澳电会提前发出供应中断的通知，通常会提醒客户注意电气设施的安全。  \nref: 第15条提到的“中断或限制供电”的通知要求。"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_typhoon_C_zh_3c3a9d5ee4.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_66_pdf_education_typhoon_C_zh_3c3a9d5ee4.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "question: 在何种情况下公司可以暂停我的电力供应？  \nanswer: 如果您拒绝给公司检查，或未按时进行必要的维修，电力供应可能会被暂停，且不会获得任何赔偿。  \nref: 14.3和14.4\n\n1. \nquestion: 低压装置验收报告中需要提供哪些文件？  \nanswer: 需要填写验收项目表格，并附上总掣柜供应商发出的产品验收合格证明书。  \nref: 低压设备验收报告部分，尤其是“请填写下表并附上供总掣柜供应商发出的产品验收合格证明书”。\n\n2. \nquestion: 如果验收中发现可见损毁，会如何处理？  \nanswer: 如果存在影响安全的可见损毁，装置将不符合验收条件，并需进行修复。  \nref: 低压装置验收报告的验收项目表中提到的“并无足以影响安全的可见损毁”。\n\n3. \nquestion: 如何划分电力消费的高用电季节和低用电季节？  \nanswer: 高用电季节是6月至9月，低用电季节是10月至5月。  \nref: 相关知识部分关于“收费季节”的描述。\n\n4. \nquestion: 关于电动汽车充电，公共充电的收费标准是什么？  \nanswer: 公共充电按每次充电收取费用，具体费用依充电时段和设备功率而定。  \nref: 相关知识中“电动车充电”部分，尤其是有关公共充电的收费标准。\n\n5. \nquestion: 我可以在什么时间要求对我家的电表进行测试？  \nanswer: 您可以在任何工作日的09:00到18:00之间请求电表测试。  \nref: 相关知识关于第14.1条中提到的公司对安装的检查及测试时间。\n\n6. \nquestion: 如果因为未支付电费而被暂停供电，我该如何恢复供电？  \nanswer: 需支付所有未付电费以及符合要求的保证金，才能申请恢复供电。  \nref: 相关知识中关于电力供应中止的条款，特别是第16.1条。\n\n7. \nquestion: 低压装置的绝缘电阻测试标准是什么？  \nanswer: 各导体间的绝缘电阻值应大于1 MΩ，测试电压为500伏DC。  \nref: 低压装置验收报告中提到的绝缘电阻测试标准。\n\n8. \nquestion: 如果我拒绝让公司检查我的电力装置会有什么后果？  \nanswer: 公司有权暂停电力供应，并且拒绝会导致没有任何赔偿。  \nref: 相关知识中第14.3条提到的对拒绝检查装置的后果。 \n\n9. \nquestion: 如果发现我家电表存在欺诈行为，后续会怎样处理？  \nanswer: 公司有权要求您支付非法消费的电能费用，并可能暂停供电，直到全额支付。  \nref: 相关知识关于欺诈的条款，特别是第23.4条的规定。\n\n10. \nquestion: 我该如何查询我大楼的供电状态？  \nanswer: 您可以在澳电网站上输入大楼名称，或者通过关注澳电微信接收供电推送信息。  \nref: 相关知识中提到的关于台风季节准备和查询供电状态的建议。\n\n11. \nquestion: 在电动汽车充电时，如何选择适合我的收费方案？  \nanswer: 请根据所选充电设备的额定最大输出功率来选择合适的收费方案，具体费率可在相关平台查询。  \nref: 相关知识中提到的电动汽车充电收费标准，尤其是关于充电分类的信息。"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/_7b3697588e.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_183__7b3697588e.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. \nquestion: 我每月的电费是如何计算的？\nanswer: 每月的电费基于澳门特别行政区设定的电价，根据之前的用电量计费。电表的读数将决定当月的电费。 \nref: 19.1, 18\n\n2. \nquestion: 如果我没有在家，电表读数会如何处理？\nanswer: 如果因客户原因未能读取电表，账单将根据过去12个月的平均用电量来计算。 \nref: 19.3, 17.4\n\n3. \nquestion: 我的电费账单什么时候到达？\nanswer: 公司将在电表读取后的三个工作日内，向客户指定的地点发送电费账单。 \nref: 19.2\n\n4. \nquestion: 如果我没有按时支付电费，会发生什么？\nanswer: 如果在账单上所标明的到期日前未支付电费，将收取附加费，并可能在延迟五个工作后暂停电力供应。 \nref: 19.8\n\n5. \nquestion: 我可以请求对电表进行测试吗？\nanswer: 是的，客户可以请求公司或相关检查机构对电表进行测试，如果电表符合规定，费用将由客户承担。 \nref: 21.2\n\n6. \nquestion: 我是否可以在我的合同上作任何修改？\nanswer: 客户禁止在未获得公司的书面同意的情况下对电力安装或设备进行任何修改。 \nref: 1.4(c)\n\n7. \nquestion: 如果我发现我的账单数额有误，该怎么办？\nanswer: 如果发现计量错误，公司将基于相关因素进行修正，并在必要时进行调整，最多可追溯12个月。 \nref: 20.1\n\n8. \nquestion: 如果电力供应中断是因为我家里设备的问题，会怎样？\nanswer: 如果客户的设备造成电力中断，公司可暂停供应，并将不承担因此导致的赔偿责任。 \nref: 15.1\n\n9. \nquestion: 申请新电力合同需要符合什么条件？\nanswer: 申请新合同的客户必须证明他们对所需供应地点拥有合法的权利，并且必须清偿所有逾期债务。 \nref: 3.1, 3.4\n\n10. \nquestion: 公司的电表读取周期是多久一次？\nanswer: 电表的读取通常每月进行，具体日期在上个月的账单上注明。 \nref: 17.3"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_158_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. \nquestion: 我想申请电力供应，需要什么文件吗？\nanswer: 申请电力供应时，您需要提供身份证明文件及相关的公司或物业资料，具体包括公司商業/社團登記副本和電能供應合約等。 \nref: (4)，(5)，(6)\n\n2. \nquestion: 我的电表工作正常，为什么需要支付检查费？\nanswer: 如果您确认电表正常运作，我们将在下月的电费单上收取澳門幣100元的检查费。 \nref: (10)\n\n3. \nquestion: 办理电力申请时，我需要亲自去吗？\nanswer: 不，您可以签署授权书委托他人代办相关申请。 \nref: (1)\n\n4. \nquestion: 我住的地方有公共电力装置，需要定期检查吗？\nanswer: 是的，大厦内的公共电力装置需要业主共同负责定期检查与维持，以确保安全运作。 \nref: (14)\n\n5.\nquestion: 如果我想更改物业的电力供应合约，应该怎么做？\nanswer: 您可以通过澳电的网上服务进行合约转名或其他更改申请，或者拨打专线咨询。 \nref: 一站式中小企电力支援服務\n\n6.\nquestion: 申请长者电费援助计划需要提交哪些文件？\nanswer: 您需要提供澳门永久居民身份证、颐老卡、住址证明及最新电费单。 \nref: 长者电费援助计划\n\n7.\nquestion: 如何确认我的电码是否被查过？\nanswer: 您可以查看最近的电费单，上面会注明电表读数及相关信息。如果有疑问，可以联系澳电客服确认。 \nref: (17)\n\n8.\nquestion: 如果我以租户身份申请电力供应，需要提供业权证吗？\nanswer: 不需要，作为租户申请，您无需提交业权人的身份证明文件副本。 \nref: (6)\n\n9.\nquestion: 我可以如何查询供电状态？\nanswer: 您可以访问澳电的网站或者关注澳电的微信获取供电状态和相关信息更新。 \nref: 接收/查詢供電訊息渠道\n\n10.\nquestion: 我在哪里可以找到合适的电业承办商？\nanswer: 您可以访问澳电的网站，获取注册电业承办商的名单，以选择适合您的承办商。 \nref: 電業承辦商名單\n\n(Note: 提及的所有参考来源均为示例，与原文档中对应内容相匹配。)"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/Supply_Application_C_ad36fcd27b.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_177_Supply_Application_C_ad36fcd27b.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1.  \nquestion: 我是低压供电的客户，我的有功电能需要缴纳哪些附加费？  \nanswer: 作为低压供电的客户，您需要缴交有功电能的1%附加费，以补偿变压器的铜损损耗。  \nref: 相关知识 - B组收费，有功电能部分。\n\n2.  \nquestion: 如果我的用电量达到10,000千瓦时，我会被归类到哪个收费类别？  \nanswer: 如果您的用电量达到10,000千瓦时，并与公司订定的视在功率在69千伏安或以上，您将被归类到B组收费。  \nref: 背景信息 - B组收费条件。\n\n3.  \nquestion: 请问无功电能超出60%有功电能的部分如何收费？  \nanswer: 如果无功电能超过有功电能的60%，您需要就超出部分缴纳相应费用。  \nref: 相关知识 - B组收费，无功电能部分。\n\n4.  \nquestion: 我可以选择哪些时段进行电动汽车充电？  \nanswer: 电动汽车充电可以在繁忙时间或非繁忙时间进行，具体费用根据充电设备的功率和时段计算。  \nref: 相关知识 - 电动汽车充电，收费时段与方式。\n\n5.  \nquestion: 我作为一个低压供电的客户，如何减少电费支出？  \nanswer: 您可以尽量利用非繁忙时间用电，并减少同一时间内使用多台电力设备，以降低功率费用。  \nref: 相关知识 - 善用电力的建议。\n\n6.  \nquestion: 大厦公共电力设施的保养责任是谁的？  \nanswer: 大厦内的公共电力设施属于业主共同拥有，各业主需定期检查及维持其正常运作。  \nref: 相关知识 - 定期检查大厦公共电力装置的责任。"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Tariff_B_zh_2574dad7f3.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_17_pdf_education_Tariff_B_zh_2574dad7f3.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "question: 供应合同时需要提供什么信息？  \nanswer: 供应合同必须包括双方的具体信息、供电位置、安装目的、供电电压、订购需求等。  \nref: 供电合同（2.1）\n\n---\n\nquestion: 临时电力供应用合同是怎样的，合同有什么特别之处？  \nanswer: 临时电力供应用合同适用于非永久性安装，并且具有预先确定的有限期限。技术条件 favorable 时，可以安装临时线路。  \nref: 临时合同（7.1, 7.2）\n\n---\n\nquestion: 如果我未能按时付款，会发生什么？  \nanswer: 如果未按时支付电费，电力公司有权中断电力供应，直到所有未付款项结清，并可能收取重连费用。  \nref: 供电暂停（16.1, 16.3）\n\n---\n\nquestion: 电力供应合同的有效期限是多长时间？  \nanswer: 普通电力供应合同初始期限为一个月，可自动续约；特殊大客户合同的期限则在相应合同中指定。  \nref: 合同条款（8.1, 8.4）"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_143_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1.  \nquestion: 我是一家非牟利机构，如何申请A3社会慈善机构收费？  \nanswer: 您需要提供由澳门社会工作局发出的相关文件，证明您从事非牟利和社会活动。申请后，若符合条件，会自动以A3收费用计算。  \nref: 申请条件部分，A3社会慈善机构收费。\n\n2.  \nquestion: 如果我的订定功率在6.9千伏安以下，我能享受什么样的电费优惠？  \nanswer: 如果您的订定功率在6.9千伏安以下且最近六个月内每月耗电量在120度或以下，您将自动适用A2平民收费，电能费用为0.858澳门币/度。  \nref: A2平民收费部分，适用条件。\n\n3.  \nquestion: 社会援助收费的申请条件是什么？  \nanswer: 您必须持有由澳门社会工作局发出的有效社会援助卡，并且在过去六个月内的每月耗电量在120度或以下。  \nref: A4社会援助收费部分，申请条件。\n\n4.  \nquestion: 关于电力成本调整的内容是怎样的？  \nanswer: 收费调整系数是按季度进行调整，以反映电力生产成本的浮动，确保电费的公平性和合理性。  \nref: 收费调整系数部分，关于电费调整机制。"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Tariff_A_zh_881af653dd.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_24_pdf_education_Tariff_A_zh_881af653dd.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1.  \nquestion: 我如何连接我的电力安装到您的低压电网？  \nanswer: 您需要支付相关费用，并且公司会负责电线的安装和计量系统的设置。  \nref: 标准补充条件，第12.3条.  \n\n2.  \nquestion: 如果我想增加电力供应的容量，我需要承担额外费用吗？  \nanswer: 是的，您只需支付新共享成本和之前连接费用之间的差额。  \nref: 标准补充条件，第12.4条.  \n\n3.  \nquestion: 我需要自己安装变电站吗？  \nanswer: 是的，您需要负责安装公司提供的锅头，并设置服务入口及主集电开关等。  \nref: 标准补充条件，第12.6条.  \n\n4.  \nquestion: 如果我没有现有的低压网络，可以申请什么？  \nanswer: 您需要提供一个安装变电站的空间，符合相关立法要求。  \nref: 标准补充条件，第12.7条.  \n\n5.  \nquestion: 暂时的电力供应合同有什么限制？  \nanswer: 您可以签署临时合同，但必须满足技术条件，且合同期限会明确规定。  \nref: 标准补充条件，第7.1条.  \n\n6.  \nquestion: 如果我申请增加电力容量但未能支付共享成本，会发生什么？  \nanswer: 您的电力供应合同将会被视为无效。  \nref: 标准补充条件，第12.2条.  \n\n7.  \nquestion: 公司会定期检查我的电气安装吗？  \nanswer: 是的，公司保留随时检查安装的权利，特别是变电站和服务入口线。  \nref: 标准补充条件，第14.1条.  \n\n8.  \nquestion: 供电中断时我应该做什么？  \nanswer: 请确保电力安装安全，并遵循公司给出的中断通知指引。  \nref: 标准补充条件，第15.1条.  \n\n9.  \nquestion: 我能否在没有通知公司之前直接改变电气安装？  \nanswer: 不可以，任何改动必须先获得相关部门的许可。  \nref: 标准补充条件，第1.4条.  \n\n10.  \nquestion: 如何向公司申请临时电力供应？  \nanswer: 您需要提出申请，并满足技术条件，由提供临时线路的公司负责。  \nref: 标准补充条件，第7.2条.  \n\n11.  \nquestion: 如果我拖欠电费，您会采取什么措施？  \nanswer: 可能会中断供电，并在所有欠款结清前不进行重新连接。  \nref: 标准补充条件，第16.1条.  \n\n12.  \nquestion: 我在合同中需要提供哪些信息？  \nanswer: 您需提供双方的详细信息、供电地址、目的、供电电压等。  \nref: 标准补充条件，第2.1条.  \n\n13.  \nquestion: 我该如何取消供电合同？  \nanswer: 您需要书面通知公司，并提前至少五个工作日告知。  \nref: 标准补充条件，第8.3条.  \n\n14.  \nquestion: 如果我想在临时合同结束后续签，需要哪些步骤？  \nanswer: 在合同结束前，您需要与公司协商续签，并满足相关条件。  \nref: 标准补充条件，第8.4条.  \n\n15.  \nquestion: 我可以在自己的物业上安装变电设备吗？  \nanswer: 可以，但需遵循公司规定，并确保所有安装工作符合相关法律要求。  \nref: 标准补充条件，第12.10条.  \n\n16.  \nquestion: 如果我不允许公司检查我的电力设备，会发生什么？  \nanswer: 公司可能中断供电，并且不会承担赔偿责任。  \nref: 标准补充条件，第14.3条.  \n\n17.  \nquestion: 什么情况会导致供电被暂停？  \nanswer: 包括不遵守网络操作规定、未能阅读表计等情况。  \nref: 标准补充条件，第16.1条.  \n\n18.  \nquestion: 合同签署时需要支付保证金吗？  \nanswer: 是的，签署合同时需支付公司规定的保证金。  \nref: 标准补充条件，第4.1条.  \n\n19.  \nquestion: 如果我不使用合同规定的电力供应，是否会有后果？  \nanswer: 会，您需遵守合同中规定的使用条款，不得出售电力。  \nref: 标准补充条件，第1.4条.  \n\n20.  \nquestion: 你们提供的电压和频率是什么？  \nanswer: 低压供电为230/400V，频率为50Hz，允许2%的波动。  \nref: 标准补充条件，第11.2条和11.3条.  \n\n以上是针对这些背景信息生成的20个合理问题及其答案，涉及到不同的条款和规定。"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_150_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. question: 我如何申请电力供应合同的担保？  \nanswer: 申请电力供应合同的担保时，您需要提供银行担保或保险担保，根据合同要求完成。具体金额计算基于您的用电需求和相应费率。  \nref: 标准条件第4条（担保（存款））和第1条（电力供应的对象和条款）。\n\n2. question: 我可以在电力合同中添加新的供电地点吗？  \nanswer: 您需要根据合同的规定进行申请，并确保您具备供电地点的合法权利。任何变化需事先获得公司的书面同意。  \nref: 标准条件第3条（签署条款）。\n\n3. question: 如果我没有按时支付电费会发生什么？  \nanswer: 如果未能按时支付电费，将会收取滞纳金，并可能在支付逾期五个工作日后暂停电力供应。  \nref: 标准条件第19条（计费与收款）。\n\n4. question: 有什么方式可以测试我家里的电表吗？  \nanswer: 您可以请求公司或相关检测机构对电表进行测试，但如果电表符合规格，测试费用将由客户承担。  \nref: 标准条件第21条（电表测试）。\n\n5. question: 如何获取对老年用户的电费折扣？  \nanswer: 您需持有澳门永久居民身份及长者卡，并满足住宅用途和电价类别要求，提交相关文件即可申请折扣。  \nref: 长者电费援助计划相关信息。\n\n6. question: 我能否只提供担保金的一部分？  \nanswer: 根据合同，担保金的金额需满足规定的计算方式，无法接受部分担保。  \nref: 标准条件第4条（担保（存款））。\n\n7. question: 临时电力合同的最低期限是多久？  \nanswer: 临时电力合同的期限由合同明确规定，通常是基于特定的短期需求。  \nref: 标准条件第7条（临时合同）。\n\n8. question: 如何终止我的电力供应合同？  \nanswer: 您需要提前书面通知公司，至少五个工作日之前，并在此期间承担所有费用。  \nref: 标准条件第8条（合同期限）。\n\n9. question: 如果电表读数未按时进行，我应该怎么办？  \nanswer: 如果因客户原因无法读表，将根据前12个月的平均用电量计费。  \nref: 标准条件第19条（计费与收款）。\n\n10. question: 退款的担保金何时会归还？  \nanswer: 担保金将在合同终止或续约后退还，但需扣除与公司相关的任何欠款，且必须在三年内申请。  \nref: 标准条件第4.3条（担保（存款））。"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_167_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "以下是基于您提供的背景信息和相关知识的4.365个客户问题及其答案：\n\n1. \nquestion: 我应该如何签署电力供应合同？\nanswer: 您需要证明您对供电物业的合法权利或所有权，才能与公司签署合同。确保未有任何未清债务，因为这将影响您的新合同签署。 \nref: 条款3.1 - 3.4\n\n2. \nquestion: 如果我的电表坏了，我可以要求测试吗？\nanswer: 是的，您可以要求公司或审查机构对电表进行测试。如果电表符合标准，相关费用将由您承担。\nref: 条款21.2 - 21.3\n\n3. \nquestion: 我如何能投诉CEM的服务？\nanswer: 您可以直接联系客户倡导者，如果您对公司服务的回应不满意，他们会协助处理您的问题。 \nref: 客户倡导者部分\n\n4. \nquestion: 如果我没有及时支付电费，会有什么后果？\nanswer: 如果您未能在到期日之前支付电费，您将面临额外收费，并可能在五个工作日后被暂停供电。\nref: 条款19.8\n\n5. \nquestion: 电力供应合同的有效期是多久？\nanswer: 普通电力供应合同的初始有效期为一个月，之后会自动续约，除非您提前通知终止合同。\nref: 条款8.1\n\n6. \nquestion: 我在哪里可以查看电费账单的详细信息？\nanswer: 公司会在每月账单中提供消费情况和必要的核实元素，您也可以选择账单送达的地点。\nref: 条款19.2\n\n7. \nquestion: 能否在不通知公司的情况下临时中断电力供应？\nanswer: 不可以，您需提前五个工作日通知公司，以避免任何后果，例如继续支付至设施拆除的费用。\nref: 条款8.3\n\n8. \nquestion: 关于电 meters 维护的责任是谁？\nanswer: 所有计量设备的维护和安装均由公司负责，但客户需确保其安装符合安全规定。\nref: 条款17.2 - 17.4\n\n9. \nquestion: 我可以在电力合同中更改用电地址吗？\nanswer: 您需要重新签署合同，确保您对新地址的合法权利，同时必须结清与原合同相关的所有债务。\nref: 条款3.1 - 3.4\n\n10. \nquestion: 如果电力使用量不正常，我如何解决？\nanswer: 您可以首先检查电表，必要时申请对电表进行测试。如果发现任何问题，可以与公司联系以寻求解决方案。\nref: 条款19.3 - 19.4\n\n11. \nquestion: 如果我遗失了供电合同，我该怎么办？\nanswer: 您可以向公司申请一份合同的副本，确保公司有您在合同上的所有信息和记录。\nref: 条款2.1 - 2.4\n\n12. \nquestion: 我如何申请电力连接？\nanswer: 您需向公司提交申请并支付连接费用，确保技术条件能满足电力供应的要求。\nref: 条款12.1 - 12.2\n\n13. \nquestion: 公司的电力供应有时间限制吗？\nanswer: 电力供应通常是持续的，只有在受到限制、事故或不可抗力等情况下才会中断。\nref: 条款15.1\n\n14. \nquestion: 如何知道我的电力消耗是否正常？\nanswer: 您可以对照过去的账单与当前账单进行比较，也可以请求公司的技术人员进行检查。\nref: 条款17.2\n\n15. \nquestion: 我是否可以转售我获得的电力？\nanswer: 不可以，您不得将任何或全部供电转售给第三方。\nref: 条款1.4.b\n\n以上是部分示例，您可以根据以上格式扩展并生成更多的问题及答案。"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_141_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "question 1:季度收費調整系數是什麼？  \nanswer: 收費調整系數是每季度根據電力生產成本的變動來調整的標準，目的是反映電價的浮動。  \nref: 背景信息部分，收費調整系數注釋。\n\n---\n\nquestion 2: 有功電能和無功電能的收費差異是什麼？  \nanswer: 有功電能是根據實際消耗的電量計費，而無功電能則是按照在供電過程中需支付的無用電量進行收費，且超過有功電能的60%需額外收費。  \nref: 背景信息部分，有功和無功電能價格。\n\n---\n\nquestion 3: 為什麼要在非繁忙時間用電？  \nanswer: 在非繁忙時間用電可以享受較低的電費，從而降低用電成本，並且減少功率費的收取。  \nref: 背景信息部分，善用電力的建議。\n\n---\n\nquestion 4: 如果電錶異常，怎麼檢查？  \nanswer: 客戶可以申請檢查電錶，若檢查正常，將在下月電費單內收取100澳門幣的檢查費用。  \nref: 背景信息部分，檢查電錶的內容。\n\n---\n\nquestion 5: 長者電費援助計劃的折扣具體是什麼？  \nanswer: 合資格的長者每月首88度電可享受11%的折扣，條件包括持有頤老咭及住宅用途的登記等。  \nref: 背景信息部分，長者電費援助計劃的條件。\n\n---\n\nquestion 6: 如何申請社會援助收費？  \nanswer: 客戶需提供澳門社會工作局的社會援助卡及相關文件，如果符合每月120度電的耗電量要求，公司會自動計算相應的收費。  \nref: 背景信息部分，社會援助收費的申請條件和文件。\n\n---\n\nquestion 7: 什麼情況會導致暫停供電？  \nanswer: 當因系統性缺席或其他原因未能連續四個月讀取電錶，公司保留暫停供電的權利。  \nref: 背景信息部分，暫停供電措施的規定。\n\n---\n\nquestion 8: 電動車充電的收費標準是什麼？  \nanswer: 根據充電的設備功率及時段收費，慢速充電在非繁忙時間的費用為1.420澳門元，而繁忙時間為2.150澳門元。  \nref: 背景信息部分，電動車充電的收費標準與時段。"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Tariff_B_zh_2574dad7f3.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_18_pdf_education_Tariff_B_zh_2574dad7f3.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. \nquestion: 如果我想增加订阅电量，需要更新担保吗？  \nanswer: 是的，增加订阅电量时，您需要根据当时的相关担保条款进行担保更新。  \nref: 3.1  \n\n2. \nquestion: 如果我的订阅电量减少，担保会怎么处理？  \nanswer: 您可以选择以现金或支票形式收回担保差额，或用其抵扣未来的账单。  \nref: 3.2  \n\n3. \nquestion: 更换电价时需要更新担保吗？  \nanswer: 不需要，只要您的订阅电量没有增加，担保不需要更新。  \nref: 3.3  \n\n4. \nquestion: 担保到期后我能拿回多少钱？  \nanswer: 公司会在扣除任何到期款项后，退还与担保相等的金额给您。  \nref: 4.1  \n\n5. \nquestion: 如果我没有在规定时间内更新担保，会有什么后果？  \nanswer: 公司有权因未更新担保而暂停电力供应。  \nref: 16.1(f)  \n\n6. \nquestion: 请问我可以用银行担保替代现金担保吗？  \nanswer: 是的，特别是如果您的电量高于340 kVA，您可以选择用银行担保替代现金担保。  \nref: 1.2  \n\n7. \nquestion: 短期合同的担保金额是如何计算的？  \nanswer: 短期合同的担保金额是常规金额的两倍。  \nref: 2.3  \n\n8. \nquestion: 我能否在合同到期前终止合同？  \nanswer: 可以，但您需提前至少五个工作日以书面形式通知公司。  \nref: 8.3  \n\n9. \nquestion: 如何处理计量和计费错误？  \nanswer: 如果发现计量错误，公司将根据情况进行修正，并在12个月内追溯退款。  \nref: 20.1  \n\n10. \nquestion: 如果在之前的合同中多交了担保，我能要求降低担保金额吗？  \nanswer: 是的，您可以请求公司根据新计算的担保金额进行调整，但差额需超过MOP200。  \nref: 5.2  \n\n11. \nquestion: 担保的具体金额是如何计算的？  \nanswer: 担保金额依据您订阅的电量及其使用小时进行计算，不同的电量范围有不同的标准使用时间。  \nref: 2.1  \n\n12. \nquestion: 我通过 kostenlosen 转移电力能否注册新合同？  \nanswer: 您必须提供合法转移的证明文件，才能注册新合同。  \nref: 3.3  \n\n13. \nquestion: 我能否在我的电力合同下销售电力？  \nanswer: 不可以，您不能将提供的电力全部或部分转售给第三方。  \nref: 1.4(b)  \n\n14. \nquestion: 如果我未能按时支付账单，如何处理？  \nanswer: 如果账单未支付，电力供应可能会被暂停，直至所有欠款结清。  \nref: 16.1(d)  \n\n15. \nquestion: 担保金用在什么地方？  \nanswer: 担保金主要作为您与公司的债务支付保障，不限制您整体的责任。  \nref: 4.2  "
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_165_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. \nquestion: 我是租户，有哪些文件需要提交来申请供电呢？\nanswer: 作为租户，您需要提交租户身份证明文件副本和已公证的租约副本。此外，还需提供业权人身份证明文件副本和最近三个月的查屋纸。 \nref: 供电指南部分2\n\n2. \nquestion: 如果我需要更改电表的功率，流程是怎样的？\nanswer: 您作为电能供应合约持有人需提交身份证明文件副本，必要时还需提供最近三个月的查屋纸，此外如是非住宅用途，还需提交电力装置位置图等文件。\nref: 更改订定功率部分1、2\n\n3. \nquestion: 我可以怎样申请终止供电合约？\nanswer: 您需为电能供应合约持有人，提交身份证明文件副本和电费单。如您为业权人，还需提供最近三个月的查屋纸。 \nref: 终止合约部分1、2\n\n4. \nquestion: 申请退还按金需要什么条件？\nanswer: 您的电能供应合约必须已终止且没有任何未缴付费用。顺便提一下，申请人必须是合约持有人。 \nref: 退还按金部分1\n\n5. \nquestion: 退还按金的时间要多久呢？\nanswer: 现金退款可以即时处理，其他退款方式一般在三个工作天内完成。 \nref: 退还按金部分1\n\n6. \nquestion: 我可以把电力供应合约转给别人吗？\nanswer: 可以，但您需要提交业权人或租户的身份证明文件副本、最近三个月的查屋纸以及电费单。如果是租户，还需提供已公证的租约副本。\nref: 合约转名部分1、2\n\n7. \nquestion: 检查电表要收费吗？费用是多少？\nanswer: 检查电表会收取澳门币100元的检验费，若电表运作正常，该费用将在下月电费单中体现。 \nref: 检查电表部分\n\n8. \nquestion: 申请功率超出楼宇注册的最大功率时，需要支付什么费用？\nanswer: 您需要支付附加的电缆接驳费和可能的工程费用，以及按金。 \nref: 供电指南部分1\n\n9. \nquestion: 我怎么知道自己是否符合长者电费援助计划的条件？\nanswer: 持有颐老卡的澳门永久居民，且收費類別为A1或A2的客户都可能符合条件，需提供相关文件申请。 \nref: 长者电费援助计划部分\n\n10. \nquestion: 电动汽车充电的收费标准是什么？\nanswer: 收费分为公共充电和私人充电，公共充电的费用依据功率和时段的不同而有所不同，例如慢速充电在繁忙时间为2.150澳门元/度。 \nref: 电动车充电部分"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/Supply_Application_C_ad36fcd27b.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_178_Supply_Application_C_ad36fcd27b.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1.  \nquestion: 我需要承担我的电力安装的维护费用吗？  \nanswer: 是的，您负责与您的安装相关的维护、修理和恢复费用，包括服务入口线和主开关板。  \nref: 79Standard Conditions of Supply of Electricity, 13.2  \n\n2.  \nquestion: 如果我的电表出现故障，谁来负责维修费用？  \nanswer: 如果故障是由您的疏忽或缺乏维护引起的，您将承担维修费用；否则，公司负责电表的维修和更换费用。  \nref: 79Standard Conditions of Supply of Electricity, 13.3  \n\n3.  \nquestion: 我发现设备有缺陷，但没有及时通知公司会有什么后果？  \nanswer: 如果您未及时通知公司，可能会对由于缺陷导致的任何损害负责。  \nref: 79Standard Conditions of Supply of Electricity, 13.7  \n\n4.  \nquestion: 我有权要求测试我的电表吗？  \nanswer: 是的，您可以要求公司或检验机构测试您的电表，但如果电表符合规范，相关费用将由您承担。  \nref: 79Standard Conditions of Supply of Electricity, 21.2  \n\n5.  \nquestion: 如果我拖欠电费，公司会采取什么措施？  \nanswer: 如果您连续两个月未支付电费，公司有权在事先通知后暂停电力供应。  \nref: 75Standard Conditions of Supply of Electricity, 10.2(a)  \n\n5.4725  \nquestion: 如果我想终止我的电力供应合同，我需要提前多久通知公司？  \nanswer: 您需在至少提前五个工作日书面通知公司。  \nref: 73Standard Conditions of Supply of Electricity, 8.3  "
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_152_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "1. \nquestion: 如果我因不可抗力事件（如洪水）而无法使用电力，能否获得赔偿？  \nanswer: 不，您无法从公司要求赔偿，因为根据第15.3条款，因不可抗力事件的电力供应中断不予赔偿。  \nref: 15.3\n\n2. \nquestion: 如果需要计划停电进行维修，您会提前通知我吗？  \nanswer: 是的，若需计划性停电，您将收到至少36小时的提前通知，以便您做好准备。  \nref: 15.5\n\n3. \nquestion: 我的物业电力设备是否会被检查？  \nanswer: 是的，公司的授权代理可以在工作日09:00到18:00之间对您的安装进行检查。  \nref: 14.1\n\n4. \nquestion: 如果我未能按时支付电费，会发生什么？  \nanswer: 如果电费未能在到期日支付，您将受到额外费用的处罚，并可能在五个工作日后被暂停供电。  \nref: 19.8\n\n5. \nquestion: 我能否在未支付以前账单的情况下签订新的电力供应合同？  \nanswer: 不可以。您必须完全清偿任何逾期的债务，才能签订新的合同。  \nref: 3.4"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_154_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   },
+   {
+       "list_of_qa": [
+           "question: 我该如何申请对电气安装的检查，以确保我没有涉及任何欺诈行为？\nanswer: 您可以向检查机构申请电气安装的检查，前提是您能证明自己没有参与任何欺诈行为。请联系相关机构，提交您的申请并等待他们的安排。 \nref: 来源于背景信息25.1(a)条款。\n\nquestion: 如果我认为公司不合理地终止了电力供应，我该做什么？\nanswer: 您可以申请仲裁，要求对公司不合理终止或暂停供应的赔偿。请收集相关证据，并向指定的仲裁机构提出申请。 \nref: 来源于背景信息25.1(b)条款。\n\nquestion: 如果我发现电表显示的电量不准确，我可以申请检测吗？\nanswer: 是的，您可以申请公司或检查机构对电表进行检测。如果电表符合规范，检测费用将由您承担。 \nref: 来源于背景信息21.2条款。\n\nquestion: 在什么情况下我可能会失去电力供应？\nanswer: 如果您连续两个月未支付电费，或者拒绝允许公司检查相关设备，可能会导致电力供应被中断。请务必按时支付账单并配合检查。 \nref: 来源于背景信息10.2(a)和(c)条款。"
+       ],
+       "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+       "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_163_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+   }
+]

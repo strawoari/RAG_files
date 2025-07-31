@@ -1,0 +1,20 @@
+93Standard Conditions of Supply of Electricity Ė
+5. Transitional rule  (31)
+5.1 For contracts signed after December 1 st, 1999 and up to the evaluation 
+of the concession, pursuant to Article 61, number 1 of the Concession 
+Contract for exclusive generation, import, export, transmission, 
+distribution and sale of electricity in the Macau Special Administrative 
+Region, signed between the Macau Special Administrative Region and 
+“Companhia de Electricidade de Macau – CEM, S.A.”, the amount 
+of the guarantee provided under clause 2 hereof shall be computed in 
+the following manner:
+a) Pc up to 11.5 kV A: guarantee amount x 0.33;
+b) Pc above 11.5 kV A: guarantee amount x 0.50.
+5.2 If the guarantee computed in the terms of the previous paragraph, is 
+less than the one deposited by Customers in contracts signed before 
+December 1st, 1999, such Customers may request the Company the 
+correspondent reduction of guarantee.
+5.3 The reduction hereinbefore referred to shall only be accepted when 
+the difference is higher than MOP200, whereof the correspondent 
+Customer’s refund is compulsorily performed through clearing of 
+credits.

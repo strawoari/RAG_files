@@ -1,0 +1,45 @@
+[
+  {
+      "list_of_qa": [
+          "question: 我该如何通知公司关于我的公司名称变更？\nanswer: 您需要在十五天内通知公司，并提供新的名称和注册地址。如果未能及时通知，您将仍然对所有欠款负责，直到通知公司为止。\nref: 9.1，背景信息。\n\nquestion: 如果我将经营场所的操作转让给他人，我应该做些什么？\nanswer: 您必须通知公司新的客户的名称和地址，以免对之前的欠款负责。若未通知，公司可能会要求您继续承担原客户的所有义务。\nref: 9.2，背景信息。\n\nquestion: 如果因为不可抗力事件导致我的合同被暂停，公司在何种情况下会重新恢复服务？\nanswer: 如果在不可抗力事件结束后公司没有恢复服务，您有权 rescind（解除）合同，具体请查看相关法律条款。\nref: 10.1，背景信息。\n\nquestion: 如果我发现电表的计量有错误，我该怎么处理？\nanswer: 您应及时通知公司，错误将用于可用的信息进行修正，相关调整将在未来的账单上反映。请注意，您需在规定时间内支付因此产生的任何欠款。\nref: 20.1-20.6，背景信息。"
+      ],
+      "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+      "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_147_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+  },
+  {
+      "list_of_qa": [
+          "以下是针对提供的背景信息生成的5个客户问题及其相应答案：\n\n1. question: 我有私人的发电设备，可以正常使用吗？  \nanswer: 只有在紧急情况下或进行有限时长的测试时，您才可以使用自己发电的电力，除非已获得公司的特别授权。  \nref: 22.1  \n\n2. question: 如果我发现有人盗电，我应该怎么做？  \nanswer: 您需要及时通知公司任何未授权的电力线，并且您对这些情况负有责任。  \nref: 1.4  \n\n3. question: 我该如何处理电表读数错误的问题？  \nanswer: 公司会根据实际情况纠正错误，并且您可以在错误发生后最多12个月内申请纠正的金额。  \nref: 20.3  \n\n4. question: 如果未支付电费，供电会被中断吗？  \nanswer: 是的，如果您未在规定的期限内支付电费，公司有权暂停供电服务。  \nref: 16.1(d)  \n\n5. question: 我需要在多长时间内通知公司我对使用电力的合同的终止？  \nanswer: 您需要提前五个工作日书面通知公司，否则将继续承担合同期内的费用。  \nref: 8.3"
+      ],
+      "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+      "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_161_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+  },
+  {
+      "list_of_qa": [
+          "7. question: 如何确保电力供应不被中断？  \nanswer: 遵循电力使用合同的条款，及时支付费用，并允许必要的检查和维修。  \nref: 1.4, 16.1\n\n1.  \nquestion: 如果我有未付账单，电力公司会重新连接我的电源吗？  \nanswer: 如果您有未付账单，电力公司会在您支付所有款项后才重新连接电源。  \nref: 83Standard Conditions of Supply of Electricity 16.4  \n\n3.  \nquestion: 电力公司是否可以随时检查我的电力安装？  \nanswer: 是的，电力公司可以在正常工作时间内检查连接其网络的安装。  \nref: 80Standard Conditions of Supply of Electricity 14.1  \n\n4.  \nquestion: 如果我拒绝让电力公司检查我的设备，会怎样？  \nanswer: 如果拒绝检查，电力公司有权暂停供电，不提供任何赔偿。  \nref: 80Standard Conditions of Supply of Electricity 14.3  \n\n6.  \n question: 为什么我会收到服务中断的通知？  \nanswer: 通常在进行维护或维修工作时，电力公司会提前通知您中断服务。  \nref: 81Standard Conditions of Supply of Electricity 15.5  \n\n9.  \nquestion: 合同结束后，我的保证金什么时候能保证退还？  \nanswer: 合同终止后，保证金将在扣除任何欠款后三年内退还。  \nref: 73Standard Conditions of Supply of Electricity 4.3  \n\n17.  \nquestion: 如果电力公司因维护工作中断我的服务，是否需要提前通知我？  \nanswer: 是的，需提前通知您至少36小时。  \nref: 81Standard Conditions of Supply of Electricity 15.5  \n\n18.  \nquestion: 客户为不可预测事件导致的供电中断要求补偿吗？  \nanswer: 在这种情况下，客户不能要求电力公司赔偿。  \nref: 81Standard Conditions of Supply of Electricity 15.3  \n\n28.  \nquestion: 我可以改变我的电表检查时间吗？  \nanswer: 若需要更改检查时间，您需提前与电力公司协商。  \nref: 80Standard Conditions of Supply of Electricity 14.1  \n\n29.  \nquestion: 电力公司发现的任何故障会自动导致服务中断吗？  \nanswer: 若故障严重影响安全，电力公司可以立即暂停服务。  \nref: 81Standard Conditions of Supply of Electricity 16.1  \n\n30.  \nquestion: 如果我使用来自电力公司以外的设备造成问题，责任如何划分？  \nanswer: 使用非公司设备并造成问题的责任由用户承担。  \nref: 76Standard Conditions of Supply of Electricity 13.6  \n\n33.  \nquestion: 设备的正常磨损或意外事故会导致赔偿责任吗？  \nanswer: 客户在正常磨损或不可抗力情况下不承担责任。  \nref: 76Standard Conditions of Supply of Electricity 13.6  \n\n34.  \nquestion: 在签合同前我需要提供什么文件？  \nanswer: 需提供合法的权利或占有证明，如业权证书或租约。  \nref: 73Standard Conditions of Supply of Electricity 3.1  \n\n35.  \nquestion: 可以随时终止临时电力合同吗？  \nanswer: 可以，但需遵循合同中规定的通知要求。  \nref: 73Standard Conditions of Supply of Electricity 7.1  "
+      ],
+      "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+      "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_156_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+  },
+  {
+      "list_of_qa": [
+          "question: 如果我发现我的电表读数有误，我该如何处理？  \nanswer: 您应该及时通知公司，他们将根据电表特性和先前账单进行纠正。修正的金额最多只能追溯到之前12个月内。  \nref: 20.1, 20.3 \n\nquestion: 我需要多久更新担保金？  \nanswer: 客户在收到公司的书面通知后，需在30天内更新担保金。若未及时更新，可能导致供电中断。  \nref: 4.5  \n\nquestion: 我可以使用担保金来抵消我的账单吗？  \nanswer: 是的，客户可以选择用担保金抵消未来的消费和其他费用。  \nref: 3.2(a)  \n\nquestion: 如果我的需求减少，我能获得担保金的退款吗？  \nanswer: 是的，客户可以选择以现金或支票形式获取担保金差额的退款，前提是满足相关条件。  \nref: 3.2(a)  \n\nquestion: 临时合同的最短期限是多久？  \nanswer: 临时合同的有效期限会在供电合同中明确设定，通常是有限的预定时间。  \nref: 7.2  \n\nquestion: 我可以在没有结清任何欠款的情况下签署新合同吗？  \nanswer: 不可以，客户必须先结清与公司的所有逾期欠款，才能签署新合同。  \nref: 3.4  \n\nquestion: 特殊大型客户合同有哪些优势？  \nanswer: 特殊大型客户合同可以享受特定的电价，且合同条款会依据客户的特点和澳门特区的批准而定。  \nref: 6.2  \n\nquestion: 一般合同的有效期是多久？  \nanswer: 一般供电合同的初始有效期为一个月，自动更新为同一周期，除非另有通知。  \nref: 8.1  \n\nquestion: 如何处理安装检查的通知？  \nanswer: 客户必须允许授权代理进入其安装进行检查，若拒绝，则可能导致供电中断。  \nref: 14.3  \n\nquestion: 如果我想终止合同，我需要提前多久通知公司？  \nanswer: 客户需提前至少五个工作日书面通知公司，意图终止合同。  \nref: 8.3  \n\nquestion: 在什么情况下供电可以被中断？  \nanswer: 供电可能因负载分配、电力维护或其他安全原因而中断。  \nref: 15.4  "
+      ],
+      "doc_url": "https://www.cem-macau.com/uploads/pdf_education_Supply_Elec2009_zh_29d77038c5.pdf",
+      "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_145_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json"
+  },
+  {
+      "list_of_qa": [
+        "1. \nquestion: 电动汽车充电费用是怎么计算的呢？\nanswer: 电动汽车充电费用根据每月总充电量进行收费，具体的功率费和电能费用根据所规定的功率值计算。\nref: 电动車專頁 > 充電費用2 > 計算方法及價格\n\n2. \nquestion: 如何申请安装电动汽车充电设施呢？\nanswer: 您需要先向澳电咨询供电可行性，确保基础设施满足安装要求。\nref: 电动車專頁 > 安裝電動車充電設施 > 詳情\n\n3. \nquestion: 私人充电费用包含哪些项目？\nanswer: 私人充电费用包括功率费、电能费用和政府税，根据每月使用电力充电的总电量进行计算。\nref: 电动車專頁 > 充電費用2 > 私人充電\n\n4. \nquestion: 什么是充电费的收费调整系数？\nanswer: 收费调整系数是根据电力生产成本的变化而季度性调整的费用，以反映电能价格的波动。\nref: 电动車專頁 > 收費調整系數\n\n5. \nquestion: 我可以如何支付电动汽车的充电费用？\nanswer: 您可以通过电子钱包、信用卡或无感支付的方式进行充电费用支付，首先需在澳电CEM App或网站上建立充电账户。\nref: 电动車專頁 > APK下載 > 如何充電\n\n6. \nquestion: 充电设施的收费时段是怎么划分的？\nanswer: 收费时段分为繁忙时间（09:00 - 20:00）及非繁忙时间（20:00 - 09:00），不同时间段的电能费用不同。\nref: 电动車專頁 > 充電費用2 > 收費時段\n\n8. \nquestion: 长者电费援助计划的优惠是什么？\nanswer: 合资格的长者客户可以享受每月首88度电的11%折扣优惠，前提是持有颐老卡并为住宅客户。\nref: 長者電費援助計劃 > 優惠\n\n9. \nquestion: 如果我的电表需要检查，费用是多少？\nanswer: 如果检查确认电表正常，您将在下月账单中收取100元的检查费。\nref: 检查电表 > 应付费用\n\n10.\nquestion: 什么情况下可以申请退还押金？\nanswer: 您的电能供应合约已终止且没有未缴付的费用时，可以申请退还押金。\nref: 供電指南 > 退還按金 \n\n11.\nquestion: 公共充电和私人充电费用有什么不同？\nanswer: 公共充电按每次充电收取费用，而私人充电是根据每月使用的总充电量进行收费。\nref: 电动車專頁 > 充電費用2 > 公共充電 vs 私人充電\n\n12.\nquestion: 政府税是如何计算的？\nanswer: 政府税是根据每月使用电力装置所需缴纳的税项，具体金额会根据使用情况而有所不同。\nref: 电动車專頁 > 電能費用2 > 政府稅\n\n13.\nquestion: 有关电力设施的申请要注意什么？\nanswer: 申请时需提供电力装置位置图，适用于申请功率高于20.7千伏安的单位。\nref: 供電指南 > 所需文件 \n\n14.\nquestion: 什么是A组收费，适用于哪些客户？\nanswer: A组收费适用于低压电网供电的客户，具体适用条件包括订定功率在6.9千伏安以下等。\nref: 收費類別 > A組收費 \n\n15.\nquestion: 请问如何查询我的电费账单？\nanswer: 您可以在澳电CEM App中查看您的电费账单和用电情况。\nref: 电动車專頁 > 電費單範例\n\n16.\nquestion: 如果我更改订定功率需要多长时间？\nanswer: 更改订定功率的申请在四个工作天内完成。\nref: 供電指南 > 變更訂定功率的申請\n\n17.\nquestion: 我未按照规定功率用电会有什么后果？\nanswer: 如果使用的电力超过了订定功率，您可能会被要求缴纳附加费用，这会影响电费的计算。\nref: C組收費 > 收費計算\n\n"
+      ],
+      "doc_url": "https://www.cem-macau.com/uploads/EMT_leaflet_C_8035564979.pdf",
+      "doc_name": "/Users/amychan/rag_files/data/pdf_docs/doc_189_EMT_leaflet_C_8035564979.pdf.json"
+  }
+]
+
+
+
+
+
+
+
+

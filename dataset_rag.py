@@ -7,8 +7,7 @@ from haystack.document_stores.in_memory import InMemoryDocumentStore
 from haystack.components.retrievers import InMemoryEmbeddingRetriever
 from haystack.components.embedders import AzureOpenAITextEmbedder, AzureOpenAIDocumentEmbedder
 from haystack.components.generators import AzureOpenAIGenerator
-from haystack.components.converters import JSONConverter
-from haystack.dataclasses import ByteStream
+from haystack.utils import Secret
 import json
 import os
 from load_file import get_docs
@@ -31,10 +30,12 @@ AZURE_EMBEDDING_DEPLOYMENT = os.getenv("AZURE_EMBEDDING_DEPLOYMENT")
 def get_index_pipeline(document_store):
   index_pipeline = Pipeline()
   index_pipeline.add_component(instance=DocumentCleaner(remove_extra_whitespaces = True), name="cleaner")
-  index_pipeline.add_component(instance=DocumentSplitter(split_by="page", split_length=5, language = "zh"), name="splitter")
+  index_pipeline.add_component(instance=DocumentSplitter(split_by="page", split_length=5), name="splitter")
   index_pipeline.add_component("embedder", AzureOpenAIDocumentEmbedder(
-      azure_endpoint= AZURE_OPENAI_ENDPOINT,
-      azure_deployment= AZURE_EMBEDDING_DEPLOYMENT,
+    azure_endpoint=os.getenv("EMBEDDING_ENDPOINT"),
+    azure_deployment=os.getenv("AZURE_EMBEDDING_DEPLOYMENT"),
+    api_key=Secret.from_env_var("AZURE_OPENAI_API_KEY"),
+    api_version=os.getenv("OPENAI_API_VERSION"),
   ))
   index_pipeline.add_component("writer", DocumentWriter(document_store=document_store))
   index_pipeline.connect("cleaner.documents", "splitter.documents")
@@ -47,7 +48,7 @@ def get_query_pipeline(document_store):
   pipeline = Pipeline()
   template = """
 你是一位问答助手。
-根据以下背景信息与相关知识，请列出{{ item_amount }}个现实合理的客户问题，并给出相应的答案，答案应当简洁明了，不超过4句。
+根据以下背景信息与相关知识，请列出{{ item_amount }}个现实合理的基于以下内容的客户问题，并给出相应的答案，答案应当简洁明了，不超过4句。
 背景信息: 
 {{ context }}
 相关知识：
@@ -58,15 +59,17 @@ def get_query_pipeline(document_store):
 1. 问题必须与文档中的具体信息、功能、流程、政策或概念直接相关。
 2. 生成的问题包含多种类型。
 3. 问题应清晰、简洁、口语化，模仿真实客户的提问方式。
-4. 为每个生成的问题，简要说明它的出处，或关联了文档中的哪个具体知识点或章节。
+4. 为每个生成的问题，简要说明它的出处，或关联了文档中的哪个具体知识点或章节，和文档的链接。
 请按照以下格式返回：
-<问题>...</问题>
-<答案>...</答案>
-<出处>...</出处>
+question: ...
+answer: ...
+ref: ...
 """
   query_embedder = AzureOpenAITextEmbedder(
-    azure_endpoint=AZURE_OPENAI_ENDPOINT,
-    azure_deployment=AZURE_EMBEDDING_DEPLOYMENT,
+    azure_endpoint=os.getenv("EMBEDDING_ENDPOINT"),
+    azure_deployment=os.getenv("AZURE_EMBEDDING_DEPLOYMENT"),
+    api_key=Secret.from_env_var("AZURE_OPENAI_API_KEY"),
+    api_version=os.getenv("OPENAI_API_VERSION"),
   )
   pipeline.add_component("query_embedder", query_embedder)
   pipeline.add_component("retriever", InMemoryEmbeddingRetriever(document_store=document_store))
@@ -81,23 +84,30 @@ def get_query_pipeline(document_store):
   pipeline.connect("prompt_builder", "llm")
   return pipeline
 
-def process_doc(index_pipeline, query_pipeline, doc):
+def process_doc(index_pipeline, query_pipeline, doc, file_name):
+  print(type(doc.content))
+  if not isinstance(doc.content, str):
+    raise ValueError("Document content is not a string")
   # First run the query pipeline to generate QA pairs
   try:
     # First run the query pipeline to generate QA pairs
     result = query_pipeline.run({
         "query_embedder": {"text": doc.content},
-        "prompt_builder": {"context": doc.content, "item_amount": (len(doc.content) / 100 +1) * 1}
+        "prompt_builder": {"context": doc.content, "item_amount": (len(doc.content) / 400 +1) * 1}
     })
     qa = result["llm"]["replies"]  # Get the parsed JSON response
   except Exception as e:
     print("Failed to parse QA:", e)
-    qa = ""
+    # print(doc.content)
+    print(f"length of doc.content: {len(doc.content)}")
+    raise e
   # Then run the indexing pipeline to process and store the document
   index_pipeline.run({"cleaner": {"documents": [doc]}})
-  return {'list_of_qa': qa, 'doc_content': doc.content, 'doc_meta': doc.meta}
+  return {'list_of_qa': qa,  
+          'doc_url': doc.meta['source'], 
+          'doc_name': file_name}
 
-docs = get_docs('/content/data')
+docs, file_names = get_docs('/Users/amychan/rag_files/data/pdf_docs')
 
 document_store = InMemoryDocumentStore()
 index_pipeline = get_index_pipeline(document_store)
@@ -105,22 +115,21 @@ query_pipeline = get_query_pipeline(document_store)
 
 print("Indexing pipeline and query pipeline are set up.")
 ### 7. Run Pipelines and Collect QA Pairs
-qa_dataset = []
 
 process_fn = partial(process_doc, index_pipeline, query_pipeline)
-max_workers = min(8, os.cpu_count() or 1)
+max_workers = min(6, os.cpu_count() or 1)
 print(f"Using {max_workers} workers for processing documents.")
 with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
-  results = list(executor.map(process_fn, docs))
+  results = list(executor.map(process_fn, docs, file_names))
 if results is None or len(results) == 0:
   print("No results returned from processing documents.")
 else:
   print(results[0])
 
 os.makedirs("qa_data", exist_ok=True)
-for i in range(0, len(qa_dataset), 20):
-  with open(f"qa_data/qa_{i}-{i + 20}.json", "w", encoding='utf-8') as f:
-    if i + 20 > len(results):
+for i in range(0, len(results), 40):
+  with open(f"qa_data/qa_{i+160}-{i + 200}.json", "w", encoding='utf-8') as f:
+    if i + 40 > len(results):
       json.dump(results[i:], f, ensure_ascii=False, indent=4)
     else:
-      json.dump(results[i:i+20], f, ensure_ascii=False, indent=4)
+      json.dump(results[i:i+40], f, ensure_ascii=False, indent=4)

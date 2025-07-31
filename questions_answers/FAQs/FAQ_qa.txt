@@ -1,0 +1,102 @@
+** https://www.cem-macau.com/zh/faq/5 **
+計電及電力裝置電錶裝置功率是否越大“越好”？
+電錶的裝置功率大小只代表可為該單位提供的最大電力負荷（千伏安或千瓦），即為同一時間內所使用電器的總功率，不同的功率只會影響收費計算如功率費、按金等及政府稅之計算。您可諮詢電業工程承辦商，按您的實際需要決定合適的功率以避免作出不必要的額外費用。
+為何我的電錶有別於鄰居?
+由於每個電錶的出產商及來源地有所不同，其形狀及結構因而有別。另每個電錶皆印有澳電標誌及資產號碼，並在安裝前已經由本司專業人員作詳細分析及檢定以確保其達到國際標準。
+為何澳電不為我作電力裝置維修?
+電力裝置的保養及維修可分為屬澳電和客戶負責的範圍：供電系統的所有保養及維修均由澳電負責及構成其負擔；供電系統指由變電站、中壓網絡、低壓網絡、直至連接客戶住宅或辦公室/工廠的交接點。客戶的負責範圍包括其擁有的室內電力裝置及下列大廈公共電力裝置的保養和維修。 
+如需遷移電錶位，我應怎樣做呢？
+如您有需要更改電錶位置，請留言給我們或致電澳電資詢通2833 9911，我們將與您商討有關遷移計劃的可行性。 在確認計劃後，建議您聘請有經驗的電業承辦商跟進電錶板的遷移工程。在獲得我們的稽查人員檢查符合標準後，澳電才會完成電錶的遷移。
+** https://www.cem-macau.com/zh/faq/8 **
+付款方法澳電櫃檯支持哪些電費支付方式？
+閣下可透過現金、支票、澳門通卡或「聚易用」繳付電費。
+如何繳付我的賬單？
+您可以透過以下支付方式繳付電費：自動轉賬電子支付：與澳電合作的各個電子支付平台服務櫃檯：澳電大樓、澳門自來水、郵局、7-11 便利店、OK便利店 網上銀行電話理財自動櫃員機澳電大樓入口的支票通郵寄支票中國電信(澳門)的微信公眾號 中國電信(澳門)的自助服務機 也可按這裏得到更多繳費方面的資訊。
+我在離澳期間如何繳付電費？
+您可預先申請自動轉賬服務，或者透過與澳電合作的各個電子支付平台，隨時隨地使用手機應用程式繳費。此外，您亦可透過澳電網上服務、澳電APP或南光通預繳電費。
+如何繳付共同分擔費用(電纜接駁費)/工程費用?
+ 您可以透過澳電網上服務、澳電APP或南光通輸入十二個位的申請編號繳交相關費用或 親臨澳電客戶服務中心以現金或支票方式繳付。
+** https://www.cem-macau.com/zh/faq/10 **
+如果我申請終止合約/轉名，政府電費補貼所剩餘之款項可否轉移給我名下其他的合同？
+不可。累積金額是不可退還，亦不得轉讓。即使終止合約/轉名時仍有餘款，亦不得轉至其他合約，只會呈報政府。 
+政府電費補貼之金額可否用作繳付按金、罰款、接駁費、零數、累積費用等等？
+不可，它只能用來支付「本期費用」（包括功率費、電費、收費調整系數及政府稅）。
+** https://www.cem-macau.com/zh/faq/6 **
+為什麼我會收到估算電費單？澳電如何估算？
+抄錶員每月均在賬單上的「下月抄錶日期」到訪抄讀電錶度數。若抄錶員在無法進行抄錶的情況下，澳電將按第43/91/M號法令第19條第3款的規定，以過去12個月的平均用電量估算該月用電量並發出估算電費單。 
+什麼原因令抄錶員無法抄讀電錶？
+無法進入私人地方：在大廈鐵閘或電錶房門被鎖而又未能聯絡負責人開門，或店舖已關門等情況下，抄錶員均無法抄讀電錶。斷路器被關掉：有些客戶因單位空置而關掉電錶旁的斷路器，電錶上的電子顯示屏因而無法顯示讀數。基於用電安全理由，抄錶員不會在未能掌握戶內用電的情況下重啟斷路器。如客戶需暫時中斷戶內的供電，只需關掉戶內的斷路器即可。危險環境：基於人身安全理由，當抄錶員判定現場環境有潛在危險，如電錶高度達2米或被雜物阻擋等，便不會進入該範圍內抄錶。客戶須保持電錶周圍環境安全和清潔，以便抄錶員可成功抄錶。 惡劣天氣：受颱風或水浸等惡劣天氣影響，抄錶員無法安全到達抄錶目的地。
+怎樣知道該電費單是估算？
+估算電費單正面及信封均為藍色，並在電費單標題及信封正面印著「估算電費單」。另外，電費單背面的電錶讀數旁註有「E」以作識別。 
+收到估算電費單後應該怎樣做?
+在估算期間的電費將於成功抄錶後自動重新計算。如欲調整估算電費單，可於「到期付款日」前透過網上服務預約抄錶或自報讀數。此外，澳電只接受連續三個月估算讀數/自報讀數。如超過三個月仍未能抄回實際讀數 ，供電可能會被暫停。
+如何調整估算電費單？
+於抄回實際電錶讀數後，澳電首先會退回所有已收取的估算費用。然後按最近兩次成功抄錶讀數得出的實際用電量及用電日數重新計算在估算期間及當月的用電費用，包括功率費、電費、收費調整系數及政府稅。最後扣減受影響月份的政府電費補貼﹙如有﹚及客戶已繳付的費用而得出調整後的賬單金額。如下圖例子所示，該賬單在過去兩個月均為估算，並於本月抄回實際讀數後作出調整。
+調整後的電費單出現前期用電時段，會否重覆收費？電費補貼會受影響嗎？
+不會重覆收費。澳電會先退回客戶前期用電時段的估算費用，然後再按估算期間及當月的實際用電量重新計算用電費用，並相應調整所有電費補貼。
+如何避免估算？
+客戶可在賬單上的「下月抄錶日期」前三個工作天透過網上服務、澳電App、澳電微信和網頁版內的聊天機械人、資詢通2833 9911、電郵（ customer.centre@cem-macau.com ）、傳真（2833 9912）、或親臨澳電客戶服務中心預約抄錶或自報電錶讀數。
+** https://www.cem-macau.com/zh/faq/4 **
+電力供應及服務當我搬遷到一個新地方，我需要做甚麼？
+如果新物業沒有電力供應，您可申請新供電。如果新物業已有電力供應，您可申請合約轉名以更改合約持有人名稱。上述服務您可透過澳電網上服務、郵寄或於辦公時間親臨澳電客戶聯繫中心辦理相關手續。如欲獲得更多相關資料，可按這裏，或致電澳電資詢通( 2833 9911)，我們的客戶服務主任會解答您有關方面的問題。 
+當我遷出我的公寓，我需要做什麼？
+當您搬離現時的公寓，請通知我們辦理終止合約與退還按金的申請。上述服務您可透過澳電網上服務、郵寄或於辦公時間親臨澳電客戶聯繫中心辦理相關手續。如欲獲得更多相關資料，可按這裏，或致電澳電資詢通( 2833 9911)，我們的客戶服務主任會解答您有關方面的問題。
+我現時的訂定功率﹝電錶大小﹞足夠嗎？
+如果您的電器數量比以前增多並遇到頻繁的跳掣情況，這可能是您現時電錶的大小不足以應付所有電器的負載。首先您可以諮詢有經驗的電工評估所需的總訂定功率，然後申請更改訂定功率。現在您只需於澳電網上服務即可辦理申請，亦可致電澳電資詢通（2833 9911），郵寄或於辦公時間親臨澳電客戶聯繫中心辦理相關手續。如欲獲得更多相關資料，可按這裏。
+我可以更改賬單郵寄地址嗎？
+若要更改賬單郵寄地址，您可透過澳電網上服務、或以郵寄、電郵、圖文傳真（2833 9912）等方式辦理。閣下亦可親臨澳電客戶聯繫中心辦理相關手續。 
+甚麼是電子賬單？
+就是以電子方式，例如電郵、微信或手機短訊收取您的電費單。停止收取傳統紙本電費單不但有助減少紙張浪費，並能準時接收及隨時查閱賬單，環保又便捷，立即於網上服務申請。
+如何避免忘記支付我的賬單?
+ 申請自動轉賬服務即可輕鬆使用您的銀行賬戶或信用卡繳付賬單。如果您想更方便一些，可申請繳費提示服務並於賬單發單日、到期付款日與避免截電日前以短信或電郵接收有關提示，而當自動轉賬交易失效時，您亦會收到有關通知。
+** https://www.cem-macau.com/zh/faq/7 **
+賬單發單時期為多久？
+澳電每月都會派員抄讀電錶及發出電費單，即平均每30天一次。但當遇上公眾假期時，該月的發單時期有可能出現相應的調整。 
+什麼因素會影響單位耗電量和電費額？
+電器的電力消耗會隨著氣候的改變而有所增加或減少。以夏天為例, 冷氣開放及雪櫃使用率增加，都會令耗電量上升；相應地在冬天，暖氣使用量亦為耗電量上升的原因之一。另外，經常性啟動某一電器、無故開啟一些低效率或經已損壞的電器時，都會令耗電量增加，電費額亦隨之上升。
+我和鄰居的電費額為何有所差別?
+很多時候，客戶都會將其電費單與鄰居相比較, 結果當然不盡相同。電費金額會因應住宅面積大小，家庭成員的多少、年齡、電器的數量和品牌、使用的方法等等而有所不同。可見電力的消耗是受很多不同的因素影響。
+如租戶沒有繳交電費，而我是該住宅單位的電力供應合約持有人，請問我是否須負上責任？
+是。由於您為該單位的電力供應合約持有人，所以有責任承擔該住宅單位的電費。為保障自己個人利益，建議您在房屋出租或賣出前15天 透過網上服務或親臨澳電客戶聯繫中心辦理合約轉名手續。
+什麼是收費調整系數？
+收費調整系數是根據上一季度重油、天然氣及電力輸入的成本而定。該系數每一季度都會作出一次調整，根據二零零七年三月十九日第5/2007號行政法規， 該收費調整系數對所有收費組別及能源單位(kWh)有效。
+** https://www.cem-macau.com/zh/faq/11 **
+電子賬單如何申請電子賬單服務？
+請準備好您的電費單（內含合約號碼）及個人資料，按此「立即申請」。您亦可透過澳電APP、資詢通（28339911）、傳真（28339912）、郵寄、電郵、或親臨澳電客戶聯繫中心辦理相關手續。 
+如何啟用電子賬單服務？
+I. 以電郵方式收取：申請後需登入郵箱點擊郵件內的啟用鏈結，服務隨即生效。II. 以手機短訊收取：申請後即時生效。III. 以推送通知方式（澳電微信/ 澳電APP）收取：請關注澳電微信及綁定澳電網上服務賬戶；或於申請後下載澳電APP，登入澳電網上服務並新增電費單合約，服務隨即生效。 
+我可以查閱過往的電子賬單嗎？
+您可以透過登入網上服務、澳電APP或使用澳電微信服務查閱當月賬單。升級成為合約持有人身份後，更可查閱過往12個月的賬單。 
+使用電子賬單後，如何取得地址證明？
+每月發出的電子賬單能取代紙質賬單作為在政府或銀行服務中有效的地址證明。電費單合約持有人可於澳電網上服務、澳電APP或澳電微信服務隨時查閱及下載賬單作地址證明。 
+我可以在哪裡列印紙質賬單？
+除了澳電及澳門自來水的客戶服務中心外，您亦可到工銀澳門位於信步閑庭、合富及寰宇天下分行列印賬單。
+我可以同時收取電子賬單及紙質賬單嗎？
+為響應環保及減少用紙，您只可以選擇紙質賬單或電子賬單其中一項。成功申請使用電子賬單後，澳電不會再郵寄紙質賬單。
+使用電子賬單後，我可以怎樣繳交電費？
+電子賬單與紙質賬單的繳費方式相同，同樣能透過多種繳費方法繳交電費。您可透過電子支付隨時繳交電費，既方便又快捷，或於便利店、澳門自來水或澳電客戶服務中心櫃台出示賬單繳費二維碼繳交電費。如欲獲得更多繳費方面的資訊，可按這裏。
+如何確認電子賬單為澳電所發出？
+當您啟用電子賬單服務後，我們會按您選取的方式發出新賬單。您將會收到以下由澳電發出的賬單通知：電郵：cem_bill@cem-macau.com 手機短訊：853660128339933 推送通知：澳電微信/ 澳電APP
+** HK Electric
+每次發單日期相隔多久?
+电力消费的账单通常是按月发放，因此每次发单日期相隔约一个月。具体的抄表日期通常在账单中列出，也可能因客户的实际情况而有所调整。
+有甚麼收取賬單的方法?
+客户可以通过多种方式接收电子账单，包括手机短讯、手机推送通知（通过澳电微信或澳电APP）和电子邮件。申请后，电子账单服务可即时生效或需通过邮件中的链接启用。此外，澳电提供网上服务，让客户在手机或网页上方便地查阅账单并进行缴费。
+** LA DWP
+What is CEM-Macau’s billing frequency?
+The eletricity bill is regularly sent once a month. The specific date of electricity statistics collection is listed on the previous month's bill.
+Why was my bill delayed?
+Delay in Bill Processing\n\nYour bill may have been delayed due to various factors, such as billing errors or issues with meter readings. According to the guidelines, any errors or anomalies found in energy and demand metering must be corrected promptly by the company, which might lead to temporary delays in billing. Additionally, if payments are not made within the specified terms, it could result in further delays or complications. 
+How can I get my bills for previous years?
+You cannot get your bills from previous years with regular procedures. You can only check your bill from the past 12 months though the CEM-Macau online service or the app. Otherwise, please ask the customer service.
+How do I report a leak on my property?
+Please call the emergency fix service line 2833 9922 for reporting and fixing leaks. Please also hire professional electricians to check to ensure there are no major problems.
+Does CEM-Macau charge a late fee on past-due account balances?
+Yes, you may be charged some additional late fees depending on the number of late days and other factors.
+Will customers receive a “Disconnect Notice”?
+Yes, for planned electricity disconnect events, CEM-Macau will notify clients 36 hours beforehand. If this is not possible, then the company will announce the event on social media such as FaceBook, the company website and WeChat.
+How can I update the payment source for my Automatic Payment?
+You should bring the following documents to the customer service center: Electricity bill, Copy of identification document (Macao Resident Identity Card / Passport) and Original or copy of the bank passbook; or bank account ATM card.
+Which payment options does CEM-Macau offer?
+You can pay your electricity bill through various methods, including electronic payments, automatic bank transfers, online banking, ATMs, telephone banking, checks, or counter payments. For electronic payments, CEM (Macau Electric Power Company) and several banks offer a range of free or low-cost payment options for customer convenience. Additionally, customers can use self-service kiosks to make cash or electronic payments.
+
