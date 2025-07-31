@@ -1,10 +1,10 @@
-from load_file import get_docs
+from haystack_impl.load_file import get_docs
 import os, json, re, asyncio, numpy as np
 from functools import partial
 from pathlib import Path
 import numpy as np
 from openai import AsyncAzureOpenAI 
-from haystack_pipeline import BasicRAG
+from haystack_impl.haystack_pipeline import BasicRAG
 import aiofiles
 
 AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY")

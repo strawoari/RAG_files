@@ -10,13 +10,10 @@ from haystack.components.generators import AzureOpenAIGenerator
 from haystack.utils import Secret
 import json
 import os
-from load_file import get_docs
+from haystack_impl.load_file import get_docs
 import concurrent.futures
 from dotenv import load_dotenv
 from functools import partial
-import nltk
-nltk.data.path.append('/Users/amychan/nltk_data')
-nltk.download('punkt')
 load_dotenv()
 
 

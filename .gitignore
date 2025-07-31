@@ -2,4 +2,6 @@
 .env
 /venv_haystack
 /venv_langchain
+/.venv
+/.vscode
 /__pycache__
