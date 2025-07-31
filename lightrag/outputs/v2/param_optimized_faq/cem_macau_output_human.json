@@ -1,0 +1,2904 @@
+[
+  {
+    "query": "為何澳電不為我作電力裝置維修?",
+    "response": "目前没有有关资料，请咨询客服人员或查询官网。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "中小企電力支援服務",
+        "entity2": "澳電",
+        "description": "澳電provides one-stop electricity support services specifically designed for small and medium enterprises, enhancing their operational efficiency.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091651_doc_180_Revitalization_of_6_areas_edee2cecb0.pdf.json",
+        "similarity": 0.6168059622851831
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳電",
+        "entity2": "電力承辦商",
+        "description": "電力承辦商may consult澳電for information regarding electrical installations and services.",
+        "original_rank": 68,
+        "source": "__tmp__20250704_091651_doc_172_pdf_education_Building_zh_41150ff0d2.pdf.json",
+        "similarity": 0.6138120011834007
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳電",
+        "entity2": "電力供應",
+        "description": "澳電facilitates the process of applying for電力供應by providing necessary information and resources.<SEP>澳電provides electricity supply services to residential and commercial units in Macau.<SEP>澳電is responsible for providing electricity supply services, including new applications and contract management.",
+        "original_rank": 68,
+        "source": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json<SEP>__tmp__20250704_091652_doc_36_886fe1591c853e1eb48e946037fc6b2d.json<SEP>__tmp__20250704_091651_doc_180_Revitalization_of_6_areas_edee2cecb0.pdf.json",
+        "similarity": 0.6121728267813614
+      },
+      {
+        "type": "relationship",
+        "entity1": "中小企客戶",
+        "entity2": "澳電",
+        "description": "澳電專為中小企客戶提供一站式的電力支援服務，滿足其技術需求。",
+        "original_rank": 68,
+        "source": "__tmp__20250704_091652_doc_27_e73168824541e99e4ce5d77550a736a4.json",
+        "similarity": 0.6117761976368908
+      },
+      {
+        "type": "relationship",
+        "entity1": "客戶服務",
+        "entity2": "澳電",
+        "description": "客戶服務assists customers with inquiries and issues related to their electricity supply from澳電.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json",
+        "similarity": 0.6032685297253807
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳電",
+        "entity2": "電力技術諮詢服務",
+        "description": "澳電offers technical consultation services to help businesses assess their electricity needs and avoid over-application.<SEP>澳電提供電力技術諮詢服務，以協助中小企客戶進行用電需求評估。",
+        "original_rank": 68,
+        "source": "__tmp__20250704_091651_doc_180_Revitalization_of_6_areas_edee2cecb0.pdf.json<SEP>__tmp__20250704_091652_doc_27_e73168824541e99e4ce5d77550a736a4.json",
+        "similarity": 0.6028053670910307
+      },
+      {
+        "type": "relationship",
+        "entity1": "客户",
+        "entity2": "澳电",
+        "description": "客户must contact澳电for any changes or issues related to the electric meter.<SEP>客户向澳电申请电力接入和服务，需遵循相关规定和费用标准。",
+        "original_rank": 31,
+        "source": "__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json<SEP>__tmp__20250704_091652_doc_74_795c2b04719d594b193c98cc22bffeb8.json",
+        "similarity": 0.6009379010519911
+      }
+    ],
+    "spacy_score": 0.11441472172737122
+  },
+  {
+    "query": "為何我的電錶有別於鄰居?",
+    "response": "不同的电表可能是由于各自电力消耗的型号和规格不同，或者是因物业开发时选择的品牌和类型不同造成的。建议您查看电表规格，并如有需要可咨询相关客服人员。",
+    "contexts": [
+      {
+        "type": "entity",
+        "entity": "电表",
+        "description": "电表is a device used to measure the amount of electricity consumed by a residence or business, which is essential for determining the appropriate power supply.<SEP>电表refers to the electric meter device that measures electricity consumption and requires proper maintenance and safety measures.<SEP>电表refers to the electricity meter that measures the amount of electrical energy consumed by a residence or business.<SEP>电表是用于测量电力消耗的设备，客户需在申请中考虑其规格。",
+        "original_raw": 8,
+        "doc_loc": "__tmp__20250704_091652_doc_68_c5825e4e1950ddf58d53c12927cbe246.json<SEP>__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json<SEP>__tmp__20250704_091652_doc_74_795c2b04719d594b193c98cc22bffeb8.json<SEP>__tmp__20250704_091652_doc_70_c7fc8d7bea3de69d02e33b1eef491d04.json",
+        "similarity": 0.5338103904295546
+      },
+      {
+        "type": "relationship",
+        "entity1": "電錶",
+        "entity2": "電錶裝置",
+        "description": "電錶是電錶裝置的一部分，負責測量電力消耗。",
+        "original_rank": 17,
+        "source": "__tmp__20250704_091651_doc_43_pdf_education_Metering_equipment_zh_69c3ba52e5.pdf.json",
+        "similarity": 0.5141247295085072
+      },
+      {
+        "type": "relationship",
+        "entity1": "电力装置",
+        "entity2": "电表",
+        "description": "电表measures the energy consumption of the电力装置, which is essential for billing and service management.",
+        "original_rank": 18,
+        "source": "__tmp__20250704_091652_doc_68_c5825e4e1950ddf58d53c12927cbe246.json",
+        "similarity": 0.49781462744116545
+      },
+      {
+        "type": "relationship",
+        "entity1": "电表",
+        "entity2": "电表箱",
+        "description": "电表箱houses the electric meter, providing a secure environment for its operation.",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json",
+        "similarity": 0.487872616531388
+      },
+      {
+        "type": "relationship",
+        "entity1": "电表房",
+        "entity2": "电表箱",
+        "description": "电表房is the designated area where the electric meter and its enclosure are located, requiring maintenance.",
+        "original_rank": 3,
+        "source": "__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json",
+        "similarity": 0.4666875383282072
+      },
+      {
+        "type": "relationship",
+        "entity1": "新物業",
+        "entity2": "電錶",
+        "description": "新物業has a smart電錶installed to monitor electricity usage.",
+        "original_rank": 19,
+        "source": "__tmp__20250704_091652_doc_24_820ba34667614c792220484ab415469b.json",
+        "similarity": 0.4615360622687048
+      },
+      {
+        "type": "relationship",
+        "entity1": "电力装置",
+        "entity2": "电表装置",
+        "description": "电表装置is a specific type of electrical installation that requires safety and maintenance measures.",
+        "original_rank": 12,
+        "source": "__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json",
+        "similarity": 0.45685785339736373
+      }
+    ],
+    "spacy_score": 0.47763609886169434
+  },
+  {
+    "query": "計電及電力裝置電錶裝置功率是否越大“越好”？",
+    "response": "电力装置的电表并不是功率越大越好，而是需要根据实际能源消耗选择合适的电表规格，以确保安全和有效的电力管理。过大的电表可能导致不必要的费用和资源浪费。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "电力加大评估",
+        "entity2": "电表",
+        "description": "The电力加大评估requires knowledge of the电表to determine the appropriate power supply based on consumption.",
+        "original_rank": 14,
+        "source": "__tmp__20250704_091652_doc_70_c7fc8d7bea3de69d02e33b1eef491d04.json",
+        "similarity": 0.6361389762999137
+      },
+      {
+        "type": "relationship",
+        "entity1": "电力装置",
+        "entity2": "电表",
+        "description": "电表measures the energy consumption of the电力装置, which is essential for billing and service management.",
+        "original_rank": 18,
+        "source": "__tmp__20250704_091652_doc_68_c5825e4e1950ddf58d53c12927cbe246.json",
+        "similarity": 0.6351916775062393
+      },
+      {
+        "type": "relationship",
+        "entity1": "电力装置",
+        "entity2": "电表装置",
+        "description": "电表装置is a specific type of electrical installation that requires safety and maintenance measures.",
+        "original_rank": 12,
+        "source": "__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json",
+        "similarity": 0.5519854197555701
+      },
+      {
+        "type": "relationship",
+        "entity1": "功率计算器",
+        "entity2": "电力工程",
+        "description": "功率计算器用于帮助客户在电力工程中评估所需的电力容量。",
+        "original_rank": 8,
+        "source": "__tmp__20250704_091652_doc_38_5f46b7fa158b41d527704c97e1ccd681.json",
+        "similarity": 0.5437443488579318
+      },
+      {
+        "type": "entity",
+        "entity": "电表",
+        "description": "电表is a device used to measure the amount of electricity consumed by a residence or business, which is essential for determining the appropriate power supply.<SEP>电表refers to the electric meter device that measures electricity consumption and requires proper maintenance and safety measures.<SEP>电表refers to the electricity meter that measures the amount of electrical energy consumed by a residence or business.<SEP>电表是用于测量电力消耗的设备，客户需在申请中考虑其规格。",
+        "original_raw": 8,
+        "doc_loc": "__tmp__20250704_091652_doc_68_c5825e4e1950ddf58d53c12927cbe246.json<SEP>__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json<SEP>__tmp__20250704_091652_doc_74_795c2b04719d594b193c98cc22bffeb8.json<SEP>__tmp__20250704_091652_doc_70_c7fc8d7bea3de69d02e33b1eef491d04.json",
+        "similarity": 0.5420360328789182
+      },
+      {
+        "type": "entity",
+        "entity": "功率计算器",
+        "description": "功率计算器is a tool that helps users calculate the total power consumption of their appliances to determine the appropriate power supply.<SEP>功率计算器是澳电提供的工具，帮助客户评估所需的电力容量。",
+        "original_raw": 2,
+        "doc_loc": "__tmp__20250704_091652_doc_38_5f46b7fa158b41d527704c97e1ccd681.json<SEP>__tmp__20250704_091652_doc_70_c7fc8d7bea3de69d02e33b1eef491d04.json",
+        "similarity": 0.5284197638305909
+      },
+      {
+        "type": "relationship",
+        "entity1": "电线及电表板规格",
+        "entity2": "电表",
+        "description": "电线及电表板的规格要求影响电表的选择和安装。",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_74_795c2b04719d594b193c98cc22bffeb8.json",
+        "similarity": 0.48095894751632395
+      }
+    ],
+    "spacy_score": 0.6666823625564575
+  },
+  {
+    "query": "如需遷移電錶位，我應怎樣做呢？",
+    "response": "您需要填写申请表，并向CEM提交迁移电表位置的请求，同时确保提供电力装置位置图以供审批。具体操作可以参考CEM的相关指引或咨询客服人员。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "申请人",
+        "entity2": "电表",
+        "description": "申请人must apply for a change in the size of their电表as part of the electricity service process.",
+        "original_rank": 18,
+        "source": "__tmp__20250704_091652_doc_68_c5825e4e1950ddf58d53c12927cbe246.json",
+        "similarity": 0.6321472488514297
+      },
+      {
+        "type": "entity",
+        "entity": "电表解/上锁申请表",
+        "description": "This is an application form for unsealing or sealing electricity meters, provided by CEM for customer use.",
+        "original_raw": 1,
+        "doc_loc": "__tmp__20250704_091652_doc_5_b6ba3cdf515738d29983dcbfcaa44211.json",
+        "similarity": 0.5362498371577029
+      },
+      {
+        "type": "relationship",
+        "entity1": "CEM - Companhia de Electricidade de Macau",
+        "entity2": "电表解/上锁申请表",
+        "description": "CEM provides the application form for unsealing or sealing electricity meters as part of its customer service offerings.",
+        "original_rank": 13,
+        "source": "__tmp__20250704_091652_doc_5_b6ba3cdf515738d29983dcbfcaa44211.json",
+        "similarity": 0.5081481227657447
+      },
+      {
+        "type": "relationship",
+        "entity1": "电线及电表板规格",
+        "entity2": "电表",
+        "description": "电线及电表板的规格要求影响电表的选择和安装。",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_74_795c2b04719d594b193c98cc22bffeb8.json",
+        "similarity": 0.4995113133193234
+      },
+      {
+        "type": "relationship",
+        "entity1": "电力装置",
+        "entity2": "电表",
+        "description": "电表measures the energy consumption of the电力装置, which is essential for billing and service management.",
+        "original_rank": 18,
+        "source": "__tmp__20250704_091652_doc_68_c5825e4e1950ddf58d53c12927cbe246.json",
+        "similarity": 0.4992426229426459
+      },
+      {
+        "type": "relationship",
+        "entity1": "电力装置",
+        "entity2": "电力装置位置图",
+        "description": "电力装置位置图is required to show the location of the电力装置for approval purposes.",
+        "original_rank": 12,
+        "source": "__tmp__20250704_091652_doc_68_c5825e4e1950ddf58d53c12927cbe246.json",
+        "similarity": 0.4885648451718416
+      },
+      {
+        "type": "relationship",
+        "entity1": "电表房",
+        "entity2": "电表箱",
+        "description": "电表房is the designated area where the electric meter and its enclosure are located, requiring maintenance.",
+        "original_rank": 3,
+        "source": "__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json",
+        "similarity": 0.48481735437812246
+      }
+    ],
+    "spacy_score": 0.5133962035179138
+  },
+  {
+    "query": "付款方法澳電櫃檯支持哪些電費支付方式？",
+    "response": "澳电柜台支持多种电费支付方式，包括电子支付和现金支付。具体支付选项可以在柜台咨询或查看官网。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "优先缴费及柜台服务",
+        "entity2": "澳电",
+        "description": "优先缴费及柜台服务is an initiative by澳电to provide priority services for specific community members.",
+        "original_rank": 33,
+        "source": "__tmp__20250704_091652_doc_96_ee8a52c8d6727b11e76fdddb491d1362.json",
+        "similarity": 0.6330120065507958
+      },
+      {
+        "type": "relationship",
+        "entity1": "充電賬戶",
+        "entity2": "澳電",
+        "description": "Users create a充電賬戶with澳電to manage their electric vehicle charging payments.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091651_doc_190_EMT_leaflet_C_8035564979.pdf.json",
+        "similarity": 0.6219658879899668
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳门钱包",
+        "entity2": "电费缴交",
+        "description": "澳门钱包allows users to pay their电费缴交digitally, enhancing convenience.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.616806190001213
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳電",
+        "entity2": "電費",
+        "description": "Customers are required to pay電費for the electricity supplied by澳電as per the contract.",
+        "original_rank": 81,
+        "source": "__tmp__20250704_091652_doc_11_515caa723fd3e9e50fd9c8b6836dc571.json",
+        "similarity": 0.5980999286659643
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电子账单",
+        "description": "澳电提供电子账单服务，旨在减少纸张使用和碳排放。",
+        "original_rank": 38,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5810069629475763
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电缆接驳费",
+        "description": "澳电负责收取电缆接驳费，费用依据客户申请的功率而定。",
+        "original_rank": 33,
+        "source": "__tmp__20250704_091652_doc_74_795c2b04719d594b193c98cc22bffeb8.json",
+        "similarity": 0.5809848147785426
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子支付",
+        "entity2": "电费缴交",
+        "description": "电子支付includes various electronic options for customers to pay their电费缴交.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.5773506161116735
+      }
+    ],
+    "spacy_score": 0.35881316661834717
+  },
+  {
+    "query": "如何繳付我的賬單？",
+    "response": "您可以通过电子支付方式或者中国银行的电子服务来缴付您的电子账单，另外也可以使用自助服务机进行缴交。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "电子支付",
+        "entity2": "电费缴交",
+        "description": "电子支付includes various electronic options for customers to pay their电费缴交.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.6157666104632646
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "纸质账单",
+        "description": "用户在申请电子账单后将不再收到纸质账单。",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.6019793253680565
+      },
+      {
+        "type": "relationship",
+        "entity1": "中国银行",
+        "entity2": "电费缴交",
+        "description": "中国银行offers services for customers to pay their电费缴交electronically.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.5978494874811447
+      },
+      {
+        "type": "relationship",
+        "entity1": "一户通",
+        "entity2": "电费缴交",
+        "description": "一户通provides a convenient way for customers to manage their电费缴交.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.5962603339524116
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电子账单",
+        "description": "澳电提供电子账单服务，旨在减少纸张使用和碳排放。",
+        "original_rank": 38,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5886409203394943
+      },
+      {
+        "type": "relationship",
+        "entity1": "电费缴交",
+        "entity2": "自助服务机",
+        "description": "自助服务机provide an electronic option for customers to complete their电费缴交.",
+        "original_rank": 22,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.5580300470684563
+      },
+      {
+        "type": "relationship",
+        "entity1": "支票",
+        "entity2": "电费缴交",
+        "description": "支票is a method that customers can use to fulfill their电费缴交obligations.",
+        "original_rank": 22,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.5552129127303507
+      }
+    ],
+    "spacy_score": 0.4169830083847046
+  },
+  {
+    "query": "我在離澳期間如何繳付電費？",
+    "response": "您可以通过澳门钱包或广发澳门等电子支付服务来缴交澳电的电费。这样您可以在离开期间轻松管理电费缴交。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "澳電",
+        "entity2": "電費",
+        "description": "Customers are required to pay電費for the electricity supplied by澳電as per the contract.",
+        "original_rank": 81,
+        "source": "__tmp__20250704_091652_doc_11_515caa723fd3e9e50fd9c8b6836dc571.json",
+        "similarity": 0.641660284341749
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳门钱包",
+        "entity2": "电费缴交",
+        "description": "澳门钱包allows users to pay their电费缴交digitally, enhancing convenience.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.6380467116980395
+      },
+      {
+        "type": "relationship",
+        "entity1": "广发澳门",
+        "entity2": "电费缴交",
+        "description": "广发澳门provides free electronic payment services for customers to pay their电费缴交.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.6346909075391483
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳门电力股份有限公司",
+        "entity2": "电费缴交",
+        "description": "电费缴交is a service offered by澳门电力股份有限公司for customers to pay their electricity bills.",
+        "original_rank": 23,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.6316638278971842
+      },
+      {
+        "type": "relationship",
+        "entity1": "工银澳门",
+        "entity2": "电费缴交",
+        "description": "工银澳门offers free services for electricity bill payments, facilitating电费缴交.",
+        "original_rank": 23,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.6243376301230563
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电缆接驳费",
+        "description": "澳电负责收取电缆接驳费，费用依据客户申请的功率而定。",
+        "original_rank": 33,
+        "source": "__tmp__20250704_091652_doc_74_795c2b04719d594b193c98cc22bffeb8.json",
+        "similarity": 0.618109304262074
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电子账单",
+        "description": "澳电提供电子账单服务，旨在减少纸张使用和碳排放。",
+        "original_rank": 38,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5890686084513788
+      }
+    ],
+    "spacy_score": 0.31139934062957764
+  },
+  {
+    "query": "如何繳付共同分擔費用(電纜接駁費)/工程費用?",
+    "response": "目前没有有关资料，请咨询客服人员或查询官网。",
+    "contexts": [
+      {
+        "type": "entity",
+        "entity": "共同分担费用",
+        "description": "共同分担费用refers to the shared costs associated with the connection of electricity, such as cable connection fees.",
+        "original_raw": 1,
+        "doc_loc": "__tmp__20250704_091652_doc_68_c5825e4e1950ddf58d53c12927cbe246.json",
+        "similarity": 0.7423461289074705
+      },
+      {
+        "type": "relationship",
+        "entity1": "共同分担费用",
+        "entity2": "电表",
+        "description": "共同分担费用is associated with the costs incurred for the installation and connection of the电表.",
+        "original_rank": 9,
+        "source": "__tmp__20250704_091652_doc_68_c5825e4e1950ddf58d53c12927cbe246.json",
+        "similarity": 0.6911160673245083
+      },
+      {
+        "type": "relationship",
+        "entity1": "电力工程",
+        "entity2": "电缆接驳费",
+        "description": "电缆接驳费是与电力工程相关的附加费用，可能在申请时产生。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_38_5f46b7fa158b41d527704c97e1ccd681.json",
+        "similarity": 0.6665581315862772
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电缆接驳费",
+        "description": "澳电负责收取电缆接驳费，费用依据客户申请的功率而定。",
+        "original_rank": 33,
+        "source": "__tmp__20250704_091652_doc_74_795c2b04719d594b193c98cc22bffeb8.json",
+        "similarity": 0.5950203525056452
+      },
+      {
+        "type": "relationship",
+        "entity1": "功率",
+        "entity2": "电缆接驳费",
+        "description": "电缆接驳费的计算与功率的大小直接相关，不同功率对应不同费用。",
+        "original_rank": 12,
+        "source": "__tmp__20250704_091652_doc_74_795c2b04719d594b193c98cc22bffeb8.json",
+        "similarity": 0.5917118231144762
+      },
+      {
+        "type": "relationship",
+        "entity1": "按金",
+        "entity2": "电力工程",
+        "description": "按金是根据申请的电力功率收取的费用，通常在后续结算时进行调整。",
+        "original_rank": 9,
+        "source": "__tmp__20250704_091652_doc_38_5f46b7fa158b41d527704c97e1ccd681.json",
+        "similarity": 0.529507893851518
+      },
+      {
+        "type": "relationship",
+        "entity1": "C2",
+        "entity2": "附加費",
+        "description": "C2 customers incur附加費based on their maximum power usage and active power consumption.",
+        "original_rank": 12,
+        "source": "__tmp__20250704_091651_doc_55_pdf_education_Tariff_C_zh_0da3b45407.pdf.json",
+        "similarity": 0.5040335050367368
+      }
+    ],
+    "spacy_score": 0.14351855218410492
+  },
+  {
+    "query": "政府電費補貼計劃誰能從「政府電費補貼」計劃中受惠？",
+    "response": "住宅客户可以从政府的电费补贴计划中受益，每月可获得200澳门币的补贴。针对2022年的电费补贴措施，住宅客户还可额外获得每月300澳门币的补贴。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "社會援助計劃",
+        "entity2": "電費",
+        "description": "社會援助計劃的受益者可以根據其用電量獲得電費的減免或補助。",
+        "original_rank": 18,
+        "source": "__tmp__20250704_091651_doc_23_pdf_education_Tariff_A_zh_881af653dd.pdf.json",
+        "similarity": 0.5951405642657621
+      },
+      {
+        "type": "relationship",
+        "entity1": "电费单",
+        "entity2": "社会援助计划",
+        "description": "The social assistance program impacts the billing statements of eligible customers by providing reduced rates.",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_82_79b72b8a78cd0086704fdb776c728394.json",
+        "similarity": 0.5707158141338043
+      },
+      {
+        "type": "entity",
+        "entity": "長者電費援助計劃",
+        "description": "The長者電費援助計劃is a program offering discounts on electricity bills for eligible elderly customers.<SEP>長者電費援助計劃is a program aimed at providing financial assistance to senior citizens for their electricity bills.<SEP>長者電費援助計劃is a program aimed at providing electricity bill discounts to eligible senior citizens in Macau.",
+        "original_raw": 8,
+        "doc_loc": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json<SEP>__tmp__20250704_091651_doc_48_pdf_education_2022_01_Senior_Citizen_zh_3ff3f287a7.pdf.json<SEP>__tmp__20250704_091651_doc_49_pdf_education_2022_01_Senior_Citizen_zh_3ff3f287a7.pdf.json",
+        "similarity": 0.5459627945584291
+      },
+      {
+        "type": "entity",
+        "entity": "长者电费援助计划",
+        "description": "The Senior Citizen Support Program is an initiative by CEM to assist elderly customers with their electricity bills.",
+        "original_raw": 1,
+        "doc_loc": "__tmp__20250704_091652_doc_5_b6ba3cdf515738d29983dcbfcaa44211.json",
+        "similarity": 0.5424903444074457
+      },
+      {
+        "type": "relationship",
+        "entity1": "長者電費援助計劃",
+        "entity2": "電費單",
+        "description": "The electricity bill is one of the required documents for applying to the Senior Citizen Support Program.",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091651_doc_49_pdf_education_2022_01_Senior_Citizen_zh_3ff3f287a7.pdf.json",
+        "similarity": 0.5393756427947397
+      },
+      {
+        "type": "entity",
+        "entity": "政府電費補貼",
+        "description": "The government electricity subsidy is a pre-existing monthly subsidy of 200 Macau Patacas that residential customers receive.",
+        "original_raw": 1,
+        "doc_loc": "__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json",
+        "similarity": 0.5211360644252017
+      },
+      {
+        "type": "relationship",
+        "entity1": "2022電費補貼措施",
+        "entity2": "住宅客戶",
+        "description": "Residential customers benefit from the 2022 electricity subsidy measures, receiving 300 Macau Patacas monthly.",
+        "original_rank": 12,
+        "source": "__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json",
+        "similarity": 0.5154413515034623
+      }
+    ],
+    "spacy_score": 0.31396597623825073
+  },
+  {
+    "query": "「政府電費補貼」計劃為期多久？",
+    "response": "目前没有有关资料，请咨询客服人员或查询官网。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "2022電費補貼措施",
+        "entity2": "逾期附加費",
+        "description": "逾期附加費is explicitly excluded from the coverage of the 2022 electricity subsidy measures.",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json",
+        "similarity": 0.5229492788667919
+      },
+      {
+        "type": "relationship",
+        "entity1": "2022電費補貼措施",
+        "entity2": "政府稅",
+        "description": "政府稅is part of the electricity bill that is covered by the 2022 electricity subsidy measures.",
+        "original_rank": 19,
+        "source": "__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json",
+        "similarity": 0.501914512251897
+      },
+      {
+        "type": "relationship",
+        "entity1": "收費時段",
+        "entity2": "政府稅",
+        "description": "政府稅is applied during specific收費時段, affecting how much consumers pay for electricity.",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091651_doc_18_pdf_education_Tariff_B_zh_2574dad7f3.pdf.json",
+        "similarity": 0.46703221471661616
+      },
+      {
+        "type": "relationship",
+        "entity1": "長者電費援助計劃",
+        "entity2": "電費單",
+        "description": "The electricity bill is one of the required documents for applying to the Senior Citizen Support Program.",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091651_doc_49_pdf_education_2022_01_Senior_Citizen_zh_3ff3f287a7.pdf.json",
+        "similarity": 0.464759846808114
+      },
+      {
+        "type": "entity",
+        "entity": "2022電費補貼措施",
+        "description": "The 2022 electricity subsidy measures are financial support initiatives launched by the Macau government to assist residents and businesses with their electricity bills.",
+        "original_raw": 10,
+        "doc_loc": "__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json",
+        "similarity": 0.4565805624821122
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳電",
+        "entity2": "長者電費援助計劃",
+        "description": "The Senior Citizen Support Program is offered by澳電to assist eligible senior citizens with their electricity bills.<SEP>澳電offers the長者電費援助計劃to provide discounts on electricity bills for eligible elderly customers.",
+        "original_rank": 73,
+        "source": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json<SEP>__tmp__20250704_091651_doc_49_pdf_education_2022_01_Senior_Citizen_zh_3ff3f287a7.pdf.json",
+        "similarity": 0.44243987016966035
+      },
+      {
+        "type": "relationship",
+        "entity1": "2022電費補貼措施",
+        "entity2": "澳電",
+        "description": "澳電is responsible for implementing the 2022 electricity subsidy measures as directed by the Macau government.",
+        "original_rank": 75,
+        "source": "__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json",
+        "similarity": 0.44107550305007626
+      }
+    ],
+    "spacy_score": 0.01810998097062111
+  },
+  {
+    "query": "「政府電費補貼」計劃的詳情如何？",
+    "response": "「政府电费补贴」计划包括对住宅客户提供200澳门币的补贴，以及配合2022电费补贴措施的300澳门币支持，旨在减轻居民和企业的电费负担。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "2022電費補貼措施",
+        "entity2": "政府稅",
+        "description": "政府稅is part of the electricity bill that is covered by the 2022 electricity subsidy measures.",
+        "original_rank": 19,
+        "source": "__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json",
+        "similarity": 0.5818158497700749
+      },
+      {
+        "type": "entity",
+        "entity": "2022電費補貼措施",
+        "description": "The 2022 electricity subsidy measures are financial support initiatives launched by the Macau government to assist residents and businesses with their electricity bills.",
+        "original_raw": 10,
+        "doc_loc": "__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json",
+        "similarity": 0.5361775460648017
+      },
+      {
+        "type": "relationship",
+        "entity1": "住宅客戶",
+        "entity2": "政府電費補貼",
+        "description": "Residential customers receive a government electricity subsidy of 200 Macau Patacas in addition to the 300 Macau Patacas from the 2022 measures.",
+        "original_rank": 3,
+        "source": "__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json",
+        "similarity": 0.5212131321913047
+      },
+      {
+        "type": "relationship",
+        "entity1": "政府税",
+        "entity2": "电费单",
+        "description": "The billing statement also includes government taxes that are calculated based on the total electricity charges.",
+        "original_rank": 8,
+        "source": "__tmp__20250704_091652_doc_82_79b72b8a78cd0086704fdb776c728394.json",
+        "similarity": 0.519433546641612
+      },
+      {
+        "type": "relationship",
+        "entity1": "电费单",
+        "entity2": "社会援助计划",
+        "description": "The social assistance program impacts the billing statements of eligible customers by providing reduced rates.",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_82_79b72b8a78cd0086704fdb776c728394.json",
+        "similarity": 0.5115165570854171
+      },
+      {
+        "type": "relationship",
+        "entity1": "2022電費補貼措施",
+        "entity2": "功率費",
+        "description": "功率費is one of the charges covered by the 2022 electricity subsidy measures for both residential and business customers.",
+        "original_rank": 25,
+        "source": "__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json",
+        "similarity": 0.504078823380971
+      },
+      {
+        "type": "relationship",
+        "entity1": "Charging Fees",
+        "entity2": "Government Tax",
+        "description": "Government tax is included in the overall charging fees for electricity usage.",
+        "original_rank": 7,
+        "source": "__tmp__20250704_091652_doc_79_cb209854e6436004d61bb6e2734fc409.json",
+        "similarity": 0.48764117477985136
+      }
+    ],
+    "spacy_score": 0.584032416343689
+  },
+  {
+    "query": "從哪裡可以知道累積金額？",
+    "response": "目前没有有关资料，请咨询客服人员或查询官网。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "一户通",
+        "entity2": "电费缴交",
+        "description": "一户通provides a convenient way for customers to manage their电费缴交.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.3388823024414953
+      },
+      {
+        "type": "relationship",
+        "entity1": "电费缴交",
+        "entity2": "自动转账",
+        "description": "自动转账is one of the methods available for customers to complete their电费缴交.",
+        "original_rank": 22,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.3156721517461085
+      },
+      {
+        "type": "entity",
+        "entity": "澳门钱包",
+        "description": "澳门钱包is a digital wallet service that allows users to make payments, including electricity bills.",
+        "original_raw": 1,
+        "doc_loc": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.31154139756100574
+      },
+      {
+        "type": "entity",
+        "entity": "自动转账",
+        "description": "自动转账is a method of automatic bank transfer for paying bills, providing convenience to customers.",
+        "original_raw": 2,
+        "doc_loc": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.3044338437139873
+      },
+      {
+        "type": "entity",
+        "entity": "一户通",
+        "description": "一户通is a service that provides customers with a convenient way to manage their utility payments.",
+        "original_raw": 1,
+        "doc_loc": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.3020126987238576
+      },
+      {
+        "type": "entity",
+        "entity": "电费缴交",
+        "description": "电费缴交refers to the process of paying electricity bills, which can be done through various methods.",
+        "original_raw": 20,
+        "doc_loc": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.29807761772979857
+      },
+      {
+        "type": "entity",
+        "entity": "工银澳门",
+        "description": "工银澳门is a bank in Macau that offers free services for electricity bill payments.<SEP>工银澳门是提供纸质账单打印服务的银行，客户可在其分行打印账单。",
+        "original_raw": 3,
+        "doc_loc": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json<SEP>__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.2967303784292773
+      }
+    ],
+    "spacy_score": 0.10331306606531143
+  },
+  {
+    "query": "政府電費補貼之金額可否用作繳付按金、罰款、接駁費、零數、累積費用等等？",
+    "response": "目前没有有关资料，请咨询客服人员或查询官网。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "2022電費補貼措施",
+        "entity2": "政府稅",
+        "description": "政府稅is part of the electricity bill that is covered by the 2022 electricity subsidy measures.",
+        "original_rank": 19,
+        "source": "__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json",
+        "similarity": 0.5392172687393836
+      },
+      {
+        "type": "relationship",
+        "entity1": "政府税",
+        "entity2": "电费单",
+        "description": "The billing statement also includes government taxes that are calculated based on the total electricity charges.",
+        "original_rank": 8,
+        "source": "__tmp__20250704_091652_doc_82_79b72b8a78cd0086704fdb776c728394.json",
+        "similarity": 0.5311885881298346
+      },
+      {
+        "type": "relationship",
+        "entity1": "充電費用",
+        "entity2": "政府稅",
+        "description": "政府稅is included in the total charging fees that consumers must pay.",
+        "original_rank": 20,
+        "source": "__tmp__20250704_091652_doc_79_cb209854e6436004d61bb6e2734fc409.json",
+        "similarity": 0.505901402393251
+      },
+      {
+        "type": "relationship",
+        "entity1": "2022電費補貼措施",
+        "entity2": "逾期附加費",
+        "description": "逾期附加費is explicitly excluded from the coverage of the 2022 electricity subsidy measures.",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json",
+        "similarity": 0.5049832469283984
+      },
+      {
+        "type": "entity",
+        "entity": "政府稅",
+        "description": "The term 政府稅 refers to the government tax component associated with electricity bills, which encompasses various aspects of electricity usage. This tax is imposed on customers based on their electricity consumption and is included in the monthly billing. It applies not only to general electricity usage but also specifically to electric vehicle charging services. The calculation of 政府稅 is based on the amount of electricity consumed, thereby influencing the final total of the electricity bill. Additionally, this tax is subject to subsidy measures that may affect its overall impact on consumers.<SEP>政府稅refers to the taxes imposed on electricity usage that consumers must pay monthly.<SEP>政府稅is a tax imposed on the electricity usage that consumers must pay as part of their overall charging fees.<SEP>政府稅是根據特定公式計算的稅費，通常與用電量和功率相關。",
+        "original_raw": 9,
+        "doc_loc": "__tmp__20250704_091651_doc_24_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091652_doc_83_a60d023dbc45d20536391da00d11c9b4.json<SEP>__tmp__20250704_091652_doc_58_37536be00d73ea89393e6756f09af634.json<SEP>__tmp__20250704_091651_doc_56_pdf_education_Tariff_C_zh_0da3b45407.pdf.json<SEP>__tmp__20250704_091652_doc_79_cb209854e6436004d61bb6e2734fc409.json<SEP>__tmp__20250704_091651_doc_23_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json<SEP>__tmp__20250704_091651_doc_189_EMT_leaflet_C_8035564979.pdf.json<SEP>__tmp__20250704_091651_doc_18_pdf_education_Tariff_B_zh_2574dad7f3.pdf.json",
+        "similarity": 0.49776920239272193
+      },
+      {
+        "type": "relationship",
+        "entity1": "政府稅",
+        "entity2": "電能費用",
+        "description": "電能費用is subject to政府稅, which adds to the total cost incurred by users for charging their electric vehicles.",
+        "original_rank": 17,
+        "source": "__tmp__20250704_091651_doc_189_EMT_leaflet_C_8035564979.pdf.json",
+        "similarity": 0.49448475973975203
+      },
+      {
+        "type": "relationship",
+        "entity1": "2022電費補貼措施",
+        "entity2": "功率費",
+        "description": "功率費is one of the charges covered by the 2022 electricity subsidy measures for both residential and business customers.",
+        "original_rank": 25,
+        "source": "__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json",
+        "similarity": 0.47395388202594435
+      }
+    ],
+    "spacy_score": 0.13741938769817352
+  },
+  {
+    "query": "澳電是否會賺取由2028年3月份賬單後所剩餘之所有金額?",
+    "response": "目前没有有关资料，请咨询客服人员或查询官网。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "2022電費補貼措施",
+        "entity2": "澳電",
+        "description": "澳電is responsible for implementing the 2022 electricity subsidy measures as directed by the Macau government.",
+        "original_rank": 75,
+        "source": "__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json",
+        "similarity": 0.5724952394956159
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电子账单",
+        "description": "澳电提供电子账单服务，旨在减少纸张使用和碳排放。",
+        "original_rank": 38,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5428992037284889
+      },
+      {
+        "type": "relationship",
+        "entity1": "服务标准2023年成绩",
+        "entity2": "澳电",
+        "description": "澳电outlines its service commitments and performance metrics for the year 2023 in the服务标准2023年成绩.",
+        "original_rank": 40,
+        "source": "__tmp__20250704_091652_doc_105_4204e40cb92a5b47174ff5ae25cda10d.json",
+        "similarity": 0.5355083770072437
+      },
+      {
+        "type": "relationship",
+        "entity1": "光伏系统",
+        "entity2": "澳电",
+        "description": "光伏系统在完成后需要向澳电申请与公共电网并网。",
+        "original_rank": 39,
+        "source": "__tmp__20250704_091652_doc_65_11ae8fd9992a7f92cceb45c837df8383.json",
+        "similarity": 0.49378070798159257
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳電",
+        "entity2": "澳電網站",
+        "description": "澳電uses its official website to provide updates and information regarding power supply during typhoon seasons.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091651_doc_65_pdf_education_typhoon_C_zh_3c3a9d5ee4.pdf.json",
+        "similarity": 0.4677394309408336
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电表",
+        "description": "澳电is responsible for the installation and maintenance of electric meters, ensuring their proper functioning.",
+        "original_rank": 37,
+        "source": "__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json",
+        "similarity": 0.4543864027558242
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳電",
+        "entity2": "澳電APP",
+        "description": "澳電APP is a service provided by澳電to help customers track their application progress and manage their electricity services.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091651_doc_180_Revitalization_of_6_areas_edee2cecb0.pdf.json",
+        "similarity": 0.44393153745338565
+      }
+    ],
+    "spacy_score": -0.01721867360174656
+  },
+  {
+    "query": "如果我申請終止合約/轉名，所剩餘之款項可否轉移給我名下其他的合同？",
+    "response": "根据现有规定，剩余款项是否可以转移至您名下的其他合同需要查看具体的合同条款。建议联系公司客户服务部门以获取详细信息。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "合約持有人",
+        "entity2": "客戶名下另一合約號碼",
+        "description": "合約持有人may need to reference another contract number under their name for verification purposes.",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091651_doc_178_Supply_Application_C_ad36fcd27b.pdf.json",
+        "similarity": 0.5116091991093141
+      },
+      {
+        "type": "relationship",
+        "entity1": "Contractual Clauses",
+        "entity2": "Transfer of Contract",
+        "description": "The Transfer of Contract must specify that the transferee agrees to the Contractual Clauses, linking the two entities in legal terms.",
+        "original_rank": 4,
+        "source": "__tmp__20250704_091651_doc_147_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json",
+        "similarity": 0.47955770998344527
+      },
+      {
+        "type": "entity",
+        "entity": "客戶名下另一合約號碼",
+        "description": "客戶名下另一合約號碼refers to another contract number under the customer's name, which may be needed for reference.",
+        "original_raw": 1,
+        "doc_loc": "__tmp__20250704_091651_doc_178_Supply_Application_C_ad36fcd27b.pdf.json",
+        "similarity": 0.47577822377021595
+      },
+      {
+        "type": "relationship",
+        "entity1": "Customer",
+        "entity2": "Transfer of Contract",
+        "description": "The Customer must notify the Company when transferring the operation of their premises, indicating a direct relationship between the two entities.",
+        "original_rank": 89,
+        "source": "__tmp__20250704_091651_doc_147_pdf_education_Supply_Elec2009_zh_29d77038c5.pdf.json",
+        "similarity": 0.4501159867237374
+      },
+      {
+        "type": "relationship",
+        "entity1": "物业转移税单",
+        "entity2": "申请人",
+        "description": "The applicant may submit the物业转移税单for reference if the property ownership has not been updated in the查屋纸.",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_80_74fb1ed19cbb7735a52e8f17e70e3bae.json",
+        "similarity": 0.4327939963332401
+      },
+      {
+        "type": "entity",
+        "entity": "搬出舊單位/舖位的相關手續",
+        "description": "搬出舊單位/舖位的相關手續refers to the procedures for terminating electricity contracts when moving out of a unit or shop.",
+        "original_raw": 1,
+        "doc_loc": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json",
+        "similarity": 0.4093097520152953
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "过往账单",
+        "description": "用户在升级为合同持有人身份后可以查阅过往账单。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.40710625679136825
+      }
+    ],
+    "spacy_score": 0.45292824506759644
+  },
+  {
+    "query": "累積之金額可以退回嗎？",
+    "response": "目前没有有关资料，请咨询客服人员或查询官网。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "澳门钱包",
+        "entity2": "电费缴交",
+        "description": "澳门钱包allows users to pay their电费缴交digitally, enhancing convenience.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.32137117881363886
+      },
+      {
+        "type": "relationship",
+        "entity1": "工银澳门",
+        "entity2": "电子账单",
+        "description": "工银澳门提供纸质账单打印服务，客户可在其分行打印账单。",
+        "original_rank": 12,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.307964442921562
+      },
+      {
+        "type": "relationship",
+        "entity1": "公共或私人實體",
+        "entity2": "澳門元",
+        "description": "公共或私人實體的社會福利活動收費以澳門元計算。",
+        "original_rank": 8,
+        "source": "__tmp__20250704_091652_doc_83_a60d023dbc45d20536391da00d11c9b4.json",
+        "similarity": 0.29965606172240733
+      },
+      {
+        "type": "relationship",
+        "entity1": "2022電費補貼措施",
+        "entity2": "逾期附加費",
+        "description": "逾期附加費is explicitly excluded from the coverage of the 2022 electricity subsidy measures.",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json",
+        "similarity": 0.2913048168845649
+      },
+      {
+        "type": "relationship",
+        "entity1": "充電費用",
+        "entity2": "澳門元",
+        "description": "充電費用is expressed in澳門元, the currency used for billing in Macau.",
+        "original_rank": 14,
+        "source": "__tmp__20250704_091652_doc_79_cb209854e6436004d61bb6e2734fc409.json",
+        "similarity": 0.2855605331552197
+      },
+      {
+        "type": "entity",
+        "entity": "澳门钱包",
+        "description": "澳门钱包is a digital wallet service that allows users to make payments, including electricity bills.",
+        "original_raw": 1,
+        "doc_loc": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.2819080026595788
+      },
+      {
+        "type": "relationship",
+        "entity1": "工银澳门",
+        "entity2": "电费缴交",
+        "description": "工银澳门offers free services for electricity bill payments, facilitating电费缴交.",
+        "original_rank": 23,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.2808742606553347
+      }
+    ],
+    "spacy_score": 0.07140039652585983
+  },
+  {
+    "query": "什麼原因令抄錶員無法抄讀電錶？",
+    "response": "可能導致抄錶員無法正確抄讀電子電錶的原因包括電錶的保護鎖未正確設置或電錶出現故障。确保电表正常运作和维护可以减轻此类问题。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "電錶",
+        "entity2": "電錶校驗鎖",
+        "description": "電錶校驗鎖確保電錶的準確性，防止篡改。",
+        "original_rank": 16,
+        "source": "__tmp__20250704_091651_doc_43_pdf_education_Metering_equipment_zh_69c3ba52e5.pdf.json",
+        "similarity": 0.5357055038588742
+      },
+      {
+        "type": "relationship",
+        "entity1": "電錶",
+        "entity2": "電錶的保護鎖",
+        "description": "電錶的保護鎖用於防止未經授權的訪問，確保電錶的正常運作。",
+        "original_rank": 16,
+        "source": "__tmp__20250704_091651_doc_43_pdf_education_Metering_equipment_zh_69c3ba52e5.pdf.json",
+        "similarity": 0.5337523436192163
+      },
+      {
+        "type": "relationship",
+        "entity1": "檢查電錶",
+        "entity2": "電錶",
+        "description": "檢查電錶involves the inspection of the電錶to ensure it is functioning correctly and accurately measuring electricity usage.",
+        "original_rank": 19,
+        "source": "__tmp__20250704_091651_doc_177_Supply_Application_C_ad36fcd27b.pdf.json",
+        "similarity": 0.5073608022524114
+      },
+      {
+        "type": "entity",
+        "entity": "電錶裝置",
+        "description": "電錶裝置是用於測量和記錄電力消耗的設備，必須保持安全和正常運作。",
+        "original_raw": 2,
+        "doc_loc": "__tmp__20250704_091651_doc_43_pdf_education_Metering_equipment_zh_69c3ba52e5.pdf.json",
+        "similarity": 0.49550650495091886
+      },
+      {
+        "type": "relationship",
+        "entity1": "電錶",
+        "entity2": "電錶裝置",
+        "description": "電錶是電錶裝置的一部分，負責測量電力消耗。",
+        "original_rank": 17,
+        "source": "__tmp__20250704_091651_doc_43_pdf_education_Metering_equipment_zh_69c3ba52e5.pdf.json",
+        "similarity": 0.49465457582611516
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳電",
+        "entity2": "電錶",
+        "description": "澳電is responsible for the installation and maintenance of電錶for its customers.<SEP>澳電uses電錶to measure the electricity consumption of its customers.<SEP>電錶的正常運作和管理由澳電負責，並需遵循其安全規範。",
+        "original_rank": 80,
+        "source": "__tmp__20250704_091652_doc_66_aab328d27f893ff1d5287bf9ac6fbb41.json<SEP>__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json<SEP>__tmp__20250704_091651_doc_43_pdf_education_Metering_equipment_zh_69c3ba52e5.pdf.json",
+        "similarity": 0.4843285762647369
+      },
+      {
+        "type": "relationship",
+        "entity1": "資詢通",
+        "entity2": "電錶",
+        "description": "資詢通提供有關電錶的客戶服務和技術支持。",
+        "original_rank": 17,
+        "source": "__tmp__20250704_091651_doc_43_pdf_education_Metering_equipment_zh_69c3ba52e5.pdf.json",
+        "similarity": 0.47409124664504754
+      }
+    ],
+    "spacy_score": 0.8205541372299194
+  },
+  {
+    "query": "為什麼我會收到估算電費單？澳電如何估算？",
+    "response": "您收到澳电的估算电费单可能是因为在某些情况下未能获取实际用电数据，澳电根据历史消费和平均用电情况进行估算。具体的估算方法可能会依据您过去的用电记录和合约条款。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "截數賬單",
+        "entity2": "澳電",
+        "description": "澳電provides截數賬單to calculate unpaid electricity fees before completing transactions.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json",
+        "similarity": 0.7092094176742462
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳電",
+        "entity2": "電費",
+        "description": "Customers are required to pay電費for the electricity supplied by澳電as per the contract.",
+        "original_rank": 81,
+        "source": "__tmp__20250704_091652_doc_11_515caa723fd3e9e50fd9c8b6836dc571.json",
+        "similarity": 0.6794188822594622
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电缆接驳费",
+        "description": "澳电负责收取电缆接驳费，费用依据客户申请的功率而定。",
+        "original_rank": 33,
+        "source": "__tmp__20250704_091652_doc_74_795c2b04719d594b193c98cc22bffeb8.json",
+        "similarity": 0.6753031462049611
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电子账单",
+        "description": "澳电提供电子账单服务，旨在减少纸张使用和碳排放。",
+        "original_rank": 38,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.6673727592168437
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电表",
+        "description": "澳电is responsible for the installation and maintenance of electric meters, ensuring their proper functioning.",
+        "original_rank": 37,
+        "source": "__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json",
+        "similarity": 0.6508356162052523
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳電",
+        "entity2": "電纜接駁費",
+        "description": "The costs of電纜接駁費are set by澳電for various power levels, indicating a direct financial relationship.<SEP>澳電sets the costs for電纜接駁費based on the specified power levels for electrical installations.",
+        "original_rank": 67,
+        "source": "__tmp__20250704_091652_doc_66_aab328d27f893ff1d5287bf9ac6fbb41.json",
+        "similarity": 0.599998981196729
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳電",
+        "entity2": "電力加大評估",
+        "description": "澳電offers電力加大評估to help customers assess their power supply needs.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json",
+        "similarity": 0.5885971199506711
+      }
+    ],
+    "spacy_score": 0.49492430686950684
+  },
+  {
+    "query": "收到估算電費單後應該怎樣做?",
+    "response": "您应该核对估算电费单上的使用情况和费用，如有疑问，建议您联系相关服务部门。如果需要进行申请或终止服务，记得提供电费单的副本。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "电费单",
+        "entity2": "租户",
+        "description": "租户must provide电费单if applicable to verify their electricity usage.",
+        "original_rank": 14,
+        "source": "__tmp__20250704_091652_doc_51_6171cdc886609ff692d1d65aecef1917.json",
+        "similarity": 0.6128277688702731
+      },
+      {
+        "type": "relationship",
+        "entity1": "电能费用",
+        "entity2": "电费单",
+        "description": "The billing statement includes detailed charges for electricity consumed, categorized as energy fees.",
+        "original_rank": 8,
+        "source": "__tmp__20250704_091652_doc_82_79b72b8a78cd0086704fdb776c728394.json",
+        "similarity": 0.5941310208863904
+      },
+      {
+        "type": "relationship",
+        "entity1": "申请人",
+        "entity2": "电费单",
+        "description": "The applicant must provide a copy of the electricity bill as part of the termination application process.",
+        "original_rank": 17,
+        "source": "__tmp__20250704_091652_doc_80_74fb1ed19cbb7735a52e8f17e70e3bae.json",
+        "similarity": 0.5923489909450337
+      },
+      {
+        "type": "entity",
+        "entity": "电费单",
+        "description": "电费单is a billing statement that details the electricity charges incurred by customers, including power and energy fees.<SEP>电费单is a utility bill that serves as proof of electricity usage and is required for the application.<SEP>电费单refers to the electricity bill that must be provided as part of the application process.",
+        "original_raw": 7,
+        "doc_loc": "__tmp__20250704_091652_doc_82_79b72b8a78cd0086704fdb776c728394.json<SEP>__tmp__20250704_091652_doc_80_74fb1ed19cbb7735a52e8f17e70e3bae.json<SEP>__tmp__20250704_091652_doc_51_6171cdc886609ff692d1d65aecef1917.json",
+        "similarity": 0.585877349853408
+      },
+      {
+        "type": "relationship",
+        "entity1": "政府税",
+        "entity2": "电费单",
+        "description": "The billing statement also includes government taxes that are calculated based on the total electricity charges.",
+        "original_rank": 8,
+        "source": "__tmp__20250704_091652_doc_82_79b72b8a78cd0086704fdb776c728394.json",
+        "similarity": 0.5613457219565231
+      },
+      {
+        "type": "relationship",
+        "entity1": "业权人",
+        "entity2": "电费单",
+        "description": "业权人must provide电费单as part of the application process to show proof of utility payments.",
+        "original_rank": 13,
+        "source": "__tmp__20250704_091652_doc_51_6171cdc886609ff692d1d65aecef1917.json",
+        "similarity": 0.5539795401121758
+      },
+      {
+        "type": "entity",
+        "entity": "电费缴交",
+        "description": "电费缴交refers to the process of paying electricity bills, which can be done through various methods.",
+        "original_raw": 20,
+        "doc_loc": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.5454179316786649
+      }
+    ],
+    "spacy_score": 0.3691651225090027
+  },
+  {
+    "query": "怎樣知道該電費單是估算？",
+    "response": "目前没有有关资料，请咨询客服人员或查询官网。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "电费单",
+        "entity2": "租户",
+        "description": "租户must provide电费单if applicable to verify their electricity usage.",
+        "original_rank": 14,
+        "source": "__tmp__20250704_091652_doc_51_6171cdc886609ff692d1d65aecef1917.json",
+        "similarity": 0.6554766158028568
+      },
+      {
+        "type": "relationship",
+        "entity1": "电能费用",
+        "entity2": "电费单",
+        "description": "The billing statement includes detailed charges for electricity consumed, categorized as energy fees.",
+        "original_rank": 8,
+        "source": "__tmp__20250704_091652_doc_82_79b72b8a78cd0086704fdb776c728394.json",
+        "similarity": 0.6369238347156558
+      },
+      {
+        "type": "relationship",
+        "entity1": "收费调整系数",
+        "entity2": "电费单",
+        "description": "The billing statement incorporates the adjustment factor to calculate the total charges based on consumption.",
+        "original_rank": 9,
+        "source": "__tmp__20250704_091652_doc_82_79b72b8a78cd0086704fdb776c728394.json",
+        "similarity": 0.6229061998209301
+      },
+      {
+        "type": "entity",
+        "entity": "截數賬單",
+        "description": "截數賬單refers to the final bill calculation before completing a transaction for unpaid electricity fees.",
+        "original_raw": 1,
+        "doc_loc": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json",
+        "similarity": 0.5931851527158499
+      },
+      {
+        "type": "relationship",
+        "entity1": "业权人",
+        "entity2": "电费单",
+        "description": "业权人must provide电费单as part of the application process to show proof of utility payments.",
+        "original_rank": 13,
+        "source": "__tmp__20250704_091652_doc_51_6171cdc886609ff692d1d65aecef1917.json",
+        "similarity": 0.5742922365545529
+      },
+      {
+        "type": "relationship",
+        "entity1": "申请人",
+        "entity2": "电费单",
+        "description": "The applicant must provide a copy of the electricity bill as part of the termination application process.",
+        "original_rank": 17,
+        "source": "__tmp__20250704_091652_doc_80_74fb1ed19cbb7735a52e8f17e70e3bae.json",
+        "similarity": 0.5719873462702549
+      },
+      {
+        "type": "relationship",
+        "entity1": "截數賬單",
+        "entity2": "澳電",
+        "description": "澳電provides截數賬單to calculate unpaid electricity fees before completing transactions.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json",
+        "similarity": 0.5678913115620156
+      }
+    ],
+    "spacy_score": 0.0724436566233635
+  },
+  {
+    "query": "如何調整估算電費單？",
+    "response": "目前没有有关资料，请咨询客服人员或查询官网。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "收费调整系数",
+        "entity2": "电费单",
+        "description": "The billing statement incorporates the adjustment factor to calculate the total charges based on consumption.",
+        "original_rank": 9,
+        "source": "__tmp__20250704_091652_doc_82_79b72b8a78cd0086704fdb776c728394.json",
+        "similarity": 0.686579493071164
+      },
+      {
+        "type": "relationship",
+        "entity1": "电能费用",
+        "entity2": "电费单",
+        "description": "The billing statement includes detailed charges for electricity consumed, categorized as energy fees.",
+        "original_rank": 8,
+        "source": "__tmp__20250704_091652_doc_82_79b72b8a78cd0086704fdb776c728394.json",
+        "similarity": 0.6054922192806362
+      },
+      {
+        "type": "relationship",
+        "entity1": "充電費用",
+        "entity2": "計算方法",
+        "description": "計算方法describes how to compute the total charging fees based on various components.",
+        "original_rank": 12,
+        "source": "__tmp__20250704_091652_doc_79_cb209854e6436004d61bb6e2734fc409.json",
+        "similarity": 0.5970046756610791
+      },
+      {
+        "type": "relationship",
+        "entity1": "收費調整系數",
+        "entity2": "電費",
+        "description": "收費調整系數影響電費的最終計算，根據用電量進行調整。<SEP>收費調整系數根據電力生產成本的變化而調整，影響電費的計算。",
+        "original_rank": 26,
+        "source": "__tmp__20250704_091651_doc_23_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091651_doc_24_pdf_education_Tariff_A_zh_881af653dd.pdf.json",
+        "similarity": 0.58816164617792
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子支付",
+        "entity2": "电费缴交",
+        "description": "电子支付includes various electronic options for customers to pay their电费缴交.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.5787385221954893
+      },
+      {
+        "type": "relationship",
+        "entity1": "电费缴交",
+        "entity2": "自动转账",
+        "description": "自动转账is one of the methods available for customers to complete their电费缴交.",
+        "original_rank": 22,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.5666772307613054
+      },
+      {
+        "type": "relationship",
+        "entity1": "截數賬單",
+        "entity2": "澳電",
+        "description": "澳電provides截數賬單to calculate unpaid electricity fees before completing transactions.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json",
+        "similarity": 0.5439234390729512
+      }
+    ],
+    "spacy_score": 0.08165675401687622
+  },
+  {
+    "query": "如何避免估算？",
+    "response": "要避免不准确的估算，您应该定期检查电表，确保其正常工作并准确测量用电量。此外，及时交纳电费和关注截数账单，可以帮助您准确了解未付款项，减少估算带来的影响。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "收費調整系數",
+        "entity2": "電費",
+        "description": "收費調整系數影響電費的最終計算，根據用電量進行調整。<SEP>收費調整系數根據電力生產成本的變化而調整，影響電費的計算。",
+        "original_rank": 26,
+        "source": "__tmp__20250704_091651_doc_23_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091651_doc_24_pdf_education_Tariff_A_zh_881af653dd.pdf.json",
+        "similarity": 0.37861398238003363
+      },
+      {
+        "type": "entity",
+        "entity": "截數賬單",
+        "description": "截數賬單refers to the final bill calculation before completing a transaction for unpaid electricity fees.",
+        "original_raw": 1,
+        "doc_loc": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json",
+        "similarity": 0.3482815322173285
+      },
+      {
+        "type": "relationship",
+        "entity1": "功率費",
+        "entity2": "電費",
+        "description": "功率費是計算電費的一部分，根據用戶的訂定功率計算。<SEP>電費的計算包括功率費，這是根據用戶的訂定功率來計算的。",
+        "original_rank": 31,
+        "source": "__tmp__20250704_091651_doc_23_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091651_doc_24_pdf_education_Tariff_A_zh_881af653dd.pdf.json",
+        "similarity": 0.34254352626867646
+      },
+      {
+        "type": "relationship",
+        "entity1": "截數賬單",
+        "entity2": "澳電",
+        "description": "澳電provides截數賬單to calculate unpaid electricity fees before completing transactions.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json",
+        "similarity": 0.3400765343219043
+      },
+      {
+        "type": "relationship",
+        "entity1": "檢查電錶",
+        "entity2": "電錶",
+        "description": "檢查電錶involves the inspection of the電錶to ensure it is functioning correctly and accurately measuring electricity usage.",
+        "original_rank": 19,
+        "source": "__tmp__20250704_091651_doc_177_Supply_Application_C_ad36fcd27b.pdf.json",
+        "similarity": 0.33411671699520273
+      },
+      {
+        "type": "entity",
+        "entity": "機械電錶",
+        "description": "機械電錶是一種傳統的電錶，使用機械裝置來測量電力消耗。",
+        "original_raw": 1,
+        "doc_loc": "__tmp__20250704_091651_doc_43_pdf_education_Metering_equipment_zh_69c3ba52e5.pdf.json",
+        "similarity": 0.28718690529692226
+      },
+      {
+        "type": "relationship",
+        "entity1": "电力装置",
+        "entity2": "电表",
+        "description": "电表measures the energy consumption of the电力装置, which is essential for billing and service management.",
+        "original_rank": 18,
+        "source": "__tmp__20250704_091652_doc_68_c5825e4e1950ddf58d53c12927cbe246.json",
+        "similarity": 0.26856110861422333
+      }
+    ],
+    "spacy_score": 0.4256848394870758
+  },
+  {
+    "query": "調整後的電費單出現前期用電時段，會否重覆收費？電費補貼會受影響嗎？",
+    "response": "调整后的电子账单中出现的前期用电时段不会导致重复收费，因为收費調整系數是根据用电量和生产成本进行调整的。电费补贴将依据此调整系数进行计算，因此也会受到影响。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "收費調整系數",
+        "entity2": "高用電季節",
+        "description": "The收費調整系數is influenced by the高用電季節due to increased electricity demand during this period.",
+        "original_rank": 13,
+        "source": "__tmp__20250704_091651_doc_56_pdf_education_Tariff_C_zh_0da3b45407.pdf.json",
+        "similarity": 0.6088568131985346
+      },
+      {
+        "type": "relationship",
+        "entity1": "收费调整系数",
+        "entity2": "电费单",
+        "description": "The billing statement incorporates the adjustment factor to calculate the total charges based on consumption.",
+        "original_rank": 9,
+        "source": "__tmp__20250704_091652_doc_82_79b72b8a78cd0086704fdb776c728394.json",
+        "similarity": 0.5912591689828144
+      },
+      {
+        "type": "relationship",
+        "entity1": "收費調整系數",
+        "entity2": "電費",
+        "description": "收費調整系數影響電費的最終計算，根據用電量進行調整。<SEP>收費調整系數根據電力生產成本的變化而調整，影響電費的計算。",
+        "original_rank": 26,
+        "source": "__tmp__20250704_091651_doc_23_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091651_doc_24_pdf_education_Tariff_A_zh_881af653dd.pdf.json",
+        "similarity": 0.579109444489647
+      },
+      {
+        "type": "relationship",
+        "entity1": "低用電季節",
+        "entity2": "收費調整系數",
+        "description": "The收費調整系數is also affected by the低用電季節, which typically sees reduced electricity demand.",
+        "original_rank": 12,
+        "source": "__tmp__20250704_091651_doc_56_pdf_education_Tariff_C_zh_0da3b45407.pdf.json",
+        "similarity": 0.5669504509656369
+      },
+      {
+        "type": "relationship",
+        "entity1": "收費時段",
+        "entity2": "政府稅",
+        "description": "政府稅is applied during specific收費時段, affecting how much consumers pay for electricity.",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091651_doc_18_pdf_education_Tariff_B_zh_2574dad7f3.pdf.json",
+        "similarity": 0.5380239310313698
+      },
+      {
+        "type": "entity",
+        "entity": "收費調整系數",
+        "description": "The 收費調整系數, or billing adjustment factor, is a crucial element in the electricity billing process. It is utilized to adjust billing rates on a quarterly basis, reflecting fluctuations in electricity production costs. This adjustment factor is not only integral to calculating electricity charges but is also included in the subsidy coverage, ensuring that consumers are fairly billed according to the actual costs of electricity production. The 收費調整系數 is determined based on changes in market conditions and electricity production costs, thereby influencing the overall charging fees for consumers. Additionally, it takes into account the amount of electricity consumed, making it a comprehensive parameter for adjusting electricity charges.<SEP>收費調整系數refers to the adjustment coefficient used to modify electricity charges based on production costs and other factors.<SEP>收費調整系數is a fee adjustment factor that reflects fluctuations in electricity production costs, applied quarterly.",
+        "original_raw": 10,
+        "doc_loc": "__tmp__20250704_091651_doc_24_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091652_doc_58_37536be00d73ea89393e6756f09af634.json<SEP>__tmp__20250704_091652_doc_76_09921a0942feeaac5aacb67c488849fe.json<SEP>__tmp__20250704_091651_doc_56_pdf_education_Tariff_C_zh_0da3b45407.pdf.json<SEP>__tmp__20250704_091652_doc_79_cb209854e6436004d61bb6e2734fc409.json<SEP>__tmp__20250704_091651_doc_23_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json<SEP>__tmp__20250704_091651_doc_18_pdf_education_Tariff_B_zh_2574dad7f3.pdf.json",
+        "similarity": 0.5160720039993137
+      },
+      {
+        "type": "relationship",
+        "entity1": "电费缴交",
+        "entity2": "自动转账",
+        "description": "自动转账is one of the methods available for customers to complete their电费缴交.",
+        "original_rank": 22,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.5038479329202347
+      }
+    ],
+    "spacy_score": 0.43263912200927734
+  },
+  {
+    "query": "電力供應及服務當我搬遷到一個新地方，我需要做甚麼？",
+    "response": "您需要联系澳电申请电力供应，并提供身份证明及租约副本。请确保新的物业拥有有效的供电合约，以便顺利接入电力服务。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "搬出舊單位/舖位的相關手續",
+        "entity2": "澳電",
+        "description": "澳電provides procedures for customers moving out to terminate their electricity contracts.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json",
+        "similarity": 0.5628828999923818
+      },
+      {
+        "type": "relationship",
+        "entity1": "供電指南",
+        "entity2": "租戶",
+        "description": "租戶需依據供電指南提供身份證明及租約副本以申請電能供應。",
+        "original_rank": 6,
+        "source": "__tmp__20250704_091651_doc_178_Supply_Application_C_ad36fcd27b.pdf.json",
+        "similarity": 0.5594362675450096
+      },
+      {
+        "type": "relationship",
+        "entity1": "新物業",
+        "entity2": "澳電",
+        "description": "澳電is responsible for providing electricity supply to新物業, especially when moving into a new property.",
+        "original_rank": 69,
+        "source": "__tmp__20250704_091652_doc_24_820ba34667614c792220484ab415469b.json",
+        "similarity": 0.5511593379513217
+      },
+      {
+        "type": "relationship",
+        "entity1": "供電合約",
+        "entity2": "新物業",
+        "description": "新物業may lack a valid供電合約, which is necessary for electricity supply.",
+        "original_rank": 6,
+        "source": "__tmp__20250704_091652_doc_24_820ba34667614c792220484ab415469b.json",
+        "similarity": 0.5417471595989323
+      },
+      {
+        "type": "relationship",
+        "entity1": "客户",
+        "entity2": "澳电",
+        "description": "客户must contact澳电for any changes or issues related to the electric meter.<SEP>客户向澳电申请电力接入和服务，需遵循相关规定和费用标准。",
+        "original_rank": 31,
+        "source": "__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json<SEP>__tmp__20250704_091652_doc_74_795c2b04719d594b193c98cc22bffeb8.json",
+        "similarity": 0.5229216666083856
+      },
+      {
+        "type": "relationship",
+        "entity1": "申请人",
+        "entity2": "电费单",
+        "description": "The applicant must provide a copy of the electricity bill as part of the termination application process.",
+        "original_rank": 17,
+        "source": "__tmp__20250704_091652_doc_80_74fb1ed19cbb7735a52e8f17e70e3bae.json",
+        "similarity": 0.5098197051716012
+      },
+      {
+        "type": "entity",
+        "entity": "电力供应申请",
+        "description": "电力供应申请refers to the application process for electricity supply, which is completed within 4 working days without inspection.",
+        "original_raw": 1,
+        "doc_loc": "__tmp__20250704_091652_doc_105_4204e40cb92a5b47174ff5ae25cda10d.json",
+        "similarity": 0.5030607376434446
+      }
+    ],
+    "spacy_score": 0.5006893277168274
+  },
+  {
+    "query": "我現時的訂定功率﹝電錶大小﹞足夠嗎？",
+    "response": "您可以通过进行电力加大评估并使用功率计算器来确认当前电表功率设定是否足够，以确保满足您的用电需求。建议您咨询专业人员以获得准确评估。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "电力加大评估",
+        "entity2": "电表",
+        "description": "The电力加大评估requires knowledge of the电表to determine the appropriate power supply based on consumption.",
+        "original_rank": 14,
+        "source": "__tmp__20250704_091652_doc_70_c7fc8d7bea3de69d02e33b1eef491d04.json",
+        "similarity": 0.6046801940850141
+      },
+      {
+        "type": "relationship",
+        "entity1": "电力装置",
+        "entity2": "电表",
+        "description": "电表measures the energy consumption of the电力装置, which is essential for billing and service management.",
+        "original_rank": 18,
+        "source": "__tmp__20250704_091652_doc_68_c5825e4e1950ddf58d53c12927cbe246.json",
+        "similarity": 0.5620292376341778
+      },
+      {
+        "type": "relationship",
+        "entity1": "功率计算器",
+        "entity2": "电力加大评估",
+        "description": "The电力加大评估process involves using the功率计算器to calculate the total power consumption for proper power supply planning.",
+        "original_rank": 8,
+        "source": "__tmp__20250704_091652_doc_70_c7fc8d7bea3de69d02e33b1eef491d04.json",
+        "similarity": 0.5321662903765562
+      },
+      {
+        "type": "relationship",
+        "entity1": "功率費",
+        "entity2": "電錶大小",
+        "description": "電錶大小determines the calculation of功率費, influencing the overall charging costs.",
+        "original_rank": 16,
+        "source": "__tmp__20250704_091651_doc_189_EMT_leaflet_C_8035564979.pdf.json",
+        "similarity": 0.5180284751342709
+      },
+      {
+        "type": "relationship",
+        "entity1": "B組收費",
+        "entity2": "功率",
+        "description": "功率is a critical factor in calculating B組收費, as it determines the applicable charges based on consumption.",
+        "original_rank": 19,
+        "source": "__tmp__20250704_091651_doc_17_pdf_education_Tariff_B_zh_2574dad7f3.pdf.json",
+        "similarity": 0.3711817547207894
+      },
+      {
+        "type": "relationship",
+        "entity1": "功率費",
+        "entity2": "電費",
+        "description": "功率費是計算電費的一部分，根據用戶的訂定功率計算。<SEP>電費的計算包括功率費，這是根據用戶的訂定功率來計算的。",
+        "original_rank": 31,
+        "source": "__tmp__20250704_091651_doc_23_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091651_doc_24_pdf_education_Tariff_A_zh_881af653dd.pdf.json",
+        "similarity": 0.35301273622176366
+      },
+      {
+        "type": "entity",
+        "entity": "功率費",
+        "description": "功率費 is a charge associated with the power output of charging stations, significantly impacting the overall cost of charging electric vehicles. This fee is calculated based on the power capacity utilized during both peak and non-peak hours and is included in the electricity bill, often supported by various subsidy measures. Specifically, 功率費 refers to the fees determined by the power capacity of the electric meter used for charging, based on the power settings defined by the user. \n\nThe charge is calculated based on the maximum power load specified in the electricity supply contract, measured in kilovolt-amperes (kVA). It varies according to the defined power and the maximum recorded power, influencing the total electricity expenses incurred by users. Additionally, 功率費 is affected by the time of use and demand, with different charging standards applied based on the power range of the electrical equipment. Overall, 功率費 plays a crucial role in determining the total costs associated with electricity consumption for charging electric vehicles.",
+        "original_raw": 15,
+        "doc_loc": "__tmp__20250704_091651_doc_24_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091652_doc_83_a60d023dbc45d20536391da00d11c9b4.json<SEP>__tmp__20250704_091651_doc_190_EMT_leaflet_C_8035564979.pdf.json<SEP>__tmp__20250704_091652_doc_76_09921a0942feeaac5aacb67c488849fe.json<SEP>__tmp__20250704_091651_doc_56_pdf_education_Tariff_C_zh_0da3b45407.pdf.json<SEP>__tmp__20250704_091652_doc_79_cb209854e6436004d61bb6e2734fc409.json<SEP>__tmp__20250704_091651_doc_23_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json<SEP>__tmp__20250704_091652_doc_72_f5f86ca700d8cb6f595ed6f3591703dc.json<SEP>__tmp__20250704_091651_doc_189_EMT_leaflet_C_8035564979.pdf.json<SEP>__tmp__20250704_091651_doc_18_pdf_education_Tariff_B_zh_2574dad7f3.pdf.json",
+        "similarity": 0.30563830947421644
+      }
+    ],
+    "spacy_score": 0.45106205344200134
+  },
+  {
+    "query": "當我遷出我的公寓，我需要做什麼？",
+    "response": "您需要向澳电办理终止电力合同的相关手续。建议您访问澳电官网获取详细和具体的操作指南。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "搬出舊單位/舖位的相關手續",
+        "entity2": "澳電",
+        "description": "澳電provides procedures for customers moving out to terminate their electricity contracts.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json",
+        "similarity": 0.5005226499835395
+      },
+      {
+        "type": "relationship",
+        "entity1": "查屋纸",
+        "entity2": "租户",
+        "description": "租户may need查屋纸if the ownership status has not been updated for the application.",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_51_6171cdc886609ff692d1d65aecef1917.json",
+        "similarity": 0.48880035123012355
+      },
+      {
+        "type": "entity",
+        "entity": "租户",
+        "description": "租户refers to the tenant who must provide specific documents when applying for electricity services.<SEP>租户是指在物业中居住或使用的个人，申请电力时需提供身份证明。",
+        "original_raw": 7,
+        "doc_loc": "__tmp__20250704_091652_doc_51_6171cdc886609ff692d1d65aecef1917.json<SEP>__tmp__20250704_091652_doc_38_5f46b7fa158b41d527704c97e1ccd681.json",
+        "similarity": 0.3953956045740542
+      },
+      {
+        "type": "relationship",
+        "entity1": "业权人",
+        "entity2": "租户",
+        "description": "租户在申请电力时需提供业权人的身份证明文件。",
+        "original_rank": 13,
+        "source": "__tmp__20250704_091652_doc_38_5f46b7fa158b41d527704c97e1ccd681.json",
+        "similarity": 0.3715154193730563
+      },
+      {
+        "type": "relationship",
+        "entity1": "供電指南",
+        "entity2": "租戶",
+        "description": "租戶需依據供電指南提供身份證明及租約副本以申請電能供應。",
+        "original_rank": 6,
+        "source": "__tmp__20250704_091651_doc_178_Supply_Application_C_ad36fcd27b.pdf.json",
+        "similarity": 0.36282870063948736
+      },
+      {
+        "type": "relationship",
+        "entity1": "私人電動車供電申請",
+        "entity2": "租戶",
+        "description": "租戶需提供租約及身份證明文件以進行私人電動車供電申請。",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_71_68f648f249fdc61a20c72fcd48b99922.json",
+        "similarity": 0.3605418145493966
+      },
+      {
+        "type": "relationship",
+        "entity1": "电费单",
+        "entity2": "租户",
+        "description": "租户must provide电费单if applicable to verify their electricity usage.",
+        "original_rank": 14,
+        "source": "__tmp__20250704_091652_doc_51_6171cdc886609ff692d1d65aecef1917.json",
+        "similarity": 0.35601197400339
+      }
+    ],
+    "spacy_score": 0.3753260374069214
+  },
+  {
+    "query": "我可以更改賬單郵寄地址嗎？",
+    "response": "目前没有有关资料，请咨询客服人员或查询官网。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "电子邮件",
+        "description": "电子邮件是接收电子账单的方式之一，需点击启用链接以生效。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5394074986741638
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "纸质账单",
+        "description": "用户在申请电子账单后将不再收到纸质账单。",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5159837548754161
+      },
+      {
+        "type": "relationship",
+        "entity1": "个人资料",
+        "entity2": "电子账单",
+        "description": "个人资料是申请电子账单服务时需要提供的用户信息。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.47934657153265237
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子支付",
+        "entity2": "电费缴交",
+        "description": "电子支付includes various electronic options for customers to pay their电费缴交.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.4559789298820729
+      },
+      {
+        "type": "relationship",
+        "entity1": "手机推送通知",
+        "entity2": "电子账单",
+        "description": "手机推送通知通过澳电微信或APP发送电子账单，需关注相关服务。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.4531549795729011
+      },
+      {
+        "type": "entity",
+        "entity": "个人资料",
+        "description": "个人资料是申请电子账单服务时需要提供的用户信息。",
+        "original_raw": 1,
+        "doc_loc": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.43628870370808237
+      },
+      {
+        "type": "relationship",
+        "entity1": "电费缴交",
+        "entity2": "邮局",
+        "description": "邮局provides services for customers to pay their电费缴交during specified hours.",
+        "original_rank": 22,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.4357430209519799
+      }
+    ],
+    "spacy_score": 0.23305284976959229
+  },
+  {
+    "query": "甚麼是電子賬單？",
+    "response": "电子账单服务是澳电提供的一种服务，旨在减少纸张使用和碳排放，用户在申请后将不再收到纸质账单。通过此服务，用户可以在线获取电费单的电子版本。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "纸质账单",
+        "description": "用户在申请电子账单后将不再收到纸质账单。",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.6514469073543632
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电子账单",
+        "description": "澳电提供电子账单服务，旨在减少纸张使用和碳排放。",
+        "original_rank": 38,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.6216343143610746
+      },
+      {
+        "type": "relationship",
+        "entity1": "中国银行",
+        "entity2": "电费缴交",
+        "description": "中国银行offers services for customers to pay their电费缴交electronically.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.5633968775146306
+      },
+      {
+        "type": "relationship",
+        "entity1": "支票",
+        "entity2": "电费缴交",
+        "description": "支票is a method that customers can use to fulfill their电费缴交obligations.",
+        "original_rank": 22,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.5571493352010328
+      },
+      {
+        "type": "relationship",
+        "entity1": "电费缴交",
+        "entity2": "自助服务机",
+        "description": "自助服务机provide an electronic option for customers to complete their电费缴交.",
+        "original_rank": 22,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.5456464457796611
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子支付",
+        "entity2": "电费缴交",
+        "description": "电子支付includes various electronic options for customers to pay their电费缴交.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.53675865913358
+      },
+      {
+        "type": "entity",
+        "entity": "电费单",
+        "description": "电费单is a billing statement that details the electricity charges incurred by customers, including power and energy fees.<SEP>电费单is a utility bill that serves as proof of electricity usage and is required for the application.<SEP>电费单refers to the electricity bill that must be provided as part of the application process.",
+        "original_raw": 7,
+        "doc_loc": "__tmp__20250704_091652_doc_82_79b72b8a78cd0086704fdb776c728394.json<SEP>__tmp__20250704_091652_doc_80_74fb1ed19cbb7735a52e8f17e70e3bae.json<SEP>__tmp__20250704_091652_doc_51_6171cdc886609ff692d1d65aecef1917.json",
+        "similarity": 0.4894115232795804
+      }
+    ],
+    "spacy_score": 0.5076844692230225
+  },
+  {
+    "query": "我和鄰居的電費額為何有所差別?",
+    "response": "邻居的电费差异可能是由于他们的用电量、用电时间（非繁忙时间可能享受较低电能费用）或无功电能的收费标准不同导致的。建议查看电费单以获取详细的电能费用分类。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "電能費用",
+        "entity2": "非繁忙時間",
+        "description": "非繁忙時間results in lower電能費用rates during off-peak hours.",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_79_cb209854e6436004d61bb6e2734fc409.json",
+        "similarity": 0.49234148206979667
+      },
+      {
+        "type": "relationship",
+        "entity1": "新旧按金的差额",
+        "entity2": "申请单位",
+        "description": "新旧按金的差额may need to be settled by the申请单位when changing their electricity service.",
+        "original_rank": 6,
+        "source": "__tmp__20250704_091652_doc_68_c5825e4e1950ddf58d53c12927cbe246.json",
+        "similarity": 0.49037955030577873
+      },
+      {
+        "type": "relationship",
+        "entity1": "D组收费",
+        "entity2": "无功电能",
+        "description": "无功电能的收费标准也是D组收费的一部分，影响客户的电费。",
+        "original_rank": 13,
+        "source": "__tmp__20250704_091652_doc_73_6c198ea14ec591a46db884fa3d60263b.json",
+        "similarity": 0.4477844424388814
+      },
+      {
+        "type": "relationship",
+        "entity1": "电费单",
+        "entity2": "租户",
+        "description": "租户must provide电费单if applicable to verify their electricity usage.",
+        "original_rank": 14,
+        "source": "__tmp__20250704_091652_doc_51_6171cdc886609ff692d1d65aecef1917.json",
+        "similarity": 0.43829857085012536
+      },
+      {
+        "type": "relationship",
+        "entity1": "住客",
+        "entity2": "电力装置",
+        "description": "住客share the responsibility for the upkeep of the electrical installations in the building.",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json",
+        "similarity": 0.43458807835068636
+      },
+      {
+        "type": "relationship",
+        "entity1": "一户通",
+        "entity2": "电费缴交",
+        "description": "一户通provides a convenient way for customers to manage their电费缴交.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.4344794032839896
+      },
+      {
+        "type": "relationship",
+        "entity1": "电能费用",
+        "entity2": "电费单",
+        "description": "The billing statement includes detailed charges for electricity consumed, categorized as energy fees.",
+        "original_rank": 8,
+        "source": "__tmp__20250704_091652_doc_82_79b72b8a78cd0086704fdb776c728394.json",
+        "similarity": 0.4314493860882622
+      }
+    ],
+    "spacy_score": 0.6312220096588135
+  },
+  {
+    "query": "什麼因素會影響單位耗電量和電費額？",
+    "response": "单位耗电量和电费金额主要受到功率费（根据用户的订定功率计算）和实际用电量的影响。功率费的高低以及用户的用电行为（如高峰和非高峰时段）都会直接影响最终电费。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "充電費用",
+        "entity2": "功率費",
+        "description": "充電費用由功率費和充電量計算，功率費是影響總費用的主要因素。<SEP>功率費is a component of the overall充電費用, affecting how much users pay based on power output.<SEP>功率費is a component of the overall charging fees, calculated based on the maximum power load.",
+        "original_rank": 26,
+        "source": "__tmp__20250704_091652_doc_79_cb209854e6436004d61bb6e2734fc409.json<SEP>__tmp__20250704_091652_doc_76_09921a0942feeaac5aacb67c488849fe.json<SEP>__tmp__20250704_091651_doc_190_EMT_leaflet_C_8035564979.pdf.json",
+        "similarity": 0.6097023572014703
+      },
+      {
+        "type": "relationship",
+        "entity1": "功率費",
+        "entity2": "電費",
+        "description": "功率費是計算電費的一部分，根據用戶的訂定功率計算。<SEP>電費的計算包括功率費，這是根據用戶的訂定功率來計算的。",
+        "original_rank": 31,
+        "source": "__tmp__20250704_091651_doc_23_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091651_doc_24_pdf_education_Tariff_A_zh_881af653dd.pdf.json",
+        "similarity": 0.5545547247566577
+      },
+      {
+        "type": "entity",
+        "entity": "功率費",
+        "description": "功率費 is a charge associated with the power output of charging stations, significantly impacting the overall cost of charging electric vehicles. This fee is calculated based on the power capacity utilized during both peak and non-peak hours and is included in the electricity bill, often supported by various subsidy measures. Specifically, 功率費 refers to the fees determined by the power capacity of the electric meter used for charging, based on the power settings defined by the user. \n\nThe charge is calculated based on the maximum power load specified in the electricity supply contract, measured in kilovolt-amperes (kVA). It varies according to the defined power and the maximum recorded power, influencing the total electricity expenses incurred by users. Additionally, 功率費 is affected by the time of use and demand, with different charging standards applied based on the power range of the electrical equipment. Overall, 功率費 plays a crucial role in determining the total costs associated with electricity consumption for charging electric vehicles.",
+        "original_raw": 15,
+        "doc_loc": "__tmp__20250704_091651_doc_24_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091652_doc_83_a60d023dbc45d20536391da00d11c9b4.json<SEP>__tmp__20250704_091651_doc_190_EMT_leaflet_C_8035564979.pdf.json<SEP>__tmp__20250704_091652_doc_76_09921a0942feeaac5aacb67c488849fe.json<SEP>__tmp__20250704_091651_doc_56_pdf_education_Tariff_C_zh_0da3b45407.pdf.json<SEP>__tmp__20250704_091652_doc_79_cb209854e6436004d61bb6e2734fc409.json<SEP>__tmp__20250704_091651_doc_23_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091652_doc_23_6249a1ac755e81fda8ce63a06a8426a8.json<SEP>__tmp__20250704_091652_doc_72_f5f86ca700d8cb6f595ed6f3591703dc.json<SEP>__tmp__20250704_091651_doc_189_EMT_leaflet_C_8035564979.pdf.json<SEP>__tmp__20250704_091651_doc_18_pdf_education_Tariff_B_zh_2574dad7f3.pdf.json",
+        "similarity": 0.550404396683049
+      },
+      {
+        "type": "relationship",
+        "entity1": "電能費用",
+        "entity2": "電費",
+        "description": "電能費用是根據用戶的實際用電量計算的，影響最終的電費。<SEP>電能費用是電費的一部分，根據實際用電量計算。",
+        "original_rank": 24,
+        "source": "__tmp__20250704_091651_doc_23_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091651_doc_24_pdf_education_Tariff_A_zh_881af653dd.pdf.json",
+        "similarity": 0.5369756466209902
+      },
+      {
+        "type": "relationship",
+        "entity1": "功率費",
+        "entity2": "電費單範例",
+        "description": "電費單範例中展示了不同功率下的功率費計算方式。",
+        "original_rank": 19,
+        "source": "__tmp__20250704_091652_doc_83_a60d023dbc45d20536391da00d11c9b4.json",
+        "similarity": 0.5333908721766935
+      },
+      {
+        "type": "relationship",
+        "entity1": "電費",
+        "entity2": "電費單範例",
+        "description": "電費單範例展示了如何計算用戶的電費，包括功率費和電能費用。<SEP>電費單範例展示了電費的計算過程和各項費用的組成。",
+        "original_rank": 20,
+        "source": "__tmp__20250704_091651_doc_23_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091651_doc_24_pdf_education_Tariff_A_zh_881af653dd.pdf.json",
+        "similarity": 0.5195887445888597
+      },
+      {
+        "type": "entity",
+        "entity": "电表",
+        "description": "电表is a device used to measure the amount of electricity consumed by a residence or business, which is essential for determining the appropriate power supply.<SEP>电表refers to the electric meter device that measures electricity consumption and requires proper maintenance and safety measures.<SEP>电表refers to the electricity meter that measures the amount of electrical energy consumed by a residence or business.<SEP>电表是用于测量电力消耗的设备，客户需在申请中考虑其规格。",
+        "original_raw": 8,
+        "doc_loc": "__tmp__20250704_091652_doc_68_c5825e4e1950ddf58d53c12927cbe246.json<SEP>__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json<SEP>__tmp__20250704_091652_doc_74_795c2b04719d594b193c98cc22bffeb8.json<SEP>__tmp__20250704_091652_doc_70_c7fc8d7bea3de69d02e33b1eef491d04.json",
+        "similarity": 0.4677791890080145
+      }
+    ],
+    "spacy_score": 0.5867446660995483
+  },
+  {
+    "query": "如何避免忘記支付我的賬單?",
+    "response": "您可以通过关注澳电的微信或APP接收手机推送通知，以此提醒您及时支付电子账单。还可以选择设置手机短讯或电子邮件提醒，以确保不会忘记支付。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "手机推送通知",
+        "entity2": "电子账单",
+        "description": "手机推送通知通过澳电微信或APP发送电子账单，需关注相关服务。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5748943049497327
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "纸质账单",
+        "description": "用户在申请电子账单后将不再收到纸质账单。",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5517157238157895
+      },
+      {
+        "type": "entity",
+        "entity": "电子账单",
+        "description": "电子账单是指通过电子方式发送的账单，具有环保、便捷和可靠的特点。",
+        "original_raw": 9,
+        "doc_loc": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5499757382524773
+      },
+      {
+        "type": "relationship",
+        "entity1": "手机短讯",
+        "entity2": "电子账单",
+        "description": "手机短讯是接收电子账单的一种便捷方式，申请后即时生效。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5391331134245061
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "电子邮件",
+        "description": "电子邮件是接收电子账单的方式之一，需点击启用链接以生效。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5347289784031362
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子支付",
+        "entity2": "电费缴交",
+        "description": "电子支付includes various electronic options for customers to pay their电费缴交.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.53435645720663
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电子账单",
+        "description": "澳电提供电子账单服务，旨在减少纸张使用和碳排放。",
+        "original_rank": 38,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5333951537351549
+      }
+    ],
+    "spacy_score": 0.5248316526412964
+  },
+  {
+    "query": "賬單發單時期為多久？",
+    "response": "目前没有有关资料，请咨询客服人员或查询官网。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "纸质账单",
+        "description": "用户在申请电子账单后将不再收到纸质账单。",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.6199228819399605
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电子账单",
+        "description": "澳电提供电子账单服务，旨在减少纸张使用和碳排放。",
+        "original_rank": 38,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5013042937309123
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "过往账单",
+        "description": "用户在升级为合同持有人身份后可以查阅过往账单。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.4942321111582906
+      },
+      {
+        "type": "relationship",
+        "entity1": "Electricity Bill",
+        "entity2": "Usage Period",
+        "description": "The Usage Period is specified in the Electricity Bill to inform customers of the time frame for their electricity consumption.",
+        "original_rank": 7,
+        "source": "__tmp__20250704_091652_doc_29_1655149a3d623c1673f1356d85a71722.json",
+        "similarity": 0.4803846456359234
+      },
+      {
+        "type": "relationship",
+        "entity1": "电费缴交",
+        "entity2": "邮局",
+        "description": "邮局provides services for customers to pay their电费缴交during specified hours.",
+        "original_rank": 22,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.458095620703596
+      },
+      {
+        "type": "relationship",
+        "entity1": "电费单",
+        "entity2": "租户",
+        "description": "租户must provide电费单if applicable to verify their electricity usage.",
+        "original_rank": 14,
+        "source": "__tmp__20250704_091652_doc_51_6171cdc886609ff692d1d65aecef1917.json",
+        "similarity": 0.42750205967255384
+      },
+      {
+        "type": "relationship",
+        "entity1": "电能费用",
+        "entity2": "电费单",
+        "description": "The billing statement includes detailed charges for electricity consumed, categorized as energy fees.",
+        "original_rank": 8,
+        "source": "__tmp__20250704_091652_doc_82_79b72b8a78cd0086704fdb776c728394.json",
+        "similarity": 0.38886630136833555
+      }
+    ],
+    "spacy_score": 0.1258746087551117
+  },
+  {
+    "query": "如租戶沒有繳交電費，而我是該住宅單位的電力供應合約持有人，請問我是否須負上責任？",
+    "response": "作为电力供应合同持有人，您有责任确保支付租户的电费欠款，除非合同中另有规定。请查阅合同条款以确认相关责任。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "电力装置",
+        "entity2": "租客",
+        "description": "租客are also responsible for ensuring the safety and maintenance of electrical systems in their rented units.",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json",
+        "similarity": 0.6929618532871211
+      },
+      {
+        "type": "relationship",
+        "entity1": "住客",
+        "entity2": "电力装置",
+        "description": "住客share the responsibility for the upkeep of the electrical installations in the building.",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json",
+        "similarity": 0.6637401140176187
+      },
+      {
+        "type": "relationship",
+        "entity1": "客戶",
+        "entity2": "欠款",
+        "description": "客戶are responsible for paying any欠款related to their electricity usage as per the合約.",
+        "original_rank": 8,
+        "source": "__tmp__20250704_091652_doc_11_515caa723fd3e9e50fd9c8b6836dc571.json",
+        "similarity": 0.6602078740916647
+      },
+      {
+        "type": "relationship",
+        "entity1": "电费单",
+        "entity2": "租户",
+        "description": "租户must provide电费单if applicable to verify their electricity usage.",
+        "original_rank": 14,
+        "source": "__tmp__20250704_091652_doc_51_6171cdc886609ff692d1d65aecef1917.json",
+        "similarity": 0.604591866129805
+      },
+      {
+        "type": "relationship",
+        "entity1": "租戶",
+        "entity2": "租約",
+        "description": "租戶需提供已公證的租約副本以進行電能供應的申請。",
+        "original_rank": 5,
+        "source": "__tmp__20250704_091651_doc_178_Supply_Application_C_ad36fcd27b.pdf.json",
+        "similarity": 0.5883504232561731
+      },
+      {
+        "type": "relationship",
+        "entity1": "业权人",
+        "entity2": "租户",
+        "description": "租户在申请电力时需提供业权人的身份证明文件。",
+        "original_rank": 13,
+        "source": "__tmp__20250704_091652_doc_38_5f46b7fa158b41d527704c97e1ccd681.json",
+        "similarity": 0.5678222544567987
+      },
+      {
+        "type": "entity",
+        "entity": "租户",
+        "description": "租户refers to the tenant who must provide specific documents when applying for electricity services.<SEP>租户是指在物业中居住或使用的个人，申请电力时需提供身份证明。",
+        "original_raw": 7,
+        "doc_loc": "__tmp__20250704_091652_doc_51_6171cdc886609ff692d1d65aecef1917.json<SEP>__tmp__20250704_091652_doc_38_5f46b7fa158b41d527704c97e1ccd681.json",
+        "similarity": 0.5641971279553828
+      }
+    ],
+    "spacy_score": 0.4606899619102478
+  },
+  {
+    "query": "如何啟用電子賬單服務？",
+    "response": "您可以通过关注澳电的微信或下载并使用澳电APP来启用电子账单服务。请确保您在这些平台上注册并管理您的账户。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电子账单",
+        "description": "澳电提供电子账单服务，旨在减少纸张使用和碳排放。",
+        "original_rank": 38,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.736260501699393
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳電",
+        "entity2": "網上服務",
+        "description": "澳電offers網上服務for customers to manage their electricity accounts online.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json",
+        "similarity": 0.7026406633679151
+      },
+      {
+        "type": "relationship",
+        "entity1": "https://e-service.cem-macau.com/",
+        "entity2": "澳电",
+        "description": "The online service platform allows customers to manage their accounts and services with澳电.",
+        "original_rank": 30,
+        "source": "__tmp__20250704_091652_doc_26_4ce4100b0e8d04098825c84971a6b9a9.json",
+        "similarity": 0.6973452765670773
+      },
+      {
+        "type": "relationship",
+        "entity1": "手机推送通知",
+        "entity2": "电子账单",
+        "description": "手机推送通知通过澳电微信或APP发送电子账单，需关注相关服务。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.6458490305498454
+      },
+      {
+        "type": "relationship",
+        "entity1": "充電賬戶",
+        "entity2": "澳電",
+        "description": "Users create a充電賬戶with澳電to manage their electric vehicle charging payments.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091651_doc_190_EMT_leaflet_C_8035564979.pdf.json",
+        "similarity": 0.6380981590677168
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳電",
+        "entity2": "澳電APP",
+        "description": "澳電APP is a service provided by澳電to help customers track their application progress and manage their electricity services.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091651_doc_180_Revitalization_of_6_areas_edee2cecb0.pdf.json",
+        "similarity": 0.6038802626813221
+      },
+      {
+        "type": "relationship",
+        "entity1": "优先缴费及柜台服务",
+        "entity2": "澳电",
+        "description": "优先缴费及柜台服务is an initiative by澳电to provide priority services for specific community members.",
+        "original_rank": 33,
+        "source": "__tmp__20250704_091652_doc_96_ee8a52c8d6727b11e76fdddb491d1362.json",
+        "similarity": 0.6008879622006306
+      }
+    ],
+    "spacy_score": 0.30044469237327576
+  },
+  {
+    "query": "什麼是收費調整系數？",
+    "response": "收费调整系数是用于根据电力生产成本波动季度性调整电力收费的系数，直接影响电费的最终计算。它会根据市场变化及政府税政策进行调整，从而影响不同收费组的收费标准。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "充電費用",
+        "entity2": "收費調整系數",
+        "description": "收費調整系數is applied to adjust the charging fees quarterly based on production cost fluctuations.<SEP>收費調整系數影響充電費用的計算，根據市場變化進行調整。",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_79_cb209854e6436004d61bb6e2734fc409.json<SEP>__tmp__20250704_091652_doc_76_09921a0942feeaac5aacb67c488849fe.json",
+        "similarity": 0.6941388326412294
+      },
+      {
+        "type": "relationship",
+        "entity1": "A組收費",
+        "entity2": "收費調整系數",
+        "description": "收費調整系數is applied to adjust the rates in A組收費based on production cost fluctuations.",
+        "original_rank": 19,
+        "source": "__tmp__20250704_091652_doc_58_37536be00d73ea89393e6756f09af634.json",
+        "similarity": 0.6660534960983531
+      },
+      {
+        "type": "relationship",
+        "entity1": "D组收费",
+        "entity2": "收费调整系数",
+        "description": "收费调整系数的变化直接影响D组收费的金额，反映市场变化。",
+        "original_rank": 14,
+        "source": "__tmp__20250704_091652_doc_73_6c198ea14ec591a46db884fa3d60263b.json",
+        "similarity": 0.6262841070881969
+      },
+      {
+        "type": "relationship",
+        "entity1": "收費調整系數",
+        "entity2": "政府稅",
+        "description": "收費調整系數is influenced by the government tax policies that affect electricity pricing.",
+        "original_rank": 19,
+        "source": "__tmp__20250704_091651_doc_18_pdf_education_Tariff_B_zh_2574dad7f3.pdf.json",
+        "similarity": 0.620232625350904
+      },
+      {
+        "type": "relationship",
+        "entity1": "CEM Macau",
+        "entity2": "收費調整系數",
+        "description": "CEM Macau uses the收費調整系數to adjust electricity charges based on production costs and other factors.",
+        "original_rank": 33,
+        "source": "__tmp__20250704_091651_doc_56_pdf_education_Tariff_C_zh_0da3b45407.pdf.json",
+        "similarity": 0.6028782299966667
+      },
+      {
+        "type": "relationship",
+        "entity1": "收費調整系數",
+        "entity2": "電費",
+        "description": "收費調整系數影響電費的最終計算，根據用電量進行調整。<SEP>收費調整系數根據電力生產成本的變化而調整，影響電費的計算。",
+        "original_rank": 26,
+        "source": "__tmp__20250704_091651_doc_23_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091651_doc_24_pdf_education_Tariff_A_zh_881af653dd.pdf.json",
+        "similarity": 0.597510509510168
+      },
+      {
+        "type": "entity",
+        "entity": "電費",
+        "description": "電費refers to the charges customers must pay for electricity usage, as outlined in the contract.<SEP>電費refers to the charges incurred by customers based on their electricity consumption, calculated in kilowatt-hours.<SEP>電費是根據用電量和功率計算的費用，涉及不同的收費標準和調整系數。<SEP>電費是用戶根據其用電量和功率負荷支付的費用，涉及多種收費標準和調整系數。<SEP>電費是指用戶為使用電力服務而需支付的費用，通常根據用電量計算。",
+        "original_raw": 16,
+        "doc_loc": "__tmp__20250704_091652_doc_85_8ab31911b33f7d66888297234fb4ee8a.json<SEP>__tmp__20250704_091651_doc_24_pdf_education_Tariff_A_zh_881af653dd.pdf.json<SEP>__tmp__20250704_091652_doc_58_37536be00d73ea89393e6756f09af634.json<SEP>__tmp__20250704_091652_doc_11_515caa723fd3e9e50fd9c8b6836dc571.json<SEP>__tmp__20250704_091651_doc_23_pdf_education_Tariff_A_zh_881af653dd.pdf.json",
+        "similarity": 0.407531577391434
+      }
+    ],
+    "spacy_score": 0.42352554202079773
+  },
+  {
+    "query": "電子賬單如何申請電子賬單服務？",
+    "response": "您需要提供个人资料和合同号码，然后通过电子邮件或手机短讯申请电子账单服务。申请后，您将不再收到纸质账单。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "纸质账单",
+        "description": "用户在申请电子账单后将不再收到纸质账单。",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.6582820603319399
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "电子邮件",
+        "description": "电子邮件是接收电子账单的方式之一，需点击启用链接以生效。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.6407061295320707
+      },
+      {
+        "type": "relationship",
+        "entity1": "个人资料",
+        "entity2": "电子账单",
+        "description": "个人资料是申请电子账单服务时需要提供的用户信息。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.633496128251353
+      },
+      {
+        "type": "relationship",
+        "entity1": "手机短讯",
+        "entity2": "电子账单",
+        "description": "手机短讯是接收电子账单的一种便捷方式，申请后即时生效。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5970835286979375
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电子账单",
+        "description": "澳电提供电子账单服务，旨在减少纸张使用和碳排放。",
+        "original_rank": 38,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5925680599686052
+      },
+      {
+        "type": "relationship",
+        "entity1": "中国银行",
+        "entity2": "电费缴交",
+        "description": "中国银行offers services for customers to pay their电费缴交electronically.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.5897901343459234
+      },
+      {
+        "type": "relationship",
+        "entity1": "合同号码",
+        "entity2": "电子账单",
+        "description": "合同号码是申请电子账单服务时所需提供的必要信息。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5830864037376432
+      }
+    ],
+    "spacy_score": 0.40508729219436646
+  },
+  {
+    "query": "使用電子賬單後，如何取得地址證明？",
+    "response": "目前没有有关资料，请咨询客服人员或查询官网。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "住址證明或聲明書",
+        "entity2": "長者電費援助",
+        "description": "Applicants for the長者電費援助program must provide a住址證明或聲明書as part of their documentation.",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_78_2be85c7f523a63fe24fdf501c16eea98.json",
+        "similarity": 0.5857169548496357
+      },
+      {
+        "type": "relationship",
+        "entity1": "住址證明或聲明書",
+        "entity2": "長者電費援助計劃",
+        "description": "Proof of address is necessary for the application to the Senior Citizen Support Program.",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091651_doc_49_pdf_education_2022_01_Senior_Citizen_zh_3ff3f287a7.pdf.json",
+        "similarity": 0.555834115559698
+      },
+      {
+        "type": "relationship",
+        "entity1": "租户",
+        "entity2": "身份证明文件",
+        "description": "租户must provide身份证明文件to verify their identity for the electricity supply application.",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_51_6171cdc886609ff692d1d65aecef1917.json",
+        "similarity": 0.5552078236037403
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "纸质账单",
+        "description": "用户在申请电子账单后将不再收到纸质账单。",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5287283783568701
+      },
+      {
+        "type": "relationship",
+        "entity1": "个人资料",
+        "entity2": "电子账单",
+        "description": "个人资料是申请电子账单服务时需要提供的用户信息。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5248485418404637
+      },
+      {
+        "type": "relationship",
+        "entity1": "合同号码",
+        "entity2": "电子账单",
+        "description": "合同号码是申请电子账单服务时所需提供的必要信息。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5118793757256447
+      },
+      {
+        "type": "relationship",
+        "entity1": "合約持有人",
+        "entity2": "電費單副本",
+        "description": "合約持有人is required to provide a copy of their electricity bill for address verification.",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091651_doc_178_Supply_Application_C_ad36fcd27b.pdf.json",
+        "similarity": 0.5021216941346363
+      }
+    ],
+    "spacy_score": 0.1454748511314392
+  },
+  {
+    "query": "我可以同時收取電子賬單及紙質賬單嗎？",
+    "response": "用户在申请电子账单后将不再收到纸质账单，因此无法同时接收两者。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "纸质账单",
+        "description": "用户在申请电子账单后将不再收到纸质账单。",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.6769544747958108
+      },
+      {
+        "type": "relationship",
+        "entity1": "手机短讯",
+        "entity2": "电子账单",
+        "description": "手机短讯是接收电子账单的一种便捷方式，申请后即时生效。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5922097710780663
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "电子邮件",
+        "description": "电子邮件是接收电子账单的方式之一，需点击启用链接以生效。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5878884626375691
+      },
+      {
+        "type": "relationship",
+        "entity1": "工银澳门",
+        "entity2": "电子账单",
+        "description": "工银澳门提供纸质账单打印服务，客户可在其分行打印账单。",
+        "original_rank": 12,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.57434322645427
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子支付",
+        "entity2": "电费缴交",
+        "description": "电子支付includes various electronic options for customers to pay their电费缴交.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.530168763465095
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电子账单",
+        "description": "澳电提供电子账单服务，旨在减少纸张使用和碳排放。",
+        "original_rank": 38,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.530112233996597
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "过往账单",
+        "description": "用户在升级为合同持有人身份后可以查阅过往账单。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5290957034126048
+      }
+    ],
+    "spacy_score": 0.4344661831855774
+  },
+  {
+    "query": "我可以查閱過往的電子賬單嗎？",
+    "response": "是的，您可以在升级为合同持有人身份后查阅过往账单。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "过往账单",
+        "description": "用户在升级为合同持有人身份后可以查阅过往账单。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.7074608761728106
+      },
+      {
+        "type": "entity",
+        "entity": "过往账单",
+        "description": "过往账单是指用户在升级为合同持有人身份后可以查阅的历史账单。",
+        "original_raw": 1,
+        "doc_loc": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5897153907470528
+      },
+      {
+        "type": "relationship",
+        "entity1": "个人资料",
+        "entity2": "电子账单",
+        "description": "个人资料是申请电子账单服务时需要提供的用户信息。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5196525593530902
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "纸质账单",
+        "description": "用户在申请电子账单后将不再收到纸质账单。",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5143146999483968
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电子账单",
+        "description": "澳电提供电子账单服务，旨在减少纸张使用和碳排放。",
+        "original_rank": 38,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.4813871825875784
+      },
+      {
+        "type": "relationship",
+        "entity1": "合同号码",
+        "entity2": "电子账单",
+        "description": "合同号码是申请电子账单服务时所需提供的必要信息。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.44850770698565723
+      },
+      {
+        "type": "relationship",
+        "entity1": "电费缴交",
+        "entity2": "自动转账",
+        "description": "自动转账is one of the methods available for customers to complete their电费缴交.",
+        "original_rank": 22,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.4201323112302058
+      }
+    ],
+    "spacy_score": 0.48494279384613037
+  },
+  {
+    "query": "我可以在哪裡列印紙質賬單？",
+    "response": "您可以在工银澳门的分行打印纸质账单。请注意，申请电子账单后将不再收到纸质账单。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "工银澳门",
+        "entity2": "电子账单",
+        "description": "工银澳门提供纸质账单打印服务，客户可在其分行打印账单。",
+        "original_rank": 12,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.6823633608227836
+      },
+      {
+        "type": "relationship",
+        "entity1": "工银澳门",
+        "entity2": "纸质账单",
+        "description": "工银澳门提供纸质账单打印服务，客户可在其分行打印账单。",
+        "original_rank": 5,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.6386739355075012
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "纸质账单",
+        "description": "用户在申请电子账单后将不再收到纸质账单。",
+        "original_rank": 11,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.6238489119716198
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电子账单",
+        "description": "澳电提供电子账单服务，旨在减少纸张使用和碳排放。",
+        "original_rank": 38,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5270021164156505
+      },
+      {
+        "type": "relationship",
+        "entity1": "手机短讯",
+        "entity2": "电子账单",
+        "description": "手机短讯是接收电子账单的一种便捷方式，申请后即时生效。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5210403650712959
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "电子邮件",
+        "description": "电子邮件是接收电子账单的方式之一，需点击启用链接以生效。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.5098647401517269
+      },
+      {
+        "type": "relationship",
+        "entity1": "电子账单",
+        "entity2": "过往账单",
+        "description": "用户在升级为合同持有人身份后可以查阅过往账单。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.4850760871744133
+      }
+    ],
+    "spacy_score": 0.515227198600769
+  },
+  {
+    "query": "使用電子賬單後，我可以怎樣繳交電費？",
+    "response": "您可以通过自动转账、网上银行、支票以及中国银行等电子方式缴交电费。还有一户通提供便利的电费缴交管理服务。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "电子支付",
+        "entity2": "电费缴交",
+        "description": "电子支付includes various electronic options for customers to pay their电费缴交.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.7134985676962553
+      },
+      {
+        "type": "entity",
+        "entity": "电费缴交",
+        "description": "电费缴交refers to the process of paying electricity bills, which can be done through various methods.",
+        "original_raw": 20,
+        "doc_loc": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.7093427518679867
+      },
+      {
+        "type": "relationship",
+        "entity1": "电费缴交",
+        "entity2": "自动转账",
+        "description": "自动转账is one of the methods available for customers to complete their电费缴交.",
+        "original_rank": 22,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.6866682734129248
+      },
+      {
+        "type": "relationship",
+        "entity1": "电费缴交",
+        "entity2": "网上银行",
+        "description": "网上银行allows customers to pay their电费缴交online, providing a convenient option.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.6829831292310596
+      },
+      {
+        "type": "relationship",
+        "entity1": "中国银行",
+        "entity2": "电费缴交",
+        "description": "中国银行offers services for customers to pay their电费缴交electronically.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.6787486127330102
+      },
+      {
+        "type": "relationship",
+        "entity1": "支票",
+        "entity2": "电费缴交",
+        "description": "支票is a method that customers can use to fulfill their电费缴交obligations.",
+        "original_rank": 22,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.6650908526599639
+      },
+      {
+        "type": "relationship",
+        "entity1": "一户通",
+        "entity2": "电费缴交",
+        "description": "一户通provides a convenient way for customers to manage their电费缴交.",
+        "original_rank": 21,
+        "source": "__tmp__20250704_091652_doc_42_00bb4575e3916672c40079c443ab8f69.json",
+        "similarity": 0.6646565596998812
+      }
+    ],
+    "spacy_score": 0.4778251051902771
+  },
+  {
+    "query": "如何確認電子賬單為澳電所發出？",
+    "response": "客户可以通过关注澳电的微信公众号或APP，以接收推送的电子账单，确保其来自澳电。建议避免查看来历不明的电子账单以防诈骗。",
+    "contexts": [
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电子账单",
+        "description": "澳电提供电子账单服务，旨在减少纸张使用和碳排放。",
+        "original_rank": 38,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.6914755880201491
+      },
+      {
+        "type": "relationship",
+        "entity1": "853660163050000",
+        "entity2": "澳电",
+        "description": "This phone number is another channel for customer inquiries via SMS, facilitating communication with澳电.",
+        "original_rank": 30,
+        "source": "__tmp__20250704_091652_doc_26_4ce4100b0e8d04098825c84971a6b9a9.json",
+        "similarity": 0.6146500489600355
+      },
+      {
+        "type": "relationship",
+        "entity1": "手机推送通知",
+        "entity2": "电子账单",
+        "description": "手机推送通知通过澳电微信或APP发送电子账单，需关注相关服务。",
+        "original_rank": 10,
+        "source": "__tmp__20250704_091652_doc_56_86cded731b7da7461003632d045ea47c.json",
+        "similarity": 0.6086926388101925
+      },
+      {
+        "type": "relationship",
+        "entity1": "客户",
+        "entity2": "澳电",
+        "description": "客户must contact澳电for any changes or issues related to the electric meter.<SEP>客户向澳电申请电力接入和服务，需遵循相关规定和费用标准。",
+        "original_rank": 31,
+        "source": "__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json<SEP>__tmp__20250704_091652_doc_74_795c2b04719d594b193c98cc22bffeb8.json",
+        "similarity": 0.5781258644849115
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳電",
+        "entity2": "網上服務",
+        "description": "澳電offers網上服務for customers to manage their electricity accounts online.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json",
+        "similarity": 0.5763677728832357
+      },
+      {
+        "type": "relationship",
+        "entity1": "截數賬單",
+        "entity2": "澳電",
+        "description": "澳電provides截數賬單to calculate unpaid electricity fees before completing transactions.",
+        "original_rank": 66,
+        "source": "__tmp__20250704_091652_doc_40_9c2dcdb276b2c58bf7d4896c644dc2e8.json",
+        "similarity": 0.5699438307859296
+      },
+      {
+        "type": "relationship",
+        "entity1": "澳电",
+        "entity2": "电表",
+        "description": "澳电is responsible for the installation and maintenance of electric meters, ensuring their proper functioning.",
+        "original_rank": 37,
+        "source": "__tmp__20250704_091652_doc_64_60a4243a65b425369e72ce1bbfc8df17.json",
+        "similarity": 0.5684340939420673
+      }
+    ],
+    "spacy_score": 0.47491025924682617
+  }
+]
