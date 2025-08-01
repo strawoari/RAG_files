@@ -248,39 +248,47 @@ async def get_ranked_contexts(query: str, context_response: str, sem: asyncio.Se
         return []
 
 async def rewrite_query(query: str, sem: asyncio.Semaphore):
-    if re.search(r'[\u4e00-\u9fff]', query):
-        try:
-            prompt = f"""You are a query translation assistant for a retrieval-based question answering system. Your task is to translate user queries written in Chinese into precise and natural English, in a way that aligns closely with entity names, relations, and terminology typically used in source documents (e.g., manuals, FAQs, policy pages).
+    prompt = query
+    chinese_chars = re.findall(r'[\u4e00-\u9fff]', query)
+    english_chars = re.findall(r'[A-Za-z]', query)
+    if len(chinese_chars) > len(english_chars):
+        prompt = f"""You are a query translation assistant for a retrieval-based question answering system. Your task is to translate user queries written in Chinese into precise and natural English, in a way that aligns closely with entity names, relations, and terminology typically used in source documents (e.g., manuals, FAQs, policy pages).
+Follow these guidelines:
+1.Preserve the user's original intent and meaning.
+2.Use formal or commonly used expressions that are likely to appear in the documents (e.g., translate “交电费” as “pay electricity bill” or “how to pay my electricity bill”).
+3.Do not add new information or assumptions.
+4.Clarify ambiguous references in the original question only if they can be clearly inferred from context (e.g., "这个" → "the electronic bill" if that’s clearly the subject).
+5.If the original query is already clear, just improve fluency and precision without excessive rewriting.
+6.Your priority is accurate translation, not expansion.
 
-        Follow these guidelines:
+Original query (in Chinese):
+{query}
 
-        Preserve the user's original intent and meaning.
+Translated query (in English):
+"""
+    elif len(english_chars) > len(chinese_chars):
+        prompt = f"""You are a query rewriting assistant for a retrieval-based question answering system. Your task is to rewrite user queries in a way that aligns closely with entity names, relations, and terminology typically used in source documents (e.g., manuals, FAQs, policy pages).
+Follow these guidelines:
+1.Preserve the user's original intent and meaning.
+2.Use formal or commonly used expressions that are likely to appear in the documents (e.g., translate "pay electricity bill" as "how to pay my electricity bill").
+3.Do not add new information or assumptions.
+4.Clarify ambiguous references in the original question only if they can be clearly inferred from context (e.g., "the electronic bill" → "这个" if that’s clearly the subject).
+5.If the original query is already clear, just improve fluency and precision without excessive rewriting.
 
-        Use formal or commonly used expressions that are likely to appear in the documents (e.g., translate “交电费” as “pay electricity bill” or “how to pay my electricity bill”).
+Original query:
+{query}
 
-        Do not add new information or assumptions.
-
-        Clarify ambiguous references in the original question only if they can be clearly inferred from context (e.g., "这个" → "the electronic bill" if that’s clearly the subject).
-
-        If the original query is already clear, just improve fluency and precision without excessive rewriting.
-
-        Your priority is accurate translation, not expansion.
-
-        Original query (in Chinese):
-        {query}
-
-        Translated query (in English):
-        """
-            async with sem:
-                completion = await generator.chat.completions.create(
-                    model="deepseek/deepseek-r1-0528-qwen3-8b:free",
-                    messages=[{"role": "system", "content": "You are a helpful assistant."},
-                        {"role": "user", "content": prompt}])
-                return completion.choices[0].message.content
-        except Exception as e:
-            logging.error(f"Error expanding query: {e}")
-            return query 
-    else:
+Rewritten query:
+"""
+    try:
+        async with sem:
+            completion = await generator.chat.completions.create(
+                model="deepseek/deepseek-r1-0528-qwen3-8b:free",
+                messages=[{"role": "system", "content": "You are a helpful assistant."},
+                    {"role": "user", "content": prompt}])
+            return completion.choices[0].message.content
+    except Exception as e:
+        logging.error(f"Error expanding query: {e}")
         return query
         
 async def main() -> None:
