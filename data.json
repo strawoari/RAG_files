@@ -1,0 +1,152 @@
+[
+    {
+        "intent": "打开<position>车窗",
+        "chinese": [
+            "打开<position>车窗"
+        ],
+        "english": [
+            "Open <position>  windows"
+        ]
+    },
+    {
+        "intent": "关闭<position>车窗",
+        "chinese": [
+            "关闭<position>车窗"
+        ],
+        "english": [
+            "Close <position>  windows"
+        ]
+    },
+    {
+        "intent": "<position>车窗调到<Area>*c",
+        "chinese": [
+            "<position>车窗调到最大",
+            "<position>车窗调到最低",
+            "<position>车窗开到最大",
+            "<position>车窗开到最低",
+            "<position>车窗调到最小",
+            "<position>车窗调到最高",
+            "<position>车窗关到最小",
+            "<position>车窗关到最高"
+        ],
+        "english": [
+            "Open <position> windows to lowest",
+            "Close <position> windows to highest"
+        ]
+    },
+    {
+        "intent": "<position>车窗调到<X>*c",
+        "chinese": [
+            "<position>车窗开到<X>",
+            "<position>车窗调低到<X>",
+            "<position>车窗调大到<X>",
+            "<position>车窗关到<X>",
+            "<position>车窗调高到<X>",
+            "<position>车窗调小到<X>"
+        ],
+        "english": [
+            "Open <position> windows to <X>",
+            "Close <position> windows to <X>"
+        ]
+    },
+    {
+        "intent": "<position>车窗调低<Range>*c",
+        "chinese": [
+            "调低<position>车窗",
+            "调大<position>车窗",
+            "降低<position>车窗",
+            "打开一点<position>车窗",
+            "调低一点<position>车窗",
+            "调大一点<position>车窗",
+            "降低一点<position>车窗",
+            "打开一半<position>车窗",
+            "调低一半<position>车窗",
+            "调大一半<position>车窗",
+            "降低一半<position>车窗"
+        ],
+        "english": [
+            "Open <position> windows by a little",
+            "Open <position> windows by half way"
+        ]
+    },
+    {
+        "intent": "<position>车窗调高<Range>*c",
+        "chinese": [
+            "调高<position>车窗",
+            "调小<position>车窗",
+            "升高<position>车窗",
+            "关闭一点<position>车窗",
+            "调高一点<position>车窗",
+            "调小一点<position>车窗",
+            "升高一点<position>车窗",
+            "关闭一半<position>车窗",
+            "调高一半<position>车窗",
+            "调小一半<position>车窗",
+            "升高一半<position>车窗"
+        ],
+        "english": [
+            "Close <position> windows by a little",
+            "Close <position> windows by half way"
+        ]
+    },
+    {
+        "intent": "<position>车窗调低<X>*c",
+        "chinese": [
+            "调低<X><position>车窗",
+            "打开<X><position>车窗",
+            "调大<X><position>车窗",
+            "降低<X><position>车窗"
+        ],
+        "english": [
+            "Open <position> windows by a little"
+        ]
+    },
+    {
+        "intent": "<position>车窗调高<X>*c",
+        "chinese": [
+            "调高<X><position>车窗",
+            "关闭<X><position>车窗",
+            "调小<X><position>车窗",
+            "升高<X><position>车窗"
+        ],
+        "english": [
+            "Close <position> windows by <X>"
+        ]
+    },
+    {
+        "intent": "停止<position>车窗",
+        "chinese": [
+            "停止<position>车窗"
+        ],
+        "english": [
+            "Stop the <position> windows"
+        ]
+    },
+    {
+        "intent": "现在<position>车窗是什么位置",
+        "chinese": [
+            "现在<position>车窗是什么位置"
+        ],
+        "english": [
+            "What is the current position of the <position> window?"
+        ]
+    },
+    {
+        "intent": "<position>车窗打开多少",
+        "chinese": [
+            "<position>车窗打开多少"
+        ],
+        "english": [
+            "How far is the <position> window open?"
+        ]
+    },
+    {
+        "intent": "<position>车窗关闭多少",
+        "chinese": [
+            "<position>车窗关闭多少"
+        ],
+        "english": [
+            "How far is the <position> window closed?"
+        ]
+    }
+]

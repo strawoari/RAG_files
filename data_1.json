@@ -1,0 +1,80 @@
+[
+    {
+        "intent": "打开<position>车窗",
+        "chinese": [
+            "打开<position>车窗"
+        ],
+        "english": [
+            "Open <position>  windows"
+        ]
+    },
+    {
+        "intent": "关闭<position>车窗",
+        "chinese": [
+            "关闭<position>车窗"
+        ],
+        "english": [
+            "Close <position>  windows"
+        ]
+    },
+    {
+        "intent": "<position>车窗调到某个位置（如最大，最小，半开，四分之一，30%）",
+        "chinese": [
+            "<position>车窗调到最大",
+            "<position>车窗调到最低",
+            "<position>车窗调到最小",
+            "<position>车窗调到最高",
+            "<position>车窗开到<X>",
+            "<position>车窗调低到<X>",
+            "<position>车窗调大到<X>",
+            "<position>车窗调高到<X>"
+        ],
+        "english": [
+            "Open <position> windows to lowest",
+            "Close <position> windows to highest",
+            "Open <position> windows to <X>",
+            "Close <position> windows to <X>"
+        ]
+    },
+    {
+        "intent": "<position>车窗调多少（如 10%，一半，一点）",
+        "chinese": [
+            "打开一点<position>车窗",
+            "调大一半<position>车窗",
+            "降低一半<position>车窗",
+            "关闭一点<position>车窗",
+            "调高一点<position>车窗",
+            "关闭<position>车窗一半",
+            "调高一半<position>车窗",
+            "升高一半<position>车窗"
+        ],
+        "english": [
+            "Open <position> windows by a little",
+            "Open <position> windows by half way",
+            "Close <position> windows by a little",
+            "Close <position> windows by half way"
+        ]
+    },
+    {
+        "intent": "停止<position>车窗",
+        "chinese": [
+            "停止<position>车窗"
+        ],
+        "english": [
+            "Stop the <position> windows"
+        ]
+    },
+    {
+        "intent": "现在<position>车窗是什么位置 / <position>车窗打开多少 / <position>车窗关闭多少",
+        "chinese": [
+            "现在<position>车窗是什么位置",
+            "<position>车窗打开多少",
+            "<position>车窗关闭多少"
+        ],
+        "english": [
+            "What is the current position of the <position> window?",
+            "How far is the <position> window open?",
+            "How far is the <position> window closed?"
+        ]
+    }
+]

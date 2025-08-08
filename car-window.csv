@@ -1,0 +1,63 @@
+﻿意图,ASR-中文,ASR-英文
+打开<position>车窗,打开<position>车窗,Open <position>  windows
+,,
+关闭<position>车窗,关闭<position>车窗,Close <position>  windows
+,,
+<position>车窗调到<Area>*c,<position>车窗调到最大,Open <position> windows to lowest
+,<position>车窗调到最低,
+,<position>车窗开到最大,
+,<position>车窗开到最低,
+,<position>车窗调到最小,Close <position> windows to highest
+,<position>车窗调到最高,
+,<position>车窗关到最小,
+,<position>车窗关到最高,
+,,
+<position>车窗调到<X>*c,<position>车窗开到<X>,Open <position> windows to <X>
+,<position>车窗调低到<X>,
+,<position>车窗调大到<X>,
+,<position>车窗关到<X>,Close <position> windows to <X>
+,<position>车窗调高到<X>,
+,<position>车窗调小到<X>,
+,,
+,,
+<position>车窗调低<Range>*c,调低<position>车窗,Open <position> windows by a little
+,调大<position>车窗,
+,降低<position>车窗,
+,打开一点<position>车窗,
+,调低一点<position>车窗,
+,调大一点<position>车窗,
+,降低一点<position>车窗,
+,打开一半<position>车窗,Open <position> windows by half way
+,调低一半<position>车窗,
+,调大一半<position>车窗,
+,降低一半<position>车窗,
+,,
+<position>车窗调高<Range>*c,调高<position>车窗,Close <position> windows by a little
+,调小<position>车窗,
+,升高<position>车窗,
+,关闭一点<position>车窗,
+,调高一点<position>车窗,
+,调小一点<position>车窗,
+,升高一点<position>车窗,
+,关闭一半<position>车窗,Close <position> windows by half way
+,调高一半<position>车窗,
+,调小一半<position>车窗,
+,升高一半<position>车窗,
+,,
+<position>车窗调低<X>*c,调低<X><position>车窗,Open <position> windows by a little
+,打开<X><position>车窗,
+,调大<X><position>车窗,
+,降低<X><position>车窗,
+,,
+<position>车窗调高<X>*c,调高<X><position>车窗,Close <position> windows by <X>
+,关闭<X><position>车窗,
+,调小<X><position>车窗,
+,升高<X><position>车窗,
+,,
+停止<position>车窗,停止<position>车窗,Stop the <position> windows
+,,
+现在<position>车窗是什么位置,现在<position>车窗是什么位置,What is the current position of the <position> window?
+,,
+<position>车窗打开多少,<position>车窗打开多少,How far is the <position> window open?
+,,
+<position>车窗关闭多少,<position>车窗关闭多少,How far is the <position> window closed?

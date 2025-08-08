@@ -1,0 +1,105 @@
+{
+    "regions": {
+        "American": "Generate car control commands that are direct and action-oriented. Use imperative sentences such as ‘Turn on the headlights’ or ‘Adjust the seat forward.’ Politeness markers like ‘please’ may be added but are optional and brief. Use American vocabulary (e.g., ‘trunk,’ ‘turn signal,’ ‘gas pedal’). Keep phrasing simple, clear, and efficient without excessive softening. Example: 'Lower the front left window by about 30%.'",
+        "British": "Generate car control commands that are slightly indirect and politely phrased. Prefer modal verbs for softening (e.g., ‘Could you turn on the headlights?’). Include British vocabulary (e.g., ‘boot,’ ‘indicator,’ ‘petrol pedal’). Keep tone polite but still concise, avoiding unnecessary verbosity. Example: 'Could you lower the front left window by around thirty percent, please?'",
+        "Australian": "Generate car control commands that are clear and courteous, with moderate softening. Use direct statements but occasionally add hedges like ‘just’ or ‘maybe.’ ‘Please’ is common but brief. Vocabulary can align with American English but avoid over-casual phrasing. Example: 'Hey, just lower the front left window a bit, maybe thirty percent?'",
+        "Canadian": "Generate car control commands that are direct, informal, and friendly. Use imperatives freely (e.g., ‘Switch on the lights,’ ‘Pop the bonnet’). Politeness is implied rather than explicit, so ‘please’ is optional and rarely formal. Include Australian vocabulary (e.g., ‘bonnet,’ ‘indicator,’ ‘petrol pedal’). Example: 'Can you lower the front left window to about thirty percent, please?'",
+        "Irish": "Generate car control commands that are polite but conversational. Use phrases like ‘Would you mind turning on the wipers?’ or ‘Let’s open the boot.’ Tone is friendly and cooperative, with occasional softening (‘maybe,’ ‘sure’). Use British vocabulary (‘boot,’ ‘indicator’). Example: 'Would you mind dropping the front left window a bit? Around thirty percent or so.'",
+        "South African": "Generate car control commands that are clear and respectful. Use direct instructions but soften slightly with polite terms (‘Please adjust the seat’). Vocabulary is mainly British (‘boot,’ ‘indicator’), with occasional local phrasing allowed (‘robot’ for traffic light). Example: 'Please lower the front left window by thirty percent.'",
+        "Indian": "Generate car control commands that are formal and respectful in tone. Prefer modal verbs and polite forms (e.g., ‘Kindly switch on the headlights,’ ‘Please open the boot’). Avoid colloquial contractions. Vocabulary is closer to British English with some formal expressions retained. Example: 'Kindly lower the front left window by approximately thirty percent.'",
+        "Singaporean": "Generate car control commands that are short, efficient, and sometimes softened with discourse particles. Direct imperatives are fine, but may add softeners (‘lah,’ ‘can?’) for casual tone if context allows. Vocabulary is British-based (‘boot,’ ‘indicator’). Keep phrasing compact. Example: 'Lower the front left window thirty percent can?'"
+    },
+    "age_gender": {
+        "child": ["in school", "from countryside"],
+        "teenage boy": ["in school", "from countryside", "dropout"],
+        "teenage girl": ["in school", "from countryside", "dropout"],
+        "young adult (man)": ["in college", "middle school graduate worker"],
+        "young adult (woman)": ["in college", "middle school graduate worker"],
+        "adult man": ["college graduate", "middle school graduate"],
+        "adult woman": ["college graduate", "middle school graduate"],
+        "elderly (man or woman)": ["college graduate", "middle school graduate"]
+    },
+    "temperaments": {
+        "impatient": "Use short, direct, imperative sentences. Avoid polite expressions like “please” or “thank you”. Use blunt phrasing, e.g., “Turn on the headlights”, “Move the seat back”.",
+        "polite": "Use polite phrases like ‘please’ and ‘thank you’. Keep sentences short and concise. Keep language concise but respectful. Softening words like “just” or “could you” are encouraged",
+        "happy": "Use cheerful or upbeat tone. May include friendly phrases like “Awesome, let’s...”, “Sure, can we...?”, “That’d be great”. Avoid negative wording."
+    },
+    "cases": {
+        "打开<position>车窗": {
+            "While driving (low speed)": [
+            "Cabin feels stuffy, need ventilation",
+            "Want fresh air or outside breeze",
+            "To release smoke while smoking",
+            "To hear external sounds while on a call"
+            ],
+            "While parked": [
+            "Pre-ventilate cabin after engine start",
+            "Remote window opening before entry",
+            "Need to quickly open window temporarily",
+            "To pay tolls or grab items outside",
+            "Waiting for someone with fresh air"
+            ]
+        },
+        "关闭<position>车窗": {
+            "While driving (low speed)": [
+            "Weather is changing",
+            "Outside noise is too loud",
+            "Reduce wind noise at higher speed",
+            "Entering a tunnel or underpass",
+            "Keep temperature in with A/C running"
+            ],
+            "While parked": [
+            "Before starting to drive",
+            "After pre-ventilating the car",
+            "Temporarily need to close it",
+            "Before exiting the car",
+            "Closing in advance before rain"
+            ]
+        },
+        "<position>车窗调到某个位置（如最大，最小，半开，四分之一，30%）": {
+            "While driving (low speed)": [
+            "Need precise ventilation level",
+            "Balance airflow and outside conditions",
+            "Avoid direct wind hitting child or elderly",
+            "Coordinate with A/C airflow"
+            ],
+            "While parked": [
+            "Adjust to a comfortable airflow level",
+            "Balance cabin temperature",
+            "Temporary window adjustment",
+            "Leave a small gap for fresh air"
+            ]
+        },
+        "<position>车窗调多少（如 10%，一半，一点）": {
+            "While driving": [
+            "Wind too strong or too weak, needs fine-tuning",
+            "Adjusting based on environment",
+            "Adjusting for passenger comfort",
+            "Slightly lower window to check surroundings at intersection",
+            "Reduce opening when passing another vehicle"
+            ],
+            "While parked": [
+            "Minor adjustment for airflow comfort",
+            "Adjusting amount of light entering the car"
+            ]
+        },
+        "停止<position>车窗": {
+            "in the car": ["When the car control system is automatically adjusting the windows", "When a passenger requests to stop"]
+        },
+        "现在<position>车窗是什么位置 / <position>车窗打开多少 / <position>车窗关闭多少": {
+            "While driving (low speed)": [
+            "Not sure how much the window is open",
+            "Passenger asked for status",
+            "Check position before adjusting",
+            "Suspect it was touched by mistake"
+            ],
+            "While parked": [
+            "Confirm window position",
+            "Remotely check if the window is closed",
+            "Check before getting out",
+            "Check before locking the car"
+            ]
+        }
+    },
+    "positions": ["Driver seat", "Front passenger seat", "Back seats"]
+}
